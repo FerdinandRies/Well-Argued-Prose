@@ -1,1 +1,1 @@
-IiIiQnVuZGxlZCwgaHVtYW4tcmVhZGFibGUgYW5kIG1hY2hpbmUtcmVhZGFibGUgd3JpdGluZyBzdGFuZGFyZHMuIiIiCg==
+"""Bundled, human-readable and machine-readable writing standards."""
