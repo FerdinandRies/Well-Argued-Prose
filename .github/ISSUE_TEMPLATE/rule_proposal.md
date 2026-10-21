@@ -1,1 +1,17 @@
-LS0tCm5hbWU6IFJ1bGUgaW1wcm92ZW1lbnQKYWJvdXQ6IFByb3Bvc2UgYSBzdWJzdGFudGl2ZSBlZGl0b3JpYWwgaW1wcm92ZW1lbnQKbGFiZWxzOiBbXQotLS0KCioqRXhpc3RpbmcgcnVsZSBJRCoqIChvciBwcm9wb3NlZCBuZXcgcnVsZSkKCioqRXhhY3QgcHJvYmxlbSBvciBtaXNzaW5nIGluZmVyZW5jZSoqCgoqKkNvbmNyZXRlIGJlZm9yZS1hbmQtYWZ0ZXIgZXhhbXBsZSoqCgoqKkFyZ3VtZW50IGZvciB0aGUgY2hhbmdlKiogKHdoYXQgZXJyb3IgZG9lcyBpdCBwcmV2ZW50PykKCioqU291cmNlIG9yIGNvdW50ZXJleGFtcGxlKiosIGlmIHJlbGV2YW50CgpQbGVhc2UgYXZvaWQgY29weXJpZ2h0ZWQgcGFzc2FnZXMgYW5kIHVucHVibGlzaGVkIHdvcmsgd2l0aG91dCBwZXJtaXNzaW9uLgo=
+---
+name: Rule improvement
+about: Propose a substantive editorial improvement
+labels: []
+---
+
+**Existing rule ID** (or proposed new rule)
+
+**Exact problem or missing inference**
+
+**Concrete before-and-after example**
+
+**Argument for the change** (what error does it prevent?)
+
+**Source or counterexample**, if relevant
+
+Please avoid copyrighted passages and unpublished work without permission.
