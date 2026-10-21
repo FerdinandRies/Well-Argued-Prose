@@ -1,1 +1,14 @@
-IyMgQ2hhbmdlIGFuZCByYXRpb25hbGUKCkRlc2NyaWJlIHRoZSBhcmd1bWVudCwgcnVsZSwgb3IgZmVhdHVyZSBiZWluZyBpbXByb3ZlZC4KCiMjIEV2aWRlbmNlCgpFeHBsYWluIHRoZSBmYWlsdXJlIG1vZGUsIGNvdW50ZXJleGFtcGxlLCBvciByZXByb2R1Y2libGUgYnVnLgoKIyMgVmVyaWZpY2F0aW9uCgotIFsgXSBgcHl0aG9uIC1tIHdlbGxfYXJndWVkX3Byb3NlIHZhbGlkYXRlYAotIFsgXSBgcHl0aG9uIC1tIHVuaXR0ZXN0IGRpc2NvdmVyIC1zIHRlc3RzIC12YAotIFsgXSBgcHl0aG9uIHNjcmlwdHMvYnVpbGRfaGFuZGJvb2sucHkgLS1jaGVja2AKLSBbIF0gTm8gdW5wdWJsaXNoZWQgb3IgdGhpcmQtcGFydHkgY29weXJpZ2h0ZWQgbWFudXNjcmlwdCB0ZXh0IGlzIGludHJvZHVjZWQuCg==
+## Change and rationale
+
+Describe the argument, rule, or feature being improved.
+
+## Evidence
+
+Explain the failure mode, counterexample, or reproducible bug.
+
+## Verification
+
+- [ ] `python -m well_argued_prose validate`
+- [ ] `python -m unittest discover -s tests -v`
+- [ ] `python scripts/build_handbook.py --check`
+- [ ] No unpublished or third-party copyrighted manuscript text is introduced.
