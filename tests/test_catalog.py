@@ -1,1 +1,69 @@
-aW1wb3J0IGpzb24KZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCmltcG9ydCBzeXMKaW1wb3J0IHVuaXR0ZXN0CgpST09UID0gUGF0aChfX2ZpbGVfXykucmVzb2x2ZSgpLnBhcmVudHNbMV0Kc3lzLnBhdGguaW5zZXJ0KDAsIHN0cihST09UIC8gInNyYyIpKQoKZnJvbSB3ZWxsX2FyZ3VlZF9wcm9zZS5jYXRhbG9nIGltcG9ydCBnZXRfcnVsZSwgZ2V0X3dvcmtmbG93LCBsb2FkLCB2YWxpZGF0ZV9jYXRhbG9nCgoKY2xhc3MgQ2F0YWxvZ1Rlc3RzKHVuaXR0ZXN0LlRlc3RDYXNlKToKICAgIGRlZiB0ZXN0X2NhdGFsb2dfaW50ZWdyaXR5KHNlbGYpOgogICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwoW10sIHZhbGlkYXRlX2NhdGFsb2coKSkKCiAgICBkZWYgdGVzdF9ydWxlX2NvdW50X29yZGVyX2FuZF9jb250ZW50KHNlbGYpOgogICAgICAgIHJ1bGVzID0gbG9hZCgicnVsZXMiKVsicnVsZXMiXQogICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwoNTcsIGxlbihydWxlcykpCiAgICAgICAgc2VsZi5hc3NlcnRFcXVhbChsaXN0KHJhbmdlKDEsIDU4KSksIFtpdGVtWyJpZCJdIGZvciBpdGVtIGluIHJ1bGVzXSkKICAgICAgICBmb3IgaXRlbSBpbiBydWxlczoKICAgICAgICAgICAgZm9yIGtleSBpbiAoInRpdGxlIiwgInNjb3BlIiwgInN0YW5kYXJkIiwgImNvcnB1c19vYnNlcnZhdGlvbiIsICJyZXZpZXdfYWN0aW9uIiwgImV4YW1wbGUiKToKICAgICAgICAgICAgICAgIHNlbGYuYXNzZXJ0R3JlYXRlcihsZW4oaXRlbVtrZXldKSwgNSwgKGl0ZW1bImlkIl0sIGtleSkpCgogICAgZGVmIHRlc3Rfc2VjdGlvbnNfYW5kX3dvcmtmbG93cyhzZWxmKToKICAgICAgICBzZWxmLmFzc2VydEVxdWFsKDksIGxlbihsb2FkKCJydWxlcyIpWyJzZWN0aW9ucyJdKSkKICAgICAgICBzZWxmLmFzc2VydEVxdWFsKDEwLCBsZW4obG9hZCgid29ya2Zsb3dzIikpKQogICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwoMzcsIGdldF9ydWxlKDM3KVsiaWQiXSkKICAgICAgICBzZWxmLmFzc2VydEluKDE0LCBnZXRfd29ya2Zsb3coImludHJvZHVjdGlvbiIpWyJydWxlX2lkcyJdKQoKICAgIGRlZiB0ZXN0X2ludmFsaWRfY2F0YWxvZ19sb29rdXAoc2VsZik6CiAgICAgICAgd2l0aCBzZWxmLmFzc2VydFJhaXNlcyhWYWx1ZUVycm9yKToKICAgICAgICAgICAgZ2V0X3J1bGUoNTgpCiAgICAgICAgd2l0aCBzZWxmLmFzc2VydFJhaXNlcyhWYWx1ZUVycm9yKToKICAgICAgICAgICAgZ2V0X3dvcmtmbG93KCJuby1zdWNoLXRhc2siKQogICAgICAgIHdpdGggc2VsZi5hc3NlcnRSYWlzZXMoVmFsdWVFcnJvcik6CiAgICAgICAgICAgIGxvYWQoIi4uL3NvbWV0aGluZyIpCgogICAgZGVmIHRlc3RfcmVmZXJlbmNlX21ldGFkYXRhKHNlbGYpOgogICAgICAgIGNvcnB1cyA9IGxvYWQoImNvcnB1cyIpCiAgICAgICAgc2VsZi5hc3NlcnRFcXVhbCgxMiwgbGVuKGNvcnB1cykpCiAgICAgICAgZm9yIGVudHJ5IGluIGNvcnB1czoKICAgICAgICAgICAgc2VsZi5hc3NlcnRFcXVhbCgiTWluZCIsIGVudHJ5WyJqb3VybmFsIl0pCiAgICAgICAgICAgIHNlbGYuYXNzZXJ0VHJ1ZShlbnRyeVsiZG9pIl0uc3RhcnRzd2l0aCgiMTAuMTA5My9taW5kLyIpKQoKICAgIGRlZiB0ZXN0X2V4YW1wbGVfcHJvdmVuYW5jZV9pc19jb21wbGV0ZShzZWxmKToKICAgICAgICBjb3JwdXMgPSBsb2FkKCJjb3JwdXMiKQogICAgICAgIGtub3duID0ge3hbImlkIl0gZm9yIHggaW4gY29ycHVzfQogICAgICAgIHVzZWQgPSBzZXQoKQogICAgICAgIGZvciBydWxlIGluIGxvYWQoInJ1bGVzIilbInJ1bGVzIl06CiAgICAgICAgICAgIHNlbGYuYXNzZXJ0VHJ1ZShydWxlWyJleGFtcGxlX3NvdXJjZXMiXSkKICAgICAgICAgICAgc2VsZi5hc3NlcnRUcnVlKHNldChydWxlWyJleGFtcGxlX3NvdXJjZXMiXSkuaXNzdWJzZXQoa25vd24pKQogICAgICAgICAgICB1c2VkLnVwZGF0ZShydWxlWyJleGFtcGxlX3NvdXJjZXMiXSkKICAgICAgICBzZWxmLmFzc2VydEVxdWFsKGtub3duLCB1c2VkKSAgIyBhbGwgdHdlbHZlIGNvcnB1cyBhcnRpY2xlcyBpbmZvcm0gZXhhbXBsZXMKCiAgICBkZWYgdGVzdF9hdHRyaWJ1dGlvbl9hbmRfcmVsZWFzZV9tZXRhZGF0YShzZWxmKToKICAgICAgICBzZWxmLmFzc2VydEluKCJGZXJkaW5hbmRSaWVzIiwgKFJPT1QgLyAiQVVUSE9SUy5tZCIpLnJlYWRfdGV4dCgpKQogICAgICAgIHNlbGYuYXNzZXJ0SW4oIkZlcmRpbmFuZFJpZXMiLCAoUk9PVCAvICJDSVRBVElPTi5jZmYiKS5yZWFkX3RleHQoKSkKICAgICAgICBzZWxmLmFzc2VydEluKCJGZXJkaW5hbmRSaWVzIiwgKFJPT1QgLyAiTElDRU5TRSIpLnJlYWRfdGV4dCgpKQogICAgICAgIHNlbGYuYXNzZXJ0SW4oIkZlcmRpbmFuZFJpZXMiLCAoUk9PVCAvICJMSUNFTlNFLUNPTlRFTlQubWQiKS5yZWFkX3RleHQoKSkKCiAgICBkZWYgdGVzdF9nZW5lcmF0ZWRfcnVsZWJvb2tfaXNfY29tcGxldGUoc2VsZik6CiAgICAgICAgY29udGVudCA9IChST09UIC8gImRvY3MiIC8gImhhbmRib29rLm1kIikucmVhZF90ZXh0KGVuY29kaW5nPSJ1dGYtOCIpCiAgICAgICAgZm9yIG51bWJlciBpbiByYW5nZSgxLCA1OCk6CiAgICAgICAgICAgIHNlbGYuYXNzZXJ0SW4oZiIjIyMgUnVsZSB7bnVtYmVyOjAyZH0g4oCUIiwgY29udGVudCkKICAgICAgICBzZWxmLmFzc2VydEVxdWFsKDU3LCBjb250ZW50LmNvdW50KCIqKkNvcnB1cyBvYnNlcnZhdGlvbi4qKiIpKQogICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwoNTcsIGNvbnRlbnQuY291bnQoIioqRXhhbXBsZS4qKiIpKQogICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwoNTcsIGNvbnRlbnQuY291bnQoIioqU291cmNlIGFydGljbGUocykuKioiKSkKICAgICAgICBtYXBwaW5nID0gKFJPT1QgLyAiZG9jcyIgLyAiZXhhbXBsZS1zb3VyY2VzLm1kIikucmVhZF90ZXh0KCkKICAgICAgICBzZWxmLmFzc2VydEVxdWFsKDU3LCBtYXBwaW5nLmNvdW50KCJ8IFtSdWxlICIpKQo=
+import json
+from pathlib import Path
+import sys
+import unittest
+
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "src"))
+
+from well_argued_prose.catalog import get_rule, get_workflow, load, validate_catalog
+
+
+class CatalogTests(unittest.TestCase):
+    def test_catalog_integrity(self):
+        self.assertEqual([], validate_catalog())
+
+    def test_rule_count_order_and_content(self):
+        rules = load("rules")["rules"]
+        self.assertEqual(57, len(rules))
+        self.assertEqual(list(range(1, 58)), [item["id"] for item in rules])
+        for item in rules:
+            for key in ("title", "scope", "standard", "corpus_observation", "review_action", "example"):
+                self.assertGreater(len(item[key]), 5, (item["id"], key))
+
+    def test_sections_and_workflows(self):
+        self.assertEqual(9, len(load("rules")["sections"]))
+        self.assertEqual(10, len(load("workflows")))
+        self.assertEqual(37, get_rule(37)["id"])
+        self.assertIn(14, get_workflow("introduction")["rule_ids"])
+
+    def test_invalid_catalog_lookup(self):
+        with self.assertRaises(ValueError):
+            get_rule(58)
+        with self.assertRaises(ValueError):
+            get_workflow("no-such-task")
+        with self.assertRaises(ValueError):
+            load("../something")
+
+    def test_reference_metadata(self):
+        corpus = load("corpus")
+        self.assertEqual(12, len(corpus))
+        for entry in corpus:
+            self.assertEqual("Mind", entry["journal"])
+            self.assertTrue(entry["doi"].startswith("10.1093/mind/"))
+
+    def test_example_provenance_is_complete(self):
+        corpus = load("corpus")
+        known = {x["id"] for x in corpus}
+        used = set()
+        for rule in load("rules")["rules"]:
+            self.assertTrue(rule["example_sources"])
+            self.assertTrue(set(rule["example_sources"]).issubset(known))
+            used.update(rule["example_sources"])
+        self.assertEqual(known, used)  # all twelve corpus articles inform examples
+
+    def test_attribution_and_release_metadata(self):
+        self.assertIn("FerdinandRies", (ROOT / "AUTHORS.md").read_text())
+        self.assertIn("FerdinandRies", (ROOT / "CITATION.cff").read_text())
+        self.assertIn("FerdinandRies", (ROOT / "LICENSE").read_text())
+        self.assertIn("FerdinandRies", (ROOT / "LICENSE-CONTENT.md").read_text())
+
+    def test_generated_rulebook_is_complete(self):
+        content = (ROOT / "docs" / "handbook.md").read_text(encoding="utf-8")
+        for number in range(1, 58):
+            self.assertIn(f"### Rule {number:02d} —", content)
+        self.assertEqual(57, content.count("**Corpus observation.**"))
+        self.assertEqual(57, content.count("**Example.**"))
+        self.assertEqual(57, content.count("**Source article(s).**"))
+        mapping = (ROOT / "docs" / "example-sources.md").read_text()
+        self.assertEqual(57, mapping.count("| [Rule "))
