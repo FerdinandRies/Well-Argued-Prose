@@ -1,1 +1,86 @@
-IiIiVHJhbnNwYXJlbnQgbGV4aWNhbCBwcm9tcHRzIGZvciAqaHVtYW4qIGVkaXRvcmlhbCByZXZpZXcuCgpBIG1hdGNoIGlzIGEgcGxhY2UgdG8gaW5zcGVjdCwgbmV2ZXIgYW4gYXV0b21hdGljIGRlY2xhcmF0aW9uIG9mIGFuIGVycm9yLgpUaGUgcHJvZ3JhbSBkb2VzIG5vdCBwYXJzZSBsb2dpYywganVkZ2UgY29uY2VwdHVhbCBub3ZlbHR5LCBvciB2ZXJpZnkgY2l0YXRpb25zLgoiIiIKCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgYW5ub3RhdGlvbnMKCmZyb20gYmlzZWN0IGltcG9ydCBiaXNlY3RfcmlnaHQKZnJvbSBkYXRhY2xhc3NlcyBpbXBvcnQgZGF0YWNsYXNzCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aAppbXBvcnQgcmUKCgpAZGF0YWNsYXNzKGZyb3plbj1UcnVlKQpjbGFzcyBDaGVjazoKICAgIGNvZGU6IHN0cgogICAgdGl0bGU6IHN0cgogICAgcnVsZV9pZHM6IHR1cGxlW2ludCwgLi4uXQogICAgcGF0dGVybjogc3RyCiAgICB3aHk6IHN0cgoKCkNIRUNLUyA9ICgKICAgIENoZWNrKCJnZW5lcmljLXB1cnBvc2UiLCAiR2VuZXJpYyBzdGF0ZW1lbnQgb2YgcHVycG9zZSIsICgxLCAzLCA0MiwgNDkpLAogICAgICAgICAgciJcYig/OnRoaXMgKD86cGFwZXJ8YXJ0aWNsZXxzdHVkeSkgKD86YWltcz8gdG8gfHNlZWtzPyB0byApPyg/OmRpc2N1c3N8ZXhwbG9yZXxwcm92aWRlICg/OmEgfGFuICk/KD86Y29tcHJlaGVuc2l2ZXxudWFuY2VkKSAoPzphY2NvdW50fGZyYW1ld29ya3xkaXNjdXNzaW9uKSlcYnx0aGUgcHVycG9zZSBvZiB0aGlzICg/OnBhcGVyfGFydGljbGUpIGlzIHRvIGRpc2N1c3NcYikiLAogICAgICAgICAgIkNoZWNrIHdoZXRoZXIgdGhlIHNlbnRlbmNlIGFkdmFuY2VzIGEgcmVzZWFyY2ggcHJvYmxlbSBvciBvbmx5IGFubm91bmNlcyBhIHRvcGljLiIpLAogICAgQ2hlY2soInNlbGYtcHJhaXNlIiwgIlVuZXhwbGFpbmVkIGV2YWx1YXRpdmUgbGFuZ3VhZ2UiLCAoMzksIDQ2LCA0OSwgNTYpLAogICAgICAgICAgciJcYig/Omdyb3VuZGJyZWFraW5nfHJldm9sdXRpb25hcnl8cHJvZm91bmR8aGlnaGx5IGltcG9ydGFudHx1bnByZWNlZGVudGVkfGNvbXByZWhlbnNpdmUgYW5kIG51YW5jZWQpXGIiLAogICAgICAgICAgIlJlcGxhY2Ugc2VsZi1hcHByYWlzYWwgd2l0aCBhIHN0YXRlZCBjb25kaXRpb24sIG1lY2hhbmlzbSwgb3IgcmVzdWx0IHdoZW4gYXBwcm9wcmlhdGUuIiksCiAgICBDaGVjaygibmVnYXRpdmUtcGl2b3QiLCAiUG9zc2libGUgZm9ybXVsYWljIG5lZ2F0aXZlIGNvbnRyYXN0IiwgKDQxLCA1NiksCiAgICAgICAgICByIlxiKD86aXN8YXJlfHdhc3x3ZXJlKVxzK25vdFxiW14uPyE7XG5dezAsOTV9XGJidXRcYiIsCiAgICAgICAgICAiQSBjb250cmFzdCBpcyBsZWdpdGltYXRlIGlmIGl0IGV4Y2x1ZGVzIGEgcmVhbCBhbHRlcm5hdGl2ZTsgb3RoZXJ3aXNlIHN0YXRlIHRoZSBwb3NpdGl2ZSByZWxhdGlvbnMuIiksCiAgICBDaGVjaygiaW5mZXJlbnRpYWwtY29ubmVjdGl2ZSIsICJTdHJvbmcgaW5mZXJlbnRpYWwgY29ubmVjdGl2ZSIsICgzNywgNDUsIDU1KSwKICAgICAgICAgIHIiXGIoPzp0aGVyZWZvcmV8dGh1c3xoZW5jZXxhY2NvcmRpbmdseSlcYiIsCiAgICAgICAgICAiRmluZCB0aGUgaW50ZXJtZWRpYXRlIHByZW1pc2UgdGhhdCBhY3R1YWxseSBzdXBwb3J0cyB0aGUgYW5ub3VuY2VkIGluZmVyZW5jZS4iKSwKICAgIENoZWNrKCJ1bmNsZWFyLWRlbW9uc3RyYXRpdmUiLCAiUG90ZW50aWFsbHkgdW5jbGVhciBkZW1vbnN0cmF0aXZlIiwgKDIwLCAzOSwgNTUpLAogICAgICAgICAgciJcYig/OnRoaXN8dGhhdClccysoPzpzdHJ1Y3R1cmV8ZnJhbWV3b3JrfHByb2Nlc3N8YXBwcm9hY2h8cHJvYmxlbXxyZWxhdGlvbnNoaXB8YWNjb3VudHxyZXN1bHQpXGIiLAogICAgICAgICAgIkNvbmZpcm0gdGhhdCB0aGUgZGVtb25zdHJhdGl2ZSBoYXMgYW4gZXhwbGljaXQsIHVuaXF1ZSBhbnRlY2VkZW50LiIpLAopCgoKZGVmIHJlYWRfbWFudXNjcmlwdChwYXRoOiBQYXRoKSAtPiB0dXBsZVtzdHIsIHN0cl06CiAgICAiIiJSZXR1cm4gKHRleHQsIHVuaXQpLiBVbml0cyBhcmUgc291cmNlIGxpbmVzIG9yIERPQ1ggcGFyYWdyYXBocy4iIiIKICAgIGlmIG5vdCBwYXRoLmV4aXN0cygpIG9yIG5vdCBwYXRoLmlzX2ZpbGUoKToKICAgICAgICByYWlzZSBWYWx1ZUVycm9yKGYiRmlsZSBkb2VzIG5vdCBleGlzdDoge3BhdGh9IikKICAgIGV4dGVuc2lvbiA9IHBhdGguc3VmZml4Lmxvd2VyKCkKICAgIGlmIGV4dGVuc2lvbiBpbiAoIi50eHQiLCAiLm1kIik6CiAgICAgICAgdHJ5OgogICAgICAgICAgICByZXR1cm4gcGF0aC5yZWFkX3RleHQoZW5jb2Rpbmc9InV0Zi04LXNpZyIpLCAibGluZSIKICAgICAgICBleGNlcHQgVW5pY29kZURlY29kZUVycm9yIGFzIGV4YzoKICAgICAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigiVGV4dCBmaWxlcyBtdXN0IGJlIFVURi04IGVuY29kZWQiKSBmcm9tIGV4YwogICAgaWYgZXh0ZW5zaW9uID09ICIuZG9jeCI6CiAgICAgICAgdHJ5OgogICAgICAgICAgICBmcm9tIGRvY3ggaW1wb3J0IERvY3VtZW50CiAgICAgICAgZXhjZXB0IEltcG9ydEVycm9yIGFzIGV4YzoKICAgICAgICAgICAgcmFpc2UgVmFsdWVFcnJvcignRE9DWCByZXF1aXJlczogcGlwIGluc3RhbGwgIndlbGwtYXJndWVkLXByb3NlW2RvY3hdIicpIGZyb20gZXhjCiAgICAgICAgdHJ5OgogICAgICAgICAgICBwYXJhZ3JhcGhzID0gW3AudGV4dCBmb3IgcCBpbiBEb2N1bWVudChwYXRoKS5wYXJhZ3JhcGhzXQogICAgICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZXhjOgogICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yKGYiQ291bGQgbm90IHJlYWQgRE9DWDoge2V4Y30iKSBmcm9tIGV4YwogICAgICAgIHJldHVybiAiXG4iLmpvaW4ocGFyYWdyYXBocyksICJwYXJhZ3JhcGgiCiAgICByYWlzZSBWYWx1ZUVycm9yKCJTdXBwb3J0ZWQgbWFudXNjcmlwdCB0eXBlczogLm1kLCAudHh0LCAuZG9jeCIpCgoKZGVmIGF1ZGl0X3RleHQodGV4dDogc3RyLCB1bml0OiBzdHIgPSAibGluZSIsIG1heF9wZXJfY2hlY2s6IGludCA9IDEwKSAtPiBkaWN0OgogICAgIiIiUnVuIGRldGVybWluaXN0aWMgcmVnZXggY2hlY2tzOyBubyBxdWFsaXR5IHNjb3JlIGlzIGNvbXB1dGVkLiIiIgogICAgaWYgbWF4X3Blcl9jaGVjayA8IDE6CiAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigibWF4X3Blcl9jaGVjayBtdXN0IGJlIGF0IGxlYXN0IDEiKQogICAgb2Zmc2V0cyA9IFstMV0gKyBbaWR4IGZvciBpZHgsIGNoYXIgaW4gZW51bWVyYXRlKHRleHQpIGlmIGNoYXIgPT0gIlxuIl0KICAgIGxpbmVzID0gdGV4dC5zcGxpdCgiXG4iKQogICAgcm93czogbGlzdFtkaWN0XSA9IFtdCiAgICBmb3IgY2hlY2sgaW4gQ0hFQ0tTOgogICAgICAgIG1hdGNoZXMgPSBsaXN0KHJlLmZpbmRpdGVyKGNoZWNrLnBhdHRlcm4sIHRleHQsIGZsYWdzPXJlLklHTk9SRUNBU0UpKQogICAgICAgIGl0ZW1zID0gW10KICAgICAgICBmb3IgbWF0Y2ggaW4gbWF0Y2hlc1s6bWF4X3Blcl9jaGVja106CiAgICAgICAgICAgIHBvc2l0aW9uID0gYmlzZWN0X3JpZ2h0KG9mZnNldHMsIG1hdGNoLnN0YXJ0KCkpCiAgICAgICAgICAgIHNhbXBsZSA9IGxpbmVzW3Bvc2l0aW9uIC0gMV0uc3RyaXAoKQogICAgICAgICAgICBpZiBsZW4oc2FtcGxlKSA+IDIyMDoKICAgICAgICAgICAgICAgIHN0YXJ0ID0gbWF4KDAsIG1hdGNoLnN0YXJ0KCkgLSAob2Zmc2V0c1twb3NpdGlvbiAtIDFdICsgMSkgLSA1NSkKICAgICAgICAgICAgICAgIHNhbXBsZSA9IHNhbXBsZVtzdGFydDpzdGFydCArIDIyMF0uc3RyaXAoKQogICAgICAgICAgICBpdGVtcy5hcHBlbmQoe3VuaXQ6IHBvc2l0aW9uLCAibWF0Y2giOiBtYXRjaC5ncm91cCgwKSwgImNvbnRleHQiOiBzYW1wbGV9KQogICAgICAgIHJvd3MuYXBwZW5kKHsiY29kZSI6Y2hlY2suY29kZSwgInRpdGxlIjpjaGVjay50aXRsZSwgInJ1bGVfaWRzIjpsaXN0KGNoZWNrLnJ1bGVfaWRzKSwKICAgICAgICAgICAgICAgICAgICAgInJlYXNvbiI6Y2hlY2sud2h5LCAidG90YWxfbWF0Y2hlcyI6bGVuKG1hdGNoZXMpLCAiZXhhbXBsZXMiOml0ZW1zfSkKICAgIHJldHVybiB7ImtpbmQiOiJhZHZpc29yeS1sYW5ndWFnZS1hdWRpdCIsICJ1bml0Ijp1bml0LCAiY2hlY2tzIjpyb3dzLAogICAgICAgICAgICAiZGlzY2xhaW1lciI6IkZsYWdzIGFyZSBwcm9tcHRzIGZvciBodW1hbiByZXZpZXcsIG5vdCBwcm92ZW4gZXJyb3JzIG9yIGEgcXVhbGl0eS9hY2NlcHRhbmNlIHNjb3JlLiJ9Cg==
+"""Transparent lexical prompts for *human* editorial review.
+
+A match is a place to inspect, never an automatic declaration of an error.
+The program does not parse logic, judge conceptual novelty, or verify citations.
+"""
+
+from __future__ import annotations
+
+from bisect import bisect_right
+from dataclasses import dataclass
+from pathlib import Path
+import re
+
+
+@dataclass(frozen=True)
+class Check:
+    code: str
+    title: str
+    rule_ids: tuple[int, ...]
+    pattern: str
+    why: str
+
+
+CHECKS = (
+    Check("generic-purpose", "Generic statement of purpose", (1, 3, 42, 49),
+          r"\b(?:this (?:paper|article|study) (?:aims? to |seeks? to )?(?:discuss|explore|provide (?:a |an )?(?:comprehensive|nuanced) (?:account|framework|discussion))\b|the purpose of this (?:paper|article) is to discuss\b)",
+          "Check whether the sentence advances a research problem or only announces a topic."),
+    Check("self-praise", "Unexplained evaluative language", (39, 46, 49, 56),
+          r"\b(?:groundbreaking|revolutionary|profound|highly important|unprecedented|comprehensive and nuanced)\b",
+          "Replace self-appraisal with a stated condition, mechanism, or result when appropriate."),
+    Check("negative-pivot", "Possible formulaic negative contrast", (41, 56),
+          r"\b(?:is|are|was|were)\s+not\b[^.?!;\n]{0,95}\bbut\b",
+          "A contrast is legitimate if it excludes a real alternative; otherwise state the positive relations."),
+    Check("inferential-connective", "Strong inferential connective", (37, 45, 55),
+          r"\b(?:therefore|thus|hence|accordingly)\b",
+          "Find the intermediate premise that actually supports the announced inference."),
+    Check("unclear-demonstrative", "Potentially unclear demonstrative", (20, 39, 55),
+          r"\b(?:this|that)\s+(?:structure|framework|process|approach|problem|relationship|account|result)\b",
+          "Confirm that the demonstrative has an explicit, unique antecedent."),
+)
+
+
+def read_manuscript(path: Path) -> tuple[str, str]:
+    """Return (text, unit). Units are source lines or DOCX paragraphs."""
+    if not path.exists() or not path.is_file():
+        raise ValueError(f"File does not exist: {path}")
+    extension = path.suffix.lower()
+    if extension in (".txt", ".md"):
+        try:
+            return path.read_text(encoding="utf-8-sig"), "line"
+        except UnicodeDecodeError as exc:
+            raise ValueError("Text files must be UTF-8 encoded") from exc
+    if extension == ".docx":
+        try:
+            from docx import Document
+        except ImportError as exc:
+            raise ValueError('DOCX requires: pip install "well-argued-prose[docx]"') from exc
+        try:
+            paragraphs = [p.text for p in Document(path).paragraphs]
+        except Exception as exc:
+            raise ValueError(f"Could not read DOCX: {exc}") from exc
+        return "\n".join(paragraphs), "paragraph"
+    raise ValueError("Supported manuscript types: .md, .txt, .docx")
+
+
+def audit_text(text: str, unit: str = "line", max_per_check: int = 10) -> dict:
+    """Run deterministic regex checks; no quality score is computed."""
+    if max_per_check < 1:
+        raise ValueError("max_per_check must be at least 1")
+    offsets = [-1] + [idx for idx, char in enumerate(text) if char == "\n"]
+    lines = text.split("\n")
+    rows: list[dict] = []
+    for check in CHECKS:
+        matches = list(re.finditer(check.pattern, text, flags=re.IGNORECASE))
+        items = []
+        for match in matches[:max_per_check]:
+            position = bisect_right(offsets, match.start())
+            sample = lines[position - 1].strip()
+            if len(sample) > 220:
+                start = max(0, match.start() - (offsets[position - 1] + 1) - 55)
+                sample = sample[start:start + 220].strip()
+            items.append({unit: position, "match": match.group(0), "context": sample})
+        rows.append({"code":check.code, "title":check.title, "rule_ids":list(check.rule_ids),
+                     "reason":check.why, "total_matches":len(matches), "examples":items})
+    return {"kind":"advisory-language-audit", "unit":unit, "checks":rows,
+            "disclaimer":"Flags are prompts for human review, not proven errors or a quality/acceptance score."}
