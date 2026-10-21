@@ -1,1 +1,15 @@
-LS0tCm5hbWU6IEJ1ZyByZXBvcnQKYWJvdXQ6IFJlcG9ydCBhIHJlcHJvZHVjaWJsZSBwcm9ibGVtIGluIHRoZSBjb2RlIG9yIGRhdGEKbGFiZWxzOiBbXQotLS0KCioqV2hhdCBoYXBwZW5lZD8qKgoKKipIb3cgY2FuIGl0IGJlIHJlcHJvZHVjZWQ/KioKCioqRXhwZWN0ZWQgYmVoYXZpb3IqKgoKKipFbnZpcm9ubWVudCoqIChQeXRob24gdmVyc2lvbiwgb3BlcmF0aW5nIHN5c3RlbSwgY29tbWFuZCkKClBsZWFzZSByZXBsYWNlIGFueSB1bnB1Ymxpc2hlZCBtYW51c2NyaXB0IGNvbnRlbnQgd2l0aCBhIG1pbmltYWwgc3ludGhldGljIGV4YW1wbGUuCg==
+---
+name: Bug report
+about: Report a reproducible problem in the code or data
+labels: []
+---
+
+**What happened?**
+
+**How can it be reproduced?**
+
+**Expected behavior**
+
+**Environment** (Python version, operating system, command)
+
+Please replace any unpublished manuscript content with a minimal synthetic example.
