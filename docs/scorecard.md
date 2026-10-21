@@ -1,1 +1,33 @@
-IyBIdW1hbiBSZXZpZXcgU2NvcmVjYXJkCgpSYXRlIGVhY2ggb2YgdGhlIHR3ZWx2ZSBjcml0ZXJpYSBmcm9tICoqMCB0byAyKio6IDAgPSBhYnNlbnQsIDEgPSBwcmVzZW50IGJ1dCB3ZWFrLCAyID0gY2xlYXIgYW5kIG9wZXJhdGl2ZS4gQSB0b3RhbCBiZWxvdyAqKjIwLzI0KiogY2FsbHMgZm9yIGZ1cnRoZXIgc3RydWN0dXJhbCByZXZpc2lvbiBiZWZvcmUgdGhlIGZpbmFsIGxhbmd1YWdlIHBhc3MuIEEgcGFzc2luZyBzY29yZSBpcyBhbiBpbnRlcm5hbCB3b3JrZmxvdyB0aHJlc2hvbGQgYW5kIGhhcyBubyBzdGF0aXN0aWNhbCByZWxhdGlvbiB0byBqb3VybmFsIGFjY2VwdGFuY2UuCgp8IENyaXRlcmlvbiB8IFN0YW5kYXJkIGZvciAyIHBvaW50cyB8IFJ1bGVzIHwKfC0tLXwtLS18LS0tfAp8IENvcmUgcHJvYmxlbSB8IFRoZSB0aXRsZSwgYWJzdHJhY3QsIGFuZCBvcGVuaW5nIGludHJvZHVjdGlvbiBpZGVudGlmeSB0aGUgc2FtZSBzcGVjaWZpYyBwcm9ibGVtLiB8IDEsIDMsIDE0IHwKfCBMb2FkLWJlYXJpbmcgY2xhaW0gfCBUaGUgbWFudXNjcmlwdCBjYW4gYmUgY29uZGVuc2VkIGludG8gb25lIGRlZmVuc2libGUgcHJvcG9zaXRpb24uIHwgMiwgNTIgfAp8IENvbnRyaWJ1dGlvbiBzdGF0ZW1lbnQgfCBUaGUgY29udHJpYnV0aW9uIGlkZW50aWZpZXMgZGViYXRlIHBvc2l0aW9uLCB1bnJlc29sdmVkIGNvbmRpdGlvbiwgcGFwZXIncyBtb3ZlLCBhbmQgbGltaXQuIHwgNCB8CnwgTGl0ZXJhdHVyZSBmdW5jdGlvbiB8IEVhY2ggY29yZSBzb3VyY2UgaGFzIGEgZGlzdGluZ3Vpc2hhYmxlIHJvbGUgaW4gdGhlIGFyZ3VtZW50LiB8IDEyLCAyMiwgNTAgfAp8IENvcmUgZGVmaW5pdGlvbiB8IFRoZSBkZWZpbml0aW9uIHNwZWNpZmllcyBvYmplY3QsIHJlbGF0aW9uLCBsaW1pdCwgY29uc2VxdWVuY2UsIGFuZCBmYWlsdXJlLiB8IDI3IHwKfCBDb25jZXB0dWFsIHdvcmsgfCBUaGUgY2VudHJhbCBjb25jZXB0IHBlcmZvcm1zIGF0IGxlYXN0IHRocmVlIGRpc3RpbmN0LCBuZWNlc3NhcnkgdGFza3MuIHwgMjggfAp8IENvbmRpdGlvbnMgYW5kIGZhaWx1cmVzIHwgRWFjaCBjb25kaXRpb24gcnVsZXMgb3V0IGFuIGlkZW50aWZpYWJsZSBjb3VudGVyZmVpdCBvciBjb3VudGVyLXN0cnVjdHVyZS4gfCAxNSwgMzAgfAp8IFRlc3RpbmcgYnkgY2FzZXMgfCBDYXNlcyB0ZXN0IHByZWNpc2UgY29uZGl0aW9ucyBhbmQgeWllbGQgY29uc2VxdWVuY2VzIGZvciB0aGUgdGhlb3J5LiB8IDE2LCAyMywgMzMgfAp8IE9iamVjdGlvbiBzdHJ1Y3R1cmUgfCBPYmplY3Rpb25zIGFyZSBncm91cGVkIGJ5IHByZXNzdXJlLCBzdGF0ZWQgc3Ryb25nbHksIGFuZCBhbnN3ZXJlZCB3aXRoIHdhcnJhbnRlZCBjb25jZXNzaW9ucy4gfCAxNywgMzUgfAp8IFBhcmFncmFwaCBhY3Rpb25zIHwgRXZlcnkgcGFyYWdyYXBoIHBlcmZvcm1zIGEgcmVjb2duaXphYmxlIHByaW1hcnkgYXJndW1lbnRhdGl2ZSBhY3Rpb24uIHwgMTksIDIwLCA1NCB8CnwgSW5mZXJlbnRpYWwgYnJpZGdlcyB8IE1ham9yIHRyYW5zaXRpb25zIGFuZCBjb25jbHVzaW9ucyBkaXNjbG9zZSB0aGVpciBtZWRpYXRpbmcgcHJlbWlzZXMuIHwgMzcsIDQ1LCA1NSB8CnwgQ29uY2x1c2lvbiBib3VuZGFyaWVzIHwgVGhlIHN0cmVuZ3RoIGFuZCBzY29wZSBvZiB0aGUgY29uY2x1c2lvbiBtYXRjaCB3aGF0IHdhcyBlc3RhYmxpc2hlZC4gfCA1LCAxOCwgMzgsIDQ4IHwKCiMjIE1hbmRhdG9yeSBjcm9zcy1jdXR0aW5nIGNoZWNrcwoKLSAqKlRlcm1pbm9sb2dpY2FsIHN0YWJpbGl0eSAoUnVsZXMgNDcpLioqIENvbXBsZXRlIGEgc2VwYXJhdGUgdGVybWlub2xvZ3kgbGVkZ2VyLiBUaGlzIGlzIHJlcXVpcmVkIHJldmlldywgbm90IGEgdGhpcnRlZW50aCBzY29yZWQgY3JpdGVyaW9uLgotICoqRXZpZGVuY2UgaW50ZWdyaXR5IChSdWxlcyA1LCAzOCkuKiogVmVyaWZ5IGNpdGF0aW9ucywgcXVvdGF0aW9ucywgZXhhbXBsZXMsIGFuZCBlbXBpcmljYWwgb3IgaGlzdG9yaWNhbCBhc3NlcnRpb25zIGFnYWluc3QgcHJpbWFyeSBzb3VyY2VzLgoKIyMgVXNlIGluIHRoZSBDTEkKCmBgYGJhc2gKd2VsbC1hcmd1ZWQtcHJvc2Ugc2NvcmVjYXJkIGluaXQgbXktcmV2aWV3Lmpzb24KIyBFZGl0IGVhY2ggcmF0aW5nICgwLCAxLCBvciAyKSBhbmQgZW50ZXIgc3VwcG9ydGluZyBldmlkZW5jZS4Kd2VsbC1hcmd1ZWQtcHJvc2Ugc2NvcmVjYXJkIGV2YWx1YXRlIG15LXJldmlldy5qc29uCmBgYAoKVGhlIHJhdGluZ3MgYXJlIHN1cHBsaWVkIGJ5IHRoZSByZXZpZXdlciwgbmV2ZXIgaW52ZW50ZWQgYnkgdGhlIHByb2dyYW0uCg==
+# Human Review Scorecard
+
+Rate each of the twelve criteria from **0 to 2**: 0 = absent, 1 = present but weak, 2 = clear and operative. A total below **20/24** calls for further structural revision before the final language pass. A passing score is an internal workflow threshold and has no statistical relation to journal acceptance.
+
+| Criterion | Standard for 2 points | Rules |
+|---|---|---|
+| Core problem | The title, abstract, and opening introduction identify the same specific problem. | 1, 3, 14 |
+| Load-bearing claim | The manuscript can be condensed into one defensible proposition. | 2, 52 |
+| Contribution statement | The contribution identifies debate position, unresolved condition, paper's move, and limit. | 4 |
+| Literature function | Each core source has a distinguishable role in the argument. | 12, 22, 50 |
+| Core definition | The definition specifies object, relation, limit, consequence, and failure. | 27 |
+| Conceptual work | The central concept performs at least three distinct, necessary tasks. | 28 |
+| Conditions and failures | Each condition rules out an identifiable counterfeit or counter-structure. | 15, 30 |
+| Testing by cases | Cases test precise conditions and yield consequences for the theory. | 16, 23, 33 |
+| Objection structure | Objections are grouped by pressure, stated strongly, and answered with warranted concessions. | 17, 35 |
+| Paragraph actions | Every paragraph performs a recognizable primary argumentative action. | 19, 20, 54 |
+| Inferential bridges | Major transitions and conclusions disclose their mediating premises. | 37, 45, 55 |
+| Conclusion boundaries | The strength and scope of the conclusion match what was established. | 5, 18, 38, 48 |
+
+## Mandatory cross-cutting checks
+
+- **Terminological stability (Rules 47).** Complete a separate terminology ledger. This is required review, not a thirteenth scored criterion.
+- **Evidence integrity (Rules 5, 38).** Verify citations, quotations, examples, and empirical or historical assertions against primary sources.
+
+## Use in the CLI
+
+```bash
+well-argued-prose scorecard init my-review.json
+# Edit each rating (0, 1, or 2) and enter supporting evidence.
+well-argued-prose scorecard evaluate my-review.json
+```
+
+The ratings are supplied by the reviewer, never invented by the program.
