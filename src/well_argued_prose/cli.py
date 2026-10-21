@@ -1,1 +1,155 @@
-IiIiVGhlIFdlbGwtQXJndWVkIFByb3NlIGNvbW1hbmQtbGluZSBpbnRlcmZhY2UuIiIiCgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQgYXJncGFyc2UKaW1wb3J0IGpzb24KZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCmltcG9ydCBzeXMKCmZyb20gLiBpbXBvcnQgX192ZXJzaW9uX18KZnJvbSAuY2F0YWxvZyBpbXBvcnQgZ2V0X3J1bGUsIGdldF93b3JrZmxvdywgbG9hZCwgdmFsaWRhdGVfY2F0YWxvZwpmcm9tIC5yZXZpZXcgaW1wb3J0IGF1ZGl0X3RleHQsIHJlYWRfbWFudXNjcmlwdApmcm9tIC5zY29yaW5nIGltcG9ydCBldmFsdWF0ZSwgbWFrZV90ZW1wbGF0ZQoKCmRlZiBfZHVtcChkYXRhKSAtPiBOb25lOgogICAgcHJpbnQoanNvbi5kdW1wcyhkYXRhLCBlbnN1cmVfYXNjaWk9RmFsc2UsIGluZGVudD0yKSkKCgpkZWYgYnVpbGRfcGFyc2VyKCkgLT4gYXJncGFyc2UuQXJndW1lbnRQYXJzZXI6CiAgICBwYXJzZXIgPSBhcmdwYXJzZS5Bcmd1bWVudFBhcnNlcigKICAgICAgICBwcm9nPSJ3ZWxsLWFyZ3VlZC1wcm9zZSIsIGRlc2NyaXB0aW9uPSJBcmd1bWVudC1maXJzdCBzdGFuZGFyZHMgZm9yIGFkdmFuY2VkIHNjaG9sYXJseSB3cml0aW5nLiIKICAgICkKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoIi0tdmVyc2lvbiIsIGFjdGlvbj0idmVyc2lvbiIsIHZlcnNpb249ZiJ3ZWxsLWFyZ3VlZC1wcm9zZSB7X192ZXJzaW9uX199IikKICAgIHN1YnMgPSBwYXJzZXIuYWRkX3N1YnBhcnNlcnMoZGVzdD0iY29tbWFuZCIsIHJlcXVpcmVkPVRydWUpCiAgICBzdWJfbGlzdCA9IHN1YnMuYWRkX3BhcnNlcigibGlzdCIsIGhlbHA9IlNob3cgYWxsIDU3IHJ1bGVzIGdyb3VwZWQgYnkgc2VjdGlvbiIpCiAgICBzdWJfbGlzdC5hZGRfYXJndW1lbnQoIi0tc2VjdGlvbiIsIHR5cGU9aW50LCBjaG9pY2VzPXJhbmdlKDEsIDEwKSwgbWV0YXZhcj0iMS05IikKCiAgICBzdWJfc2hvdyA9IHN1YnMuYWRkX3BhcnNlcigic2hvdyIsIGhlbHA9IlNob3cgdGhlIGNvbXBsZXRlIHRleHQgb2Ygb25lIHJ1bGUiKQogICAgc3ViX3Nob3cuYWRkX2FyZ3VtZW50KCJydWxlX2lkIiwgdHlwZT1pbnQpCiAgICBzdWJfc2hvdy5hZGRfYXJndW1lbnQoIi0tanNvbiIsIGFjdGlvbj0ic3RvcmVfdHJ1ZSIpCgogICAgc3ViX2d1aWRlID0gc3Vicy5hZGRfcGFyc2VyKCJndWlkZSIsIGhlbHA9IlNob3cgYSB0YXNrLXNwZWNpZmljIHJ1bGUgc2VxdWVuY2UiKQogICAgc3ViX2d1aWRlLmFkZF9hcmd1bWVudCgidGFzayIsIG5hcmdzPSI/IiwgaGVscD0iTmFtZSBvZiB3b3JrZmxvdzsgb21pdCB0byBsaXN0IHdvcmtmbG93cyIpCiAgICBzdWJfZ3VpZGUuYWRkX2FyZ3VtZW50KCItLWpzb24iLCBhY3Rpb249InN0b3JlX3RydWUiKQoKICAgIHN1Yl9hdWRpdCA9IHN1YnMuYWRkX3BhcnNlcigiYXVkaXQiLCBoZWxwPSJBZHZpc29yeSBzdXJmYWNlIGNoZWNrcyBvbiBhIG1hbnVzY3JpcHQiKQogICAgc3ViX2F1ZGl0LmFkZF9hcmd1bWVudCgicGF0aCIsIHR5cGU9UGF0aCwgaGVscD0iLm1kLCAudHh0LCBvciAuZG9jeCBtYW51c2NyaXB0IikKICAgIHN1Yl9hdWRpdC5hZGRfYXJndW1lbnQoIi0tanNvbiIsIGFjdGlvbj0ic3RvcmVfdHJ1ZSIpCiAgICBzdWJfYXVkaXQuYWRkX2FyZ3VtZW50KCItLW1heC1wZXItY2hlY2siLCB0eXBlPWludCwgZGVmYXVsdD0xMCkKCiAgICBzdWJfc2NvcmUgPSBzdWJzLmFkZF9wYXJzZXIoInNjb3JlY2FyZCIsIGhlbHA9IkNyZWF0ZSBvciBldmFsdWF0ZSBhIGh1bWFuLXNjb3JlZCAyNC1wb2ludCBjaGVja2xpc3QiKQogICAgc2NvcmVfc3VicyA9IHN1Yl9zY29yZS5hZGRfc3VicGFyc2VycyhkZXN0PSJzY29yZV9jb21tYW5kIiwgcmVxdWlyZWQ9VHJ1ZSkKICAgIHN1Yl9pbml0ID0gc2NvcmVfc3Vicy5hZGRfcGFyc2VyKCJpbml0IiwgaGVscD0iQ3JlYXRlIGEgc2NvcmVjYXJkIEpTT04gZmlsZSB3aXRoIGJsYW5rIHJhdGluZ3MiKQogICAgc3ViX2luaXQuYWRkX2FyZ3VtZW50KCJwYXRoIiwgdHlwZT1QYXRoKQogICAgc3ViX2luaXQuYWRkX2FyZ3VtZW50KCItLWZvcmNlIiwgYWN0aW9uPSJzdG9yZV90cnVlIiwgaGVscD0iT3ZlcndyaXRlIGFuIGV4aXN0aW5nIGZpbGUiKQogICAgc3ViX2V2YWwgPSBzY29yZV9zdWJzLmFkZF9wYXJzZXIoImV2YWx1YXRlIiwgaGVscD0iRXZhbHVhdGUgYSBtYW51YWxseSBjb21wbGV0ZWQgc2NvcmVjYXJkIikKICAgIHN1Yl9ldmFsLmFkZF9hcmd1bWVudCgicGF0aCIsIHR5cGU9UGF0aCkKICAgIHN1Yl9ldmFsLmFkZF9hcmd1bWVudCgiLS1qc29uIiwgYWN0aW9uPSJzdG9yZV90cnVlIikKCiAgICBzdWJzLmFkZF9wYXJzZXIoInZhbGlkYXRlIiwgaGVscD0iQ2hlY2sgY2F0YWxvZyBJRHMsIHJlZmVyZW5jZXMsIGFuZCBzY2hlbWEiKQogICAgcmV0dXJuIHBhcnNlcgoKCmRlZiBtYWluKGFyZ3Y6IGxpc3Rbc3RyXSB8IE5vbmUgPSBOb25lKSAtPiBpbnQ6CiAgICBhcmdzID0gYnVpbGRfcGFyc2VyKCkucGFyc2VfYXJncyhhcmd2KQogICAgdHJ5OgogICAgICAgIGlmIGFyZ3MuY29tbWFuZCA9PSAibGlzdCI6CiAgICAgICAgICAgIGNhdGFsb2cgPSBsb2FkKCJydWxlcyIpCiAgICAgICAgICAgIGZvciBzZWN0aW9uIGluIGNhdGFsb2dbInNlY3Rpb25zIl06CiAgICAgICAgICAgICAgICBpZiBhcmdzLnNlY3Rpb24gYW5kIHNlY3Rpb25bImlkIl0gIT0gYXJncy5zZWN0aW9uOgogICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgICAgICBwcmludChmIlxue3NlY3Rpb25bJ2lkJ119LiB7c2VjdGlvblsnbmFtZSddfSIpCiAgICAgICAgICAgICAgICBmb3IgcnVsZSBpbiBjYXRhbG9nWyJydWxlcyJdOgogICAgICAgICAgICAgICAgICAgIGlmIHJ1bGVbInNlY3Rpb24iXSA9PSBzZWN0aW9uWyJpZCJdOgogICAgICAgICAgICAgICAgICAgICAgICBwcmludChmIiAge3J1bGVbJ2lkJ106MDJkfSAge3J1bGVbJ3RpdGxlJ119IikKICAgICAgICAgICAgcmV0dXJuIDAKCiAgICAgICAgaWYgYXJncy5jb21tYW5kID09ICJzaG93IjoKICAgICAgICAgICAgcnVsZSA9IGdldF9ydWxlKGFyZ3MucnVsZV9pZCkKICAgICAgICAgICAgaWYgYXJncy5qc29uOgogICAgICAgICAgICAgICAgX2R1bXAocnVsZSkKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIHByaW50KGYiUnVsZSB7cnVsZVsnaWQnXX06IHtydWxlWyd0aXRsZSddfSIpCiAgICAgICAgICAgICAgICBmb3IgbGFiZWwsIGtleSBpbiAoCiAgICAgICAgICAgICAgICAgICAgKCJTY29wZSIsICJzY29wZSIpLCAoIlN0YW5kYXJkIiwgInN0YW5kYXJkIiksCiAgICAgICAgICAgICAgICAgICAgKCJDb3JwdXMgb2JzZXJ2YXRpb24iLCAiY29ycHVzX29ic2VydmF0aW9uIiksCiAgICAgICAgICAgICAgICAgICAgKCJSZXZpZXcgYWN0aW9uIiwgInJldmlld19hY3Rpb24iKSwgKCJFeGFtcGxlIiwgImV4YW1wbGUiKQogICAgICAgICAgICAgICAgKToKICAgICAgICAgICAgICAgICAgICBwcmludChmIlxue2xhYmVsfToge3J1bGVba2V5XX0iKQogICAgICAgICAgICAgICAgYXJ0aWNsZXMgPSB7ZW50cnlbImlkIl06IGVudHJ5IGZvciBlbnRyeSBpbiBsb2FkKCJjb3JwdXMiKX0KICAgICAgICAgICAgICAgIHByaW50KCJcblNvdXJjZSBhcnRpY2xlKHMpOiIpCiAgICAgICAgICAgICAgICBmb3Igc291cmNlX2lkIGluIHJ1bGVbImV4YW1wbGVfc291cmNlcyJdOgogICAgICAgICAgICAgICAgICAgIHBhcGVyID0gYXJ0aWNsZXNbc291cmNlX2lkXQogICAgICAgICAgICAgICAgICAgIHByaW50KGYiICB7cGFwZXJbJ2F1dGhvcnMnXX0gKHtwYXBlclsneWVhciddfSksIHtwYXBlclsndGl0bGUnXX07ICIKICAgICAgICAgICAgICAgICAgICAgICAgICBmImh0dHBzOi8vZG9pLm9yZy97cGFwZXJbJ2RvaSddfSIpCiAgICAgICAgICAgICAgICBwcmludCgiRXhhbXBsZXMgYXJlIG9yaWdpbmFsIGVkaXRvcmlhbCBwYXJhcGhyYXNlcywgbm90IHZlcmJhdGltIHF1b3RhdGlvbnMuIikKICAgICAgICAgICAgcmV0dXJuIDAKCiAgICAgICAgaWYgYXJncy5jb21tYW5kID09ICJndWlkZSI6CiAgICAgICAgICAgIGlmIG5vdCBhcmdzLnRhc2s6CiAgICAgICAgICAgICAgICBmb3Igd29ya2Zsb3cgaW4gbG9hZCgid29ya2Zsb3dzIik6CiAgICAgICAgICAgICAgICAgICAgcHJpbnQoZiJ7d29ya2Zsb3dbJ2lkJ106PDE0fSB7d29ya2Zsb3dbJ3RpdGxlJ119IikKICAgICAgICAgICAgICAgIHJldHVybiAwCiAgICAgICAgICAgIHdvcmtmbG93ID0gZ2V0X3dvcmtmbG93KGFyZ3MudGFzaykKICAgICAgICAgICAgaWYgYXJncy5qc29uOgogICAgICAgICAgICAgICAgX2R1bXAod29ya2Zsb3cpCiAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICBwcmludCh3b3JrZmxvd1sidGl0bGUiXSkKICAgICAgICAgICAgICAgIGZvciBudW1iZXIgaW4gd29ya2Zsb3dbInJ1bGVfaWRzIl06CiAgICAgICAgICAgICAgICAgICAgcHJpbnQoZiIgIHtudW1iZXI6MDJkfSB7Z2V0X3J1bGUobnVtYmVyKVsndGl0bGUnXX0iKQogICAgICAgICAgICAgICAgcHJpbnQoZiJcblJldmlldyBjcml0ZXJpb246IHt3b3JrZmxvd1snZXhpdF9jaGVjayddfSIpCiAgICAgICAgICAgIHJldHVybiAwCgogICAgICAgIGlmIGFyZ3MuY29tbWFuZCA9PSAiYXVkaXQiOgogICAgICAgICAgICB0ZXh0LCB1bml0ID0gcmVhZF9tYW51c2NyaXB0KGFyZ3MucGF0aCkKICAgICAgICAgICAgcmVzdWx0ID0gYXVkaXRfdGV4dCh0ZXh0LCB1bml0PXVuaXQsIG1heF9wZXJfY2hlY2s9YXJncy5tYXhfcGVyX2NoZWNrKQogICAgICAgICAgICByZXN1bHRbImZpbGUiXSA9IHN0cihhcmdzLnBhdGgpCiAgICAgICAgICAgIGlmIGFyZ3MuanNvbjoKICAgICAgICAgICAgICAgIF9kdW1wKHJlc3VsdCkKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIHByaW50KGYiQWR2aXNvcnkgYXVkaXQ6IHthcmdzLnBhdGh9ICh7dW5pdH0gcmVmZXJlbmNlcykiKQogICAgICAgICAgICAgICAgZm9yIHJvdyBpbiByZXN1bHRbImNoZWNrcyJdOgogICAgICAgICAgICAgICAgICAgIHByaW50KGYiXG57cm93Wyd0aXRsZSddfToge3Jvd1sndG90YWxfbWF0Y2hlcyddfSBtYXRjaChlcykgW3J1bGVzIHsnLCAnLmpvaW4obWFwKHN0ciwgcm93WydydWxlX2lkcyddKSl9XSIpCiAgICAgICAgICAgICAgICAgICAgcHJpbnQoZiIgIHtyb3dbJ3JlYXNvbiddfSIpCiAgICAgICAgICAgICAgICAgICAgZm9yIGl0ZW0gaW4gcm93WyJleGFtcGxlcyJdOgogICAgICAgICAgICAgICAgICAgICAgICBwcmludChmIiAge3VuaXR9IHtpdGVtW3VuaXRdfToge2l0ZW1bJ2NvbnRleHQnXX0iKQogICAgICAgICAgICAgICAgcHJpbnQoZiJcbntyZXN1bHRbJ2Rpc2NsYWltZXInXX0iKQogICAgICAgICAgICByZXR1cm4gMAoKICAgICAgICBpZiBhcmdzLmNvbW1hbmQgPT0gInNjb3JlY2FyZCI6CiAgICAgICAgICAgIGlmIGFyZ3Muc2NvcmVfY29tbWFuZCA9PSAiaW5pdCI6CiAgICAgICAgICAgICAgICBpZiBhcmdzLnBhdGguZXhpc3RzKCkgYW5kIG5vdCBhcmdzLmZvcmNlOgogICAgICAgICAgICAgICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoZiJSZWZ1c2luZyB0byBvdmVyd3JpdGUge2FyZ3MucGF0aH07IHVzZSAtLWZvcmNlIikKICAgICAgICAgICAgICAgIGFyZ3MucGF0aC5wYXJlbnQubWtkaXIocGFyZW50cz1UcnVlLCBleGlzdF9vaz1UcnVlKQogICAgICAgICAgICAgICAgYXJncy5wYXRoLndyaXRlX3RleHQoanNvbi5kdW1wcyhtYWtlX3RlbXBsYXRlKCksIGluZGVudD0yLCBlbnN1cmVfYXNjaWk9RmFsc2UpICsgIlxuIiwgZW5jb2Rpbmc9InV0Zi04IikKICAgICAgICAgICAgICAgIHByaW50KGYiQmxhbmsgaHVtYW4gc2NvcmVjYXJkIGNyZWF0ZWQ6IHthcmdzLnBhdGh9IikKICAgICAgICAgICAgICAgIHJldHVybiAwCiAgICAgICAgICAgIGlmIGFyZ3Muc2NvcmVfY29tbWFuZCA9PSAiZXZhbHVhdGUiOgogICAgICAgICAgICAgICAgcmVzdWx0ID0gZXZhbHVhdGUoanNvbi5sb2FkcyhhcmdzLnBhdGgucmVhZF90ZXh0KGVuY29kaW5nPSJ1dGYtOCIpKSkKICAgICAgICAgICAgICAgIGlmIGFyZ3MuanNvbjoKICAgICAgICAgICAgICAgICAgICBfZHVtcChyZXN1bHQpCiAgICAgICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgICAgIHByaW50KGYiSHVtYW4gc2NvcmU6IHtyZXN1bHRbJ3Njb3JlJ119L3tyZXN1bHRbJ291dF9vZiddfSIpCiAgICAgICAgICAgICAgICAgICAgcHJpbnQocmVzdWx0WyJ2ZXJkaWN0Il0pCiAgICAgICAgICAgICAgICAgICAgcHJpbnQocmVzdWx0WyJjYXZlYXQiXSkKICAgICAgICAgICAgICAgIHJldHVybiAwCgogICAgICAgIGlmIGFyZ3MuY29tbWFuZCA9PSAidmFsaWRhdGUiOgogICAgICAgICAgICBpc3N1ZXMgPSB2YWxpZGF0ZV9jYXRhbG9nKCkKICAgICAgICAgICAgaWYgaXNzdWVzOgogICAgICAgICAgICAgICAgZm9yIGlzc3VlIGluIGlzc3VlczoKICAgICAgICAgICAgICAgICAgICBwcmludChmIkVSUk9SOiB7aXNzdWV9IiwgZmlsZT1zeXMuc3RkZXJyKQogICAgICAgICAgICAgICAgcmV0dXJuIDEKICAgICAgICAgICAgcHJpbnQoIkNhdGFsb2cgdmFsaWQ6IDU3IHJ1bGVzLCA5IHNlY3Rpb25zLCAxMCB3b3JrZmxvd3MsIDEyIHNjb3JlY2FyZCBjcml0ZXJpYSwgMTIgY29ycHVzIGFydGljbGVzLiIpCiAgICAgICAgICAgIHJldHVybiAwCgogICAgZXhjZXB0IChWYWx1ZUVycm9yLCBLZXlFcnJvciwganNvbi5KU09ORGVjb2RlRXJyb3IsIE9TRXJyb3IpIGFzIGV4YzoKICAgICAgICBwcmludChmIndlbGwtYXJndWVkLXByb3NlOiB7ZXhjfSIsIGZpbGU9c3lzLnN0ZGVycikKICAgICAgICByZXR1cm4gMgogICAgcmV0dXJuIDAKCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgcmFpc2UgU3lzdGVtRXhpdChtYWluKCkpCg==
+"""The Well-Argued Prose command-line interface."""
+
+from __future__ import annotations
+
+import argparse
+import json
+from pathlib import Path
+import sys
+
+from . import __version__
+from .catalog import get_rule, get_workflow, load, validate_catalog
+from .review import audit_text, read_manuscript
+from .scoring import evaluate, make_template
+
+
+def _dump(data) -> None:
+    print(json.dumps(data, ensure_ascii=False, indent=2))
+
+
+def build_parser() -> argparse.ArgumentParser:
+    parser = argparse.ArgumentParser(
+        prog="well-argued-prose", description="Argument-first standards for advanced scholarly writing."
+    )
+    parser.add_argument("--version", action="version", version=f"well-argued-prose {__version__}")
+    subs = parser.add_subparsers(dest="command", required=True)
+    sub_list = subs.add_parser("list", help="Show all 57 rules grouped by section")
+    sub_list.add_argument("--section", type=int, choices=range(1, 10), metavar="1-9")
+
+    sub_show = subs.add_parser("show", help="Show the complete text of one rule")
+    sub_show.add_argument("rule_id", type=int)
+    sub_show.add_argument("--json", action="store_true")
+
+    sub_guide = subs.add_parser("guide", help="Show a task-specific rule sequence")
+    sub_guide.add_argument("task", nargs="?", help="Name of workflow; omit to list workflows")
+    sub_guide.add_argument("--json", action="store_true")
+
+    sub_audit = subs.add_parser("audit", help="Advisory surface checks on a manuscript")
+    sub_audit.add_argument("path", type=Path, help=".md, .txt, or .docx manuscript")
+    sub_audit.add_argument("--json", action="store_true")
+    sub_audit.add_argument("--max-per-check", type=int, default=10)
+
+    sub_score = subs.add_parser("scorecard", help="Create or evaluate a human-scored 24-point checklist")
+    score_subs = sub_score.add_subparsers(dest="score_command", required=True)
+    sub_init = score_subs.add_parser("init", help="Create a scorecard JSON file with blank ratings")
+    sub_init.add_argument("path", type=Path)
+    sub_init.add_argument("--force", action="store_true", help="Overwrite an existing file")
+    sub_eval = score_subs.add_parser("evaluate", help="Evaluate a manually completed scorecard")
+    sub_eval.add_argument("path", type=Path)
+    sub_eval.add_argument("--json", action="store_true")
+
+    subs.add_parser("validate", help="Check catalog IDs, references, and schema")
+    return parser
+
+
+def main(argv: list[str] | None = None) -> int:
+    args = build_parser().parse_args(argv)
+    try:
+        if args.command == "list":
+            catalog = load("rules")
+            for section in catalog["sections"]:
+                if args.section and section["id"] != args.section:
+                    continue
+                print(f"\n{section['id']}. {section['name']}")
+                for rule in catalog["rules"]:
+                    if rule["section"] == section["id"]:
+                        print(f"  {rule['id']:02d}  {rule['title']}")
+            return 0
+
+        if args.command == "show":
+            rule = get_rule(args.rule_id)
+            if args.json:
+                _dump(rule)
+            else:
+                print(f"Rule {rule['id']}: {rule['title']}")
+                for label, key in (
+                    ("Scope", "scope"), ("Standard", "standard"),
+                    ("Corpus observation", "corpus_observation"),
+                    ("Review action", "review_action"), ("Example", "example")
+                ):
+                    print(f"\n{label}: {rule[key]}")
+                articles = {entry["id"]: entry for entry in load("corpus")}
+                print("\nSource article(s):")
+                for source_id in rule["example_sources"]:
+                    paper = articles[source_id]
+                    print(f"  {paper['authors']} ({paper['year']}), {paper['title']}; "
+                          f"https://doi.org/{paper['doi']}")
+                print("Examples are original editorial paraphrases, not verbatim quotations.")
+            return 0
+
+        if args.command == "guide":
+            if not args.task:
+                for workflow in load("workflows"):
+                    print(f"{workflow['id']:<14} {workflow['title']}")
+                return 0
+            workflow = get_workflow(args.task)
+            if args.json:
+                _dump(workflow)
+            else:
+                print(workflow["title"])
+                for number in workflow["rule_ids"]:
+                    print(f"  {number:02d} {get_rule(number)['title']}")
+                print(f"\nReview criterion: {workflow['exit_check']}")
+            return 0
+
+        if args.command == "audit":
+            text, unit = read_manuscript(args.path)
+            result = audit_text(text, unit=unit, max_per_check=args.max_per_check)
+            result["file"] = str(args.path)
+            if args.json:
+                _dump(result)
+            else:
+                print(f"Advisory audit: {args.path} ({unit} references)")
+                for row in result["checks"]:
+                    print(f"\n{row['title']}: {row['total_matches']} match(es) [rules {', '.join(map(str, row['rule_ids']))}]")
+                    print(f"  {row['reason']}")
+                    for item in row["examples"]:
+                        print(f"  {unit} {item[unit]}: {item['context']}")
+                print(f"\n{result['disclaimer']}")
+            return 0
+
+        if args.command == "scorecard":
+            if args.score_command == "init":
+                if args.path.exists() and not args.force:
+                    raise ValueError(f"Refusing to overwrite {args.path}; use --force")
+                args.path.parent.mkdir(parents=True, exist_ok=True)
+                args.path.write_text(json.dumps(make_template(), indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+                print(f"Blank human scorecard created: {args.path}")
+                return 0
+            if args.score_command == "evaluate":
+                result = evaluate(json.loads(args.path.read_text(encoding="utf-8")))
+                if args.json:
+                    _dump(result)
+                else:
+                    print(f"Human score: {result['score']}/{result['out_of']}")
+                    print(result["verdict"])
+                    print(result["caveat"])
+                return 0
+
+        if args.command == "validate":
+            issues = validate_catalog()
+            if issues:
+                for issue in issues:
+                    print(f"ERROR: {issue}", file=sys.stderr)
+                return 1
+            print("Catalog valid: 57 rules, 9 sections, 10 workflows, 12 scorecard criteria, 12 corpus articles.")
+            return 0
+
+    except (ValueError, KeyError, json.JSONDecodeError, OSError) as exc:
+        print(f"well-argued-prose: {exc}", file=sys.stderr)
+        return 2
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
