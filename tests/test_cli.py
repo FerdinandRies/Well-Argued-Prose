@@ -1,1 +1,56 @@
-ZnJvbSBjb250ZXh0bGliIGltcG9ydCByZWRpcmVjdF9zdGRvdXQsIHJlZGlyZWN0X3N0ZGVycgpmcm9tIGlvIGltcG9ydCBTdHJpbmdJTwppbXBvcnQganNvbgpmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgKaW1wb3J0IHN5cwppbXBvcnQgdGVtcGZpbGUKaW1wb3J0IHVuaXR0ZXN0CgpST09UID0gUGF0aChfX2ZpbGVfXykucmVzb2x2ZSgpLnBhcmVudHNbMV0Kc3lzLnBhdGguaW5zZXJ0KDAsIHN0cihST09UIC8gInNyYyIpKQoKZnJvbSB3ZWxsX2FyZ3VlZF9wcm9zZS5jbGkgaW1wb3J0IG1haW4KCgpjbGFzcyBDbGlUZXN0cyh1bml0dGVzdC5UZXN0Q2FzZSk6CiAgICBkZWYgcnVuX2NsaShzZWxmLCBhcmd2KToKICAgICAgICBvdXRwdXQsIGVycm9ycyA9IFN0cmluZ0lPKCksIFN0cmluZ0lPKCkKICAgICAgICB3aXRoIHJlZGlyZWN0X3N0ZG91dChvdXRwdXQpLCByZWRpcmVjdF9zdGRlcnIoZXJyb3JzKToKICAgICAgICAgICAgY29kZSA9IG1haW4oYXJndikKICAgICAgICByZXR1cm4gY29kZSwgb3V0cHV0LmdldHZhbHVlKCksIGVycm9ycy5nZXR2YWx1ZSgpCgogICAgZGVmIHRlc3RfY2xpX2NvbW1hbmRzKHNlbGYpOgogICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwoMCwgc2VsZi5ydW5fY2xpKFsidmFsaWRhdGUiXSlbMF0pCiAgICAgICAgc2VsZi5hc3NlcnRJbigiNTcgcnVsZXMiLCBzZWxmLnJ1bl9jbGkoWyJ2YWxpZGF0ZSJdKVsxXSkKICAgICAgICBzZWxmLmFzc2VydEluKCJSdWxlIDM3Iiwgc2VsZi5ydW5fY2xpKFsic2hvdyIsICIzNyJdKVsxXSkKICAgICAgICBzZWxmLmFzc2VydEluKCJTb3VyY2UgYXJ0aWNsZShzKSIsIHNlbGYucnVuX2NsaShbInNob3ciLCAiMzciXSlbMV0pCiAgICAgICAgc2VsZi5hc3NlcnRJbigiaW50cm9kdWN0aW9uIiwgc2VsZi5ydW5fY2xpKFsiZ3VpZGUiXSlbMV0pCiAgICAgICAgc2VsZi5hc3NlcnRJbigiMTQiLCBzZWxmLnJ1bl9jbGkoWyJndWlkZSIsICJpbnRyb2R1Y3Rpb24iXSlbMV0pCiAgICAgICAgc2VsZi5hc3NlcnRJbigiTWFudXNjcmlwdCBBcmNoaXRlY3R1cmUiLCBzZWxmLnJ1bl9jbGkoWyJsaXN0IiwgIi0tc2VjdGlvbiIsICIxIl0pWzFdKQoKICAgIGRlZiB0ZXN0X2NsaV9hdWRpdF9qc29uKHNlbGYpOgogICAgICAgIGNvZGUsIG91dHB1dCwgZXJyb3JzID0gc2VsZi5ydW5fY2xpKFsiYXVkaXQiLCBzdHIoUk9PVCAvICJleGFtcGxlcyIgLyAic2FtcGxlLW1hbnVzY3JpcHQubWQiKSwgIi0tanNvbiJdKQogICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwoMCwgY29kZSwgZXJyb3JzKQogICAgICAgIHBheWxvYWQgPSBqc29uLmxvYWRzKG91dHB1dCkKICAgICAgICBzZWxmLmFzc2VydEVxdWFsKCJhZHZpc29yeS1sYW5ndWFnZS1hdWRpdCIsIHBheWxvYWRbImtpbmQiXSkKICAgICAgICBzZWxmLmFzc2VydFRydWUoYW55KGl0ZW1bInRvdGFsX21hdGNoZXMiXSBmb3IgaXRlbSBpbiBwYXlsb2FkWyJjaGVja3MiXSkpCgogICAgZGVmIHRlc3RfY2xpX3Njb3JlY2FyZF9yb3VuZF90cmlwKHNlbGYpOgogICAgICAgIHdpdGggdGVtcGZpbGUuVGVtcG9yYXJ5RGlyZWN0b3J5KCkgYXMgZm9sZGVyOgogICAgICAgICAgICBwYXRoID0gUGF0aChmb2xkZXIpIC8gInJldmlldy5qc29uIgogICAgICAgICAgICBzZWxmLmFzc2VydEVxdWFsKDAsIHNlbGYucnVuX2NsaShbInNjb3JlY2FyZCIsICJpbml0Iiwgc3RyKHBhdGgpXSlbMF0pCiAgICAgICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwoMiwgc2VsZi5ydW5fY2xpKFsic2NvcmVjYXJkIiwgImluaXQiLCBzdHIocGF0aCldKVswXSkKICAgICAgICAgICAgc2VsZi5hc3NlcnRFcXVhbCgyLCBzZWxmLnJ1bl9jbGkoWyJzY29yZWNhcmQiLCAiZXZhbHVhdGUiLCBzdHIocGF0aCldKVswXSkKICAgICAgICAgICAgcGF5bG9hZCA9IGpzb24ubG9hZHMocGF0aC5yZWFkX3RleHQoZW5jb2Rpbmc9InV0Zi04IikpCiAgICAgICAgICAgIGZvciByb3cgaW4gcGF5bG9hZFsiY3JpdGVyaWEiXToKICAgICAgICAgICAgICAgIHJvd1sic2NvcmUiXSA9IDEKICAgICAgICAgICAgICAgIHJvd1siZXZpZGVuY2UiXSA9ICJFeGFtcGxlIHBhcmFncmFwaCBldmFsdWF0ZWQgYnkgYSByZXZpZXdlci4iCiAgICAgICAgICAgIHBhdGgud3JpdGVfdGV4dChqc29uLmR1bXBzKHBheWxvYWQpLCBlbmNvZGluZz0idXRmLTgiKQogICAgICAgICAgICBjb2RlLCBvdXRwdXQsIF8gPSBzZWxmLnJ1bl9jbGkoWyJzY29yZWNhcmQiLCAiZXZhbHVhdGUiLCBzdHIocGF0aCldKQogICAgICAgICAgICBzZWxmLmFzc2VydEVxdWFsKDAsIGNvZGUpCiAgICAgICAgICAgIHNlbGYuYXNzZXJ0SW4oIjEyLzI0Iiwgb3V0cHV0KQoKICAgIGRlZiB0ZXN0X2ludmFsaWRfcnVsZV9lcnJvcihzZWxmKToKICAgICAgICBjb2RlLCBfLCBlcnJvcnMgPSBzZWxmLnJ1bl9jbGkoWyJzaG93IiwgIjk5Il0pCiAgICAgICAgc2VsZi5hc3NlcnRFcXVhbCgyLCBjb2RlKQogICAgICAgIHNlbGYuYXNzZXJ0SW4oImRvZXMgbm90IGV4aXN0IiwgZXJyb3JzKQo=
+from contextlib import redirect_stdout, redirect_stderr
+from io import StringIO
+import json
+from pathlib import Path
+import sys
+import tempfile
+import unittest
+
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "src"))
+
+from well_argued_prose.cli import main
+
+
+class CliTests(unittest.TestCase):
+    def run_cli(self, argv):
+        output, errors = StringIO(), StringIO()
+        with redirect_stdout(output), redirect_stderr(errors):
+            code = main(argv)
+        return code, output.getvalue(), errors.getvalue()
+
+    def test_cli_commands(self):
+        self.assertEqual(0, self.run_cli(["validate"])[0])
+        self.assertIn("57 rules", self.run_cli(["validate"])[1])
+        self.assertIn("Rule 37", self.run_cli(["show", "37"])[1])
+        self.assertIn("Source article(s)", self.run_cli(["show", "37"])[1])
+        self.assertIn("introduction", self.run_cli(["guide"])[1])
+        self.assertIn("14", self.run_cli(["guide", "introduction"])[1])
+        self.assertIn("Manuscript Architecture", self.run_cli(["list", "--section", "1"])[1])
+
+    def test_cli_audit_json(self):
+        code, output, errors = self.run_cli(["audit", str(ROOT / "examples" / "sample-manuscript.md"), "--json"])
+        self.assertEqual(0, code, errors)
+        payload = json.loads(output)
+        self.assertEqual("advisory-language-audit", payload["kind"])
+        self.assertTrue(any(item["total_matches"] for item in payload["checks"]))
+
+    def test_cli_scorecard_round_trip(self):
+        with tempfile.TemporaryDirectory() as folder:
+            path = Path(folder) / "review.json"
+            self.assertEqual(0, self.run_cli(["scorecard", "init", str(path)])[0])
+            self.assertEqual(2, self.run_cli(["scorecard", "init", str(path)])[0])
+            self.assertEqual(2, self.run_cli(["scorecard", "evaluate", str(path)])[0])
+            payload = json.loads(path.read_text(encoding="utf-8"))
+            for row in payload["criteria"]:
+                row["score"] = 1
+                row["evidence"] = "Example paragraph evaluated by a reviewer."
+            path.write_text(json.dumps(payload), encoding="utf-8")
+            code, output, _ = self.run_cli(["scorecard", "evaluate", str(path)])
+            self.assertEqual(0, code)
+            self.assertIn("12/24", output)
+
+    def test_invalid_rule_error(self):
+        code, _, errors = self.run_cli(["show", "99"])
+        self.assertEqual(2, code)
+        self.assertIn("does not exist", errors)
