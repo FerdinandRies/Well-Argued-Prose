@@ -1,1 +1,2 @@
-aW5jbHVkZSBSRUFETUUubWQgTElDRU5TRSBMSUNFTlNFLUNPTlRFTlQubWQKcmVjdXJzaXZlLWluY2x1ZGUgc3JjL3dlbGxfYXJndWVkX3Byb3NlL2RhdGEgKi5qc29uCg==
+include README.md LICENSE LICENSE-CONTENT.md
+recursive-include src/well_argued_prose/data *.json
