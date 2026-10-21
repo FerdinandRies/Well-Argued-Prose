@@ -1,1 +1,14 @@
-Y2ZmLXZlcnNpb246IDEuMi4wCm1lc3NhZ2U6ICJJZiB5b3UgdXNlIHRoZSBydWxlYm9vayBvciBzb2Z0d2FyZSwgY2l0ZSB0aGlzIHJlcG9zaXRvcnkgYW5kIGl0cyB2ZXJzaW9uLiIKdGl0bGU6ICJXZWxsLUFyZ3VlZCBQcm9zZTogQXJndW1lbnQtRmlyc3QgU3RhbmRhcmRzIGZvciBTY2hvbGFybHkgV3JpdGluZyIKdHlwZTogc29mdHdhcmUKYXV0aG9yczoKICAtIGZhbWlseS1uYW1lczogIlJpZXMiCiAgICBnaXZlbi1uYW1lczogIkZlcmRpbmFuZCIKdmVyc2lvbjogMC4xLjEKcmVwb3NpdG9yeS1jb2RlOiAiaHR0cHM6Ly9naXRodWIuY29tL0ZlcmRpbmFuZFJpZXMvV2VsbC1Bcmd1ZWQtUHJvc2UiCmFic3RyYWN0OiAiQSA1Ny1ydWxlIGFyZ3VtZW50LWZpcnN0IGZyYW1ld29yayBhbmQgbG9jYWwgZWRpdG9yaWFsIHRvb2xraXQgZm9yIGFkdmFuY2VkIEVuZ2xpc2ggc2Nob2xhcmx5IHdyaXRpbmcuIgprZXl3b3JkczoKICAtIGFjYWRlbWljIHdyaXRpbmcKICAtIHBoaWxvc29waGljYWwgYXJndW1lbnQKICAtIGVkaXRvcmlhbCByZXZpZXcK
+cff-version: 1.2.0
+message: "If you use the rulebook or software, cite this repository and its version."
+title: "Well-Argued Prose: Argument-First Standards for Scholarly Writing"
+type: software
+authors:
+  - family-names: "Ries"
+    given-names: "Ferdinand"
+version: 0.1.1
+repository-code: "https://github.com/FerdinandRies/Well-Argued-Prose"
+abstract: "A 57-rule argument-first framework and local editorial toolkit for advanced English scholarly writing."
+keywords:
+  - academic writing
+  - philosophical argument
+  - editorial review
