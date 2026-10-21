@@ -1,1 +1,147 @@
-IiIiR2VuZXJhdGUgY29tcGxldGUgRW5nbGlzaCBkb2N1bWVudGF0aW9uIGZyb20gSlNPTiAoc2luZ2xlIHNvdXJjZSBvZiB0cnV0aCkuCgpSdW4gZnJvbSBhbnkgd29ya2luZyBkaXJlY3Rvcnk6CiAgICBweXRob24gc2NyaXB0cy9idWlsZF9oYW5kYm9vay5weQogICAgcHl0aG9uIHNjcmlwdHMvYnVpbGRfaGFuZGJvb2sucHkgLS1jaGVjawoiIiIKZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKaW1wb3J0IGFyZ3BhcnNlCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aAppbXBvcnQgc3lzCgpST09UID0gUGF0aChfX2ZpbGVfXykucmVzb2x2ZSgpLnBhcmVudHNbMV0Kc3lzLnBhdGguaW5zZXJ0KDAsIHN0cihST09UIC8gInNyYyIpKQpmcm9tIHdlbGxfYXJndWVkX3Byb3NlLmNhdGFsb2cgaW1wb3J0IGxvYWQsIHZhbGlkYXRlX2NhdGFsb2cgICMgbm9xYTogRTQwMgoKCmRlZiBoYW5kYm9vaygpIC0+IHN0cjoKICAgIGRhdGEgPSBsb2FkKCJydWxlcyIpCiAgICBsaW5lcyA9IFsKICAgICAgICAiIyBUaGUgV2VsbC1Bcmd1ZWQgUHJvc2UgUnVsZWJvb2siLCAiIiwKICAgICAgICAiKio1NyBydWxlcyDCtyA5IGxldmVscyDCtyBhcmd1bWVudC1maXJzdCBzY2hvbGFybHkgd3JpdGluZyoqIiwgIiIsCiAgICAgICAgIlRoZSBnb3Zlcm5pbmcgcHJpbmNpcGxlIGlzIHNpbXBsZTogKiphIGNvbmNlcHQgbXVzdCBlYXJuIGl0cyBwbGFjZSBpbiBhbiBhcmd1bWVudC4qKiAiCiAgICAgICAgIlByZWNpc2UgY29uY2VwdHMgZW1lcmdlIGZyb20gYWN0dWFsIGluZmVyZW50aWFsIHByZXNzdXJlIGFuZCBjb250aW51ZSB0byBwZXJmb3JtIGlkZW50aWZpYWJsZSB3b3JrLiIsICIiLAogICAgICAgICIqKlNjb3BlLioqIEVuZ2xpc2gtbGFuZ3VhZ2UgcGhpbG9zb3BoeSwgZXRoaWNzLCB2YWx1ZSB0aGVvcnksIGFuZCBhcmd1bWVudC1kcml2ZW4gbm9ybWF0aXZlIHNjaG9sYXJzaGlwOyAiCiAgICAgICAgIm90aGVyIGRpc2NpcGxpbmVzIG1heSBhZGFwdCB0aGUgc3RhbmRhcmRzIHRvIHRoZWlyIGV2aWRlbmNlIGFuZCBjb252ZW50aW9ucy4iLCAiIiwKICAgICAgICAiKipIb3cgdG8gcmVhZCBlYWNoIHJ1bGUuKiogKlN0YW5kYXJkKiBkZWZpbmVzIHRoZSByZXF1aXJlbWVudDsgKkNvcnB1cyBvYnNlcnZhdGlvbiogZGVzY3JpYmVzIGEgdHJhbnNmZXJhYmxlIHdyaXRpbmcgbW92ZSBmcm9tIHRoZSB0d2VsdmUtcGFwZXIgcmVmZXJlbmNlIGNvcnB1czsgKlJldmlldyBhY3Rpb24qIHN1cHBsaWVzIGFuIGV4ZWN1dGFibGUgaW5zcGVjdGlvbjsgKkV4YW1wbGUqIGlsbHVzdHJhdGVzIGl0cyBhcHBsaWNhdGlvbi4gVGhlc2UgKipzb3VyY2UtbGlua2VkIGV4YW1wbGVzIGFyZSBuZXdseSB3cml0dGVuIGVkaXRvcmlhbCBwYXJhcGhyYXNlcyoqLCBub3QgdmVyYmF0aW0gZXhjZXJwdHMgb3IgdGhlIG9yaWdpbmFsIGF1dGhvcnMnIGV4YWN0IHNlbnRlbmNlcy4gQ29ycHVzIG9ic2VydmF0aW9ucyBhcmUgaW50ZXJwcmV0aXZlLCBub3Qgb2ZmaWNpYWwgam91cm5hbCBpbnN0cnVjdGlvbnMuIiwgIiIsCiAgICAgICAgIiMjIENvbnRlbnRzIiwgIiIsCiAgICBdCiAgICBmb3Igc2VjdGlvbiBpbiBkYXRhWyJzZWN0aW9ucyJdOgogICAgICAgIHNsdWcgPSBzZWN0aW9uWyJuYW1lIl0ubG93ZXIoKS5yZXBsYWNlKCIgIiwgIi0iKQogICAgICAgIGxpbmVzLmFwcGVuZChmIi0gW3tzZWN0aW9uWydpZCddfS4ge3NlY3Rpb25bJ25hbWUnXX1dKCN7c2VjdGlvblsnaWQnXX0te3NsdWd9KSDigJQgUnVsZXMge3NlY3Rpb25bJ3J1bGVfaWRzJ11bMF194oCTe3NlY3Rpb25bJ3J1bGVfaWRzJ11bLTFdfSIpCiAgICBsaW5lcyArPSBbIiIsICItLS0iLCAiIl0KICAgIHNvdXJjZV9ieV9pZCA9IHtwYXBlclsiaWQiXTogcGFwZXIgZm9yIHBhcGVyIGluIGxvYWQoImNvcnB1cyIpfQogICAgZm9yIHNlY3Rpb24gaW4gZGF0YVsic2VjdGlvbnMiXToKICAgICAgICBsaW5lcyArPSBbZiIjIyB7c2VjdGlvblsnaWQnXX0uIHtzZWN0aW9uWyduYW1lJ119IiwgIiJdCiAgICAgICAgZm9yIHIgaW4gZGF0YVsicnVsZXMiXToKICAgICAgICAgICAgaWYgclsic2VjdGlvbiJdICE9IHNlY3Rpb25bImlkIl06CiAgICAgICAgICAgICAgICBjb250aW51ZQogICAgICAgICAgICBsaW5lcyArPSBbCiAgICAgICAgICAgICAgICBmJzxhIGlkPSJydWxlLXtyWyJpZCJdOjAyZH0iPjwvYT4nLCAiIiwKICAgICAgICAgICAgICAgIGYiIyMjIFJ1bGUge3JbJ2lkJ106MDJkfSDigJQge3JbJ3RpdGxlJ119IiwgIiIsCiAgICAgICAgICAgICAgICBmIioqU2NvcGU6Kioge3JbJ3Njb3BlJ119IiwgIiIsCiAgICAgICAgICAgICAgICBmIioqU3RhbmRhcmQuKioge3JbJ3N0YW5kYXJkJ119IiwgIiIsCiAgICAgICAgICAgICAgICBmIioqQ29ycHVzIG9ic2VydmF0aW9uLioqIHtyWydjb3JwdXNfb2JzZXJ2YXRpb24nXX0iLCAiIiwKICAgICAgICAgICAgICAgIGYiKipSZXZpZXcgYWN0aW9uLioqIHtyWydyZXZpZXdfYWN0aW9uJ119IiwgIiIsCiAgICAgICAgICAgICAgICBmIioqRXhhbXBsZS4qKiB7clsnZXhhbXBsZSddfSIsICIiLAogICAgICAgICAgICAgICAgIioqU291cmNlIGFydGljbGUocykuKiogIiArICI7ICIuam9pbigKICAgICAgICAgICAgICAgICAgICBmIlt7c291cmNlX2J5X2lkW3NpZF1bJ2F1dGhvcnMnXX0gKHtzb3VyY2VfYnlfaWRbc2lkXVsneWVhciddfSldIgogICAgICAgICAgICAgICAgICAgIGYiKGh0dHBzOi8vZG9pLm9yZy97c291cmNlX2J5X2lkW3NpZF1bJ2RvaSddfSkiCiAgICAgICAgICAgICAgICAgICAgZm9yIHNpZCBpbiByWydleGFtcGxlX3NvdXJjZXMnXQogICAgICAgICAgICAgICAgKSwgIiIsCiAgICAgICAgICAgIF0KICAgIGxpbmVzICs9IFsiLS0tIiwgIiIsICJGb3IgYSB0YXNrLW9yaWVudGVkIGVudHJ5IHBvaW50LCBzZWUgW1dvcmtmbG93c10od29ya2Zsb3dzLm1kKS4gRm9yIGh1bWFuIHJldmlldywgc2VlIHRoZSBbMjQtcG9pbnQgc2NvcmVjYXJkXShzY29yZWNhcmQubWQpLiIsICIiXQogICAgcmV0dXJuICJcbiIuam9pbihsaW5lcykKCgpkZWYgd29ya2Zsb3dzKCkgLT4gc3RyOgogICAgbGluZXMgPSBbIiMgVGFzay1PcmllbnRlZCBXb3JrZmxvd3MiLCAiIiwgIlVzZSB0aGVzZSBzZXF1ZW5jZXMgYXMgZW50cnkgcG9pbnRzIGludG8gdGhlIHJ1bGVib29rLiBUaGUgbnVtYmVycyBhcmUgYXV0aG9yaXRhdGl2ZSBydWxlIElEcy4iLCAiIl0KICAgIGZvciBpdGVtIGluIGxvYWQoIndvcmtmbG93cyIpOgogICAgICAgIGxpbmtzID0gIiwgIi5qb2luKGYiW1J1bGUge259XShoYW5kYm9vay5tZCNydWxlLXtuOjAyZH0pIiBmb3IgbiBpbiBpdGVtWyJydWxlX2lkcyJdKQogICAgICAgIGxpbmVzICs9IFtmIiMjIHtpdGVtWyd0aXRsZSddfSIsICIiLCBmIioqUnVsZSBzZXF1ZW5jZToqKiB7bGlua3N9IiwgIiIsCiAgICAgICAgICAgICAgICAgIGYiKipDb21wbGV0aW9uIHRlc3Q6Kioge2l0ZW1bJ2V4aXRfY2hlY2snXX0iLCAiIl0KICAgIGxpbmVzICs9IFsiVGhlIG9yaWdpbmFsIG9uZS1wYWdlIGluZGV4IGNvbnRhaW5lZCBzZXZlcmFsIG1pc21hdGNoZWQgcnVsZSBudW1iZXJzLiBBbGwgbnVtYmVycyBoZXJlIGhhdmUgYmVlbiBjaGVja2VkIGFnYWluc3QgdGhlIDU3LXJ1bGUgY2F0YWxvZy4iLCAiIl0KICAgIHJldHVybiAiXG4iLmpvaW4obGluZXMpCgoKZGVmIHNjb3JlY2FyZF9kb2MoKSAtPiBzdHI6CiAgICBzID0gbG9hZCgic2NvcmVjYXJkIikKICAgIGxpbmVzID0gWwogICAgICAgICIjIEh1bWFuIFJldmlldyBTY29yZWNhcmQiLCAiIiwKICAgICAgICAiUmF0ZSBlYWNoIG9mIHRoZSB0d2VsdmUgY3JpdGVyaWEgZnJvbSAqKjAgdG8gMioqOiAwID0gYWJzZW50LCAxID0gcHJlc2VudCBidXQgd2VhaywgMiA9IGNsZWFyIGFuZCBvcGVyYXRpdmUuICIKICAgICAgICAiQSB0b3RhbCBiZWxvdyAqKjIwLzI0KiogY2FsbHMgZm9yIGZ1cnRoZXIgc3RydWN0dXJhbCByZXZpc2lvbiBiZWZvcmUgdGhlIGZpbmFsIGxhbmd1YWdlIHBhc3MuICIKICAgICAgICAiQSBwYXNzaW5nIHNjb3JlIGlzIGFuIGludGVybmFsIHdvcmtmbG93IHRocmVzaG9sZCBhbmQgaGFzIG5vIHN0YXRpc3RpY2FsIHJlbGF0aW9uIHRvIGpvdXJuYWwgYWNjZXB0YW5jZS4iLCAiIiwKICAgICAgICAifCBDcml0ZXJpb24gfCBTdGFuZGFyZCBmb3IgMiBwb2ludHMgfCBSdWxlcyB8IiwgInwtLS18LS0tfC0tLXwiLAogICAgXQogICAgZm9yIGNyaXRlcmlvbiBpbiBzWyJjcml0ZXJpYSJdOgogICAgICAgIGxpbmVzLmFwcGVuZChmInwge2NyaXRlcmlvblsndGl0bGUnXX0gfCB7Y3JpdGVyaW9uWyd0d29fcG9pbnRfc3RhbmRhcmQnXX0gfCB7JywgJy5qb2luKG1hcChzdHIsIGNyaXRlcmlvblsncnVsZV9pZHMnXSkpfSB8IikKICAgIGxpbmVzICs9IFsiIiwgIiMjIE1hbmRhdG9yeSBjcm9zcy1jdXR0aW5nIGNoZWNrcyIsICIiXQogICAgZm9yIGl0ZW0gaW4gc1siY3Jvc3NfY3V0dGluZ19jaGVja3MiXToKICAgICAgICBsaW5lcy5hcHBlbmQoZiItICoqe2l0ZW1bJ3RpdGxlJ119IChSdWxlcyB7JywgJy5qb2luKG1hcChzdHIsIGl0ZW1bJ3J1bGVfaWRzJ10pKX0pLioqIHtpdGVtWydpbnN0cnVjdGlvbiddfSIpCiAgICBsaW5lcyArPSBbIiIsICIjIyBVc2UgaW4gdGhlIENMSSIsICIiLCAiYGBgYmFzaCIsICJ3ZWxsLWFyZ3VlZC1wcm9zZSBzY29yZWNhcmQgaW5pdCBteS1yZXZpZXcuanNvbiIsICIjIEVkaXQgZWFjaCByYXRpbmcgKDAsIDEsIG9yIDIpIGFuZCBlbnRlciBzdXBwb3J0aW5nIGV2aWRlbmNlLiIsICJ3ZWxsLWFyZ3VlZC1wcm9zZSBzY29yZWNhcmQgZXZhbHVhdGUgbXktcmV2aWV3Lmpzb24iLCAiYGBgIiwgIiIsICJUaGUgcmF0aW5ncyBhcmUgc3VwcGxpZWQgYnkgdGhlIHJldmlld2VyLCBuZXZlciBpbnZlbnRlZCBieSB0aGUgcHJvZ3JhbS4iLCAiIl0KICAgIHJldHVybiAiXG4iLmpvaW4obGluZXMpCgoKZGVmIGNvcnB1c19kb2MoKSAtPiBzdHI6CiAgICBsaW5lcyA9IFsiIyBSZWZlcmVuY2UgQ29ycHVzOiBUd2VsdmUgQXJ0aWNsZXMgaW4gKk1pbmQqIiwgIiIsICJUaGUgcnVsZWJvb2sgaXMgaW5mb3JtZWQgYnkgYW4gaW50ZXJwcmV0aXZlIGNvbXBhcmlzb24gb2YgdGhlc2UgZXNzYXlzLiAiCiAgICAgICAgICAgICAiVGhlIGpvdXJuYWwgaGFzIG5vdCBlbmRvcnNlZCB0aGlzIHByb2plY3QsIGFuZCB0aGUgZGVyaXZlZCBlZGl0b3JpYWwgZ3VpZGVsaW5lcyBhcmUgbm90IGl0cyBmb3JtYWwgc3VibWlzc2lvbiByZXF1aXJlbWVudHMuIiwgIiIsCiAgICAgICAgICAgICAiQWxsIHJlZmVyZW5jZXMgbGluayB0byB0aGUgYXJ0aWNsZXMnIERPSSBsYW5kaW5nIHBhZ2VzLiBBcnRpY2xlIHRleHQgaXMgbm90IHJlZGlzdHJpYnV0ZWQuIiwgIiJdCiAgICBmb3IgaSwgaXRlbSBpbiBlbnVtZXJhdGUobG9hZCgiY29ycHVzIiksIDEpOgogICAgICAgIGxpbmVzICs9IFtmIntpfS4gKip7aXRlbVsnYXV0aG9ycyddfSAoe2l0ZW1bJ3llYXInXX0pLioqIFt7aXRlbVsndGl0bGUnXX1dKGh0dHBzOi8vZG9pLm9yZy97aXRlbVsnZG9pJ119KS4gKntpdGVtWydqb3VybmFsJ119Ki4gICIsCiAgICAgICAgICAgICAgICAgIGYiICAgKipUcmFuc2ZlcmFibGUgbW92ZToqKiB7aXRlbVsnd3JpdGluZ19tb3ZlJ119IiwgIiJdCiAgICByZXR1cm4gIlxuIi5qb2luKGxpbmVzKQoKCmRlZiBleGFtcGxlX3NvdXJjZXNfZG9jKCkgLT4gc3RyOgogICAgIiIiQSBydWxlLWJ5LXJ1bGUgYmlibGlvZ3JhcGh5IG1hcHBpbmcsIHdpdGhvdXQgcmVwcm9kdWNpbmcgYXJ0aWNsZSB0ZXh0LiIiIgogICAgcnVsZXMgPSBsb2FkKCJydWxlcyIpWyJydWxlcyJdCiAgICBwYXBlcnMgPSB7aXRlbVsiaWQiXTogaXRlbSBmb3IgaXRlbSBpbiBsb2FkKCJjb3JwdXMiKX0KICAgIGxpbmVzID0gWwogICAgICAgICIjIFB1Ymxpc2hlZC1BcnRpY2xlIEV4YW1wbGUgU291cmNlcyIsICIiLAogICAgICAgICJFYWNoIG9mIHRoZSA1NyBydWxlLWxldmVsIGV4YW1wbGVzIGlzIGFuICoqb3JpZ2luYWwgZWRpdG9yaWFsIHJlY29uc3RydWN0aW9uKiogZ3JvdW5kZWQgaW4gIgogICAgICAgICJhIHB1Ymxpc2hlZCAqTWluZCogcGFwZXIsIG5vdCBhIHF1b3RhdGlvbiBmcm9tIHRoZSBhdXRob3IncyBtYW51c2NyaXB0LiAiCiAgICAgICAgIlRoZSBET0kgbGlua3MgcG9pbnQgdG8gdGhlIG9yaWdpbmFsIHB1YmxpY2F0aW9uLiBObyBhcnRpY2xlIHRleHQgaXMgcmVkaXN0cmlidXRlZCBoZXJlLiIsICIiLAogICAgICAgICJ8IFJ1bGUgfCBTdXBwb3J0aW5nICpNaW5kKiBwYXBlcihzKSB8IiwgInwtLS18LS0tfCIsCiAgICBdCiAgICBmb3IgcnVsZSBpbiBydWxlczoKICAgICAgICByZWZzID0gIjsgIi5qb2luKAogICAgICAgICAgICBmIlt7cGFwZXJzW3NpZF1bJ2F1dGhvcnMnXX0gKHtwYXBlcnNbc2lkXVsneWVhciddfSldKGh0dHBzOi8vZG9pLm9yZy97cGFwZXJzW3NpZF1bJ2RvaSddfSkiCiAgICAgICAgICAgIGZvciBzaWQgaW4gcnVsZVsiZXhhbXBsZV9zb3VyY2VzIl0KICAgICAgICApCiAgICAgICAgbGluZXMuYXBwZW5kKGYifCBbUnVsZSB7cnVsZVsnaWQnXTowMmR9XShoYW5kYm9vay5tZCNydWxlLXtydWxlWydpZCddOjAyZH0pIHwge3JlZnN9IHwiKQogICAgbGluZXMgKz0gWyIiLCAiU2VlIHRoZSBbcmVmZXJlbmNlIGNvcnB1c10oY29ycHVzLm1kKSBmb3IgdGl0bGVzIGFuZCB0aGUgIgogICAgICAgICAgICAgICJbZWRpdG9yaWFsIG5vdGVzXShzb3VyY2Utbm90ZXMubWQpIGZvciBsaW1pdHMgb24gaW50ZXJwcmV0YXRpb24uIiwgIiJdCiAgICByZXR1cm4gIlxuIi5qb2luKGxpbmVzKQoKCmRlZiBtYWluKCkgLT4gaW50OgogICAgYXAgPSBhcmdwYXJzZS5Bcmd1bWVudFBhcnNlcigpCiAgICBhcC5hZGRfYXJndW1lbnQoIi0tY2hlY2siLCBhY3Rpb249InN0b3JlX3RydWUiLCBoZWxwPSJGYWlsIGlmIGdlbmVyYXRlZCBmaWxlcyBhcmUgb3V0IG9mIHN5bmMiKQogICAgYXJncyA9IGFwLnBhcnNlX2FyZ3MoKQogICAgcHJvYmxlbXMgPSB2YWxpZGF0ZV9jYXRhbG9nKCkKICAgIGlmIHByb2JsZW1zOgogICAgICAgIHJhaXNlIFN5c3RlbUV4aXQoIkludmFsaWQgY2F0YWxvZzogIiArICI7ICIuam9pbihwcm9ibGVtcykpCiAgICBvdXRwdXQgPSB7CiAgICAgICAgImhhbmRib29rLm1kIjpoYW5kYm9vaygpLAogICAgICAgICJ3b3JrZmxvd3MubWQiOndvcmtmbG93cygpLAogICAgICAgICJzY29yZWNhcmQubWQiOnNjb3JlY2FyZF9kb2MoKSwKICAgICAgICAiY29ycHVzLm1kIjpjb3JwdXNfZG9jKCksCiAgICAgICAgImV4YW1wbGUtc291cmNlcy5tZCI6ZXhhbXBsZV9zb3VyY2VzX2RvYygpLAogICAgfQogICAgZm9yIG5hbWUsIGNvbnRlbnQgaW4gb3V0cHV0Lml0ZW1zKCk6CiAgICAgICAgcGF0aCA9IFJPT1QgLyAiZG9jcyIgLyBuYW1lCiAgICAgICAgaWYgYXJncy5jaGVjazoKICAgICAgICAgICAgaWYgbm90IHBhdGguZXhpc3RzKCkgb3IgcGF0aC5yZWFkX3RleHQoZW5jb2Rpbmc9InV0Zi04IikgIT0gY29udGVudDoKICAgICAgICAgICAgICAgIHByaW50KGYiT3V0IG9mIGRhdGU6IHtwYXRofSIsIGZpbGU9c3lzLnN0ZGVycikKICAgICAgICAgICAgICAgIHJldHVybiAxCiAgICAgICAgZWxzZToKICAgICAgICAgICAgcGF0aC53cml0ZV90ZXh0KGNvbnRlbnQsIGVuY29kaW5nPSJ1dGYtOCIpCiAgICAgICAgICAgIHByaW50KGYiV3JvdGUge3BhdGgucmVsYXRpdmVfdG8oUk9PVCl9IikKICAgIGlmIGFyZ3MuY2hlY2s6CiAgICAgICAgcHJpbnQoIkdlbmVyYXRlZCBkb2N1bWVudGF0aW9uIG1hdGNoZXMgY2F0YWxvZy4iKQogICAgcmV0dXJuIDAKCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgcmFpc2UgU3lzdGVtRXhpdChtYWluKCkpCg==
+"""Generate complete English documentation from JSON (single source of truth).
+
+Run from any working directory:
+    python scripts/build_handbook.py
+    python scripts/build_handbook.py --check
+"""
+from __future__ import annotations
+
+import argparse
+from pathlib import Path
+import sys
+
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "src"))
+from well_argued_prose.catalog import load, validate_catalog  # noqa: E402
+
+
+def handbook() -> str:
+    data = load("rules")
+    lines = [
+        "# The Well-Argued Prose Rulebook", "",
+        "**57 rules · 9 levels · argument-first scholarly writing**", "",
+        "The governing principle is simple: **a concept must earn its place in an argument.** "
+        "Precise concepts emerge from actual inferential pressure and continue to perform identifiable work.", "",
+        "**Scope.** English-language philosophy, ethics, value theory, and argument-driven normative scholarship; "
+        "other disciplines may adapt the standards to their evidence and conventions.", "",
+        "**How to read each rule.** *Standard* defines the requirement; *Corpus observation* describes a transferable writing move from the twelve-paper reference corpus; *Review action* supplies an executable inspection; *Example* illustrates its application. These **source-linked examples are newly written editorial paraphrases**, not verbatim excerpts or the original authors' exact sentences. Corpus observations are interpretive, not official journal instructions.", "",
+        "## Contents", "",
+    ]
+    for section in data["sections"]:
+        slug = section["name"].lower().replace(" ", "-")
+        lines.append(f"- [{section['id']}. {section['name']}](#{section['id']}-{slug}) — Rules {section['rule_ids'][0]}–{section['rule_ids'][-1]}")
+    lines += ["", "---", ""]
+    source_by_id = {paper["id"]: paper for paper in load("corpus")}
+    for section in data["sections"]:
+        lines += [f"## {section['id']}. {section['name']}", ""]
+        for r in data["rules"]:
+            if r["section"] != section["id"]:
+                continue
+            lines += [
+                f'<a id="rule-{r["id"]:02d}"></a>', "",
+                f"### Rule {r['id']:02d} — {r['title']}", "",
+                f"**Scope:** {r['scope']}", "",
+                f"**Standard.** {r['standard']}", "",
+                f"**Corpus observation.** {r['corpus_observation']}", "",
+                f"**Review action.** {r['review_action']}", "",
+                f"**Example.** {r['example']}", "",
+                "**Source article(s).** " + "; ".join(
+                    f"[{source_by_id[sid]['authors']} ({source_by_id[sid]['year']})]"
+                    f"(https://doi.org/{source_by_id[sid]['doi']})"
+                    for sid in r['example_sources']
+                ), "",
+            ]
+    lines += ["---", "", "For a task-oriented entry point, see [Workflows](workflows.md). For human review, see the [24-point scorecard](scorecard.md).", ""]
+    return "\n".join(lines)
+
+
+def workflows() -> str:
+    lines = ["# Task-Oriented Workflows", "", "Use these sequences as entry points into the rulebook. The numbers are authoritative rule IDs.", ""]
+    for item in load("workflows"):
+        links = ", ".join(f"[Rule {n}](handbook.md#rule-{n:02d})" for n in item["rule_ids"])
+        lines += [f"## {item['title']}", "", f"**Rule sequence:** {links}", "",
+                  f"**Completion test:** {item['exit_check']}", ""]
+    lines += ["The original one-page index contained several mismatched rule numbers. All numbers here have been checked against the 57-rule catalog.", ""]
+    return "\n".join(lines)
+
+
+def scorecard_doc() -> str:
+    s = load("scorecard")
+    lines = [
+        "# Human Review Scorecard", "",
+        "Rate each of the twelve criteria from **0 to 2**: 0 = absent, 1 = present but weak, 2 = clear and operative. "
+        "A total below **20/24** calls for further structural revision before the final language pass. "
+        "A passing score is an internal workflow threshold and has no statistical relation to journal acceptance.", "",
+        "| Criterion | Standard for 2 points | Rules |", "|---|---|---|",
+    ]
+    for criterion in s["criteria"]:
+        lines.append(f"| {criterion['title']} | {criterion['two_point_standard']} | {', '.join(map(str, criterion['rule_ids']))} |")
+    lines += ["", "## Mandatory cross-cutting checks", ""]
+    for item in s["cross_cutting_checks"]:
+        lines.append(f"- **{item['title']} (Rules {', '.join(map(str, item['rule_ids']))}).** {item['instruction']}")
+    lines += ["", "## Use in the CLI", "", "```bash", "well-argued-prose scorecard init my-review.json", "# Edit each rating (0, 1, or 2) and enter supporting evidence.", "well-argued-prose scorecard evaluate my-review.json", "```", "", "The ratings are supplied by the reviewer, never invented by the program.", ""]
+    return "\n".join(lines)
+
+
+def corpus_doc() -> str:
+    lines = ["# Reference Corpus: Twelve Articles in *Mind*", "", "The rulebook is informed by an interpretive comparison of these essays. "
+             "The journal has not endorsed this project, and the derived editorial guidelines are not its formal submission requirements.", "",
+             "All references link to the articles' DOI landing pages. Article text is not redistributed.", ""]
+    for i, item in enumerate(load("corpus"), 1):
+        lines += [f"{i}. **{item['authors']} ({item['year']}).** [{item['title']}](https://doi.org/{item['doi']}). *{item['journal']}*.  ",
+                  f"   **Transferable move:** {item['writing_move']}", ""]
+    return "\n".join(lines)
+
+
+def example_sources_doc() -> str:
+    """A rule-by-rule bibliography mapping, without reproducing article text."""
+    rules = load("rules")["rules"]
+    papers = {item["id"]: item for item in load("corpus")}
+    lines = [
+        "# Published-Article Example Sources", "",
+        "Each of the 57 rule-level examples is an **original editorial reconstruction** grounded in "
+        "a published *Mind* paper, not a quotation from the author's manuscript. "
+        "The DOI links point to the original publication. No article text is redistributed here.", "",
+        "| Rule | Supporting *Mind* paper(s) |", "|---|---|",
+    ]
+    for rule in rules:
+        refs = "; ".join(
+            f"[{papers[sid]['authors']} ({papers[sid]['year']})](https://doi.org/{papers[sid]['doi']})"
+            for sid in rule["example_sources"]
+        )
+        lines.append(f"| [Rule {rule['id']:02d}](handbook.md#rule-{rule['id']:02d}) | {refs} |")
+    lines += ["", "See the [reference corpus](corpus.md) for titles and the "
+              "[editorial notes](source-notes.md) for limits on interpretation.", ""]
+    return "\n".join(lines)
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--check", action="store_true", help="Fail if generated files are out of sync")
+    args = ap.parse_args()
+    problems = validate_catalog()
+    if problems:
+        raise SystemExit("Invalid catalog: " + "; ".join(problems))
+    output = {
+        "handbook.md":handbook(),
+        "workflows.md":workflows(),
+        "scorecard.md":scorecard_doc(),
+        "corpus.md":corpus_doc(),
+        "example-sources.md":example_sources_doc(),
+    }
+    for name, content in output.items():
+        path = ROOT / "docs" / name
+        if args.check:
+            if not path.exists() or path.read_text(encoding="utf-8") != content:
+                print(f"Out of date: {path}", file=sys.stderr)
+                return 1
+        else:
+            path.write_text(content, encoding="utf-8")
+            print(f"Wrote {path.relative_to(ROOT)}")
+    if args.check:
+        print("Generated documentation matches catalog.")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
