@@ -53,10 +53,12 @@ class CatalogTests(unittest.TestCase):
         self.assertEqual(known, used)  # all twelve corpus articles inform examples
 
     def test_attribution_and_release_metadata(self):
-        self.assertIn("FerdinandRies", (ROOT / "AUTHORS.md").read_text())
-        self.assertIn("FerdinandRies", (ROOT / "CITATION.cff").read_text())
-        self.assertIn("FerdinandRies", (ROOT / "LICENSE").read_text())
-        self.assertIn("FerdinandRies", (ROOT / "LICENSE-CONTENT.md").read_text())
+        self.assertIn("Ferdinand Ries", (ROOT / "AUTHORS.md").read_text())
+        citation = (ROOT / "CITATION.cff").read_text()
+        self.assertIn('given-names: "Ferdinand"', citation)
+        self.assertIn('family-names: "Ries"', citation)
+        self.assertIn("Ferdinand Ries", (ROOT / "LICENSE").read_text())
+        self.assertIn("Ferdinand Ries", (ROOT / "LICENSE-CONTENT.md").read_text())
 
     def test_generated_rulebook_is_complete(self):
         content = (ROOT / "docs" / "handbook.md").read_text(encoding="utf-8")
