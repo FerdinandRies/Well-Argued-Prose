@@ -1,1 +1,48 @@
-ZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCmltcG9ydCBzeXMKaW1wb3J0IHVuaXR0ZXN0CgpST09UID0gUGF0aChfX2ZpbGVfXykucmVzb2x2ZSgpLnBhcmVudHNbMV0Kc3lzLnBhdGguaW5zZXJ0KDAsIHN0cihST09UIC8gInNyYyIpKQoKZnJvbSB3ZWxsX2FyZ3VlZF9wcm9zZS5zY29yaW5nIGltcG9ydCBtYWtlX3RlbXBsYXRlLCBldmFsdWF0ZQoKCmNsYXNzIFNjb3JlY2FyZFRlc3RzKHVuaXR0ZXN0LlRlc3RDYXNlKToKICAgIGRlZiB0ZXN0X3RlbXBsYXRlX2lzX25ldmVyX2F1dG9fc2NvcmVkKHNlbGYpOgogICAgICAgIHBheWxvYWQgPSBtYWtlX3RlbXBsYXRlKCkKICAgICAgICBzZWxmLmFzc2VydEVxdWFsKDEyLCBsZW4ocGF5bG9hZFsiY3JpdGVyaWEiXSkpCiAgICAgICAgc2VsZi5hc3NlcnRUcnVlKGFsbChpdGVtWyJzY29yZSJdIGlzIE5vbmUgZm9yIGl0ZW0gaW4gcGF5bG9hZFsiY3JpdGVyaWEiXSkpCiAgICAgICAgd2l0aCBzZWxmLmFzc2VydFJhaXNlc1JlZ2V4KFZhbHVlRXJyb3IsICJtdXN0IGhhdmUgYW4gaW50ZWdlciBzY29yZSIpOgogICAgICAgICAgICBldmFsdWF0ZShwYXlsb2FkKQoKICAgIGRlZiB0ZXN0X3Njb3JlX3JlcXVpcmVzX3NwZWNpZmljX2V2aWRlbmNlKHNlbGYpOgogICAgICAgIHBheWxvYWQgPSBtYWtlX3RlbXBsYXRlKCkKICAgICAgICBmb3IgaXRlbSBpbiBwYXlsb2FkWyJjcml0ZXJpYSJdOgogICAgICAgICAgICBpdGVtWyJzY29yZSJdID0gMgogICAgICAgIHdpdGggc2VsZi5hc3NlcnRSYWlzZXNSZWdleChWYWx1ZUVycm9yLCAibmVlZHMgdGV4dHVhbCBldmlkZW5jZSIpOgogICAgICAgICAgICBldmFsdWF0ZShwYXlsb2FkKQoKICAgIGRlZiB0ZXN0XzI0X3BvaW50X3Jldmlld190aHJlc2hvbGQoc2VsZik6CiAgICAgICAgcGF5bG9hZCA9IG1ha2VfdGVtcGxhdGUoKQogICAgICAgIGZvciBpbmRleCwgaXRlbSBpbiBlbnVtZXJhdGUocGF5bG9hZFsiY3JpdGVyaWEiXSk6CiAgICAgICAgICAgIGl0ZW1bInNjb3JlIl0gPSAyIGlmIGluZGV4IDwgMTAgZWxzZSAwCiAgICAgICAgICAgIGl0ZW1bImV2aWRlbmNlIl0gPSAiUmVsZXZhbnQgbWFudXNjcmlwdCBwYXNzYWdlIGFuZCBpbmZlcmVudGlhbCByb2xlIGFyZSBzcGVjaWZpZWQuIiBpZiBpdGVtWyJzY29yZSJdIGVsc2UgIiIKICAgICAgICByZXN1bHQgPSBldmFsdWF0ZShwYXlsb2FkKQogICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwoMjAsIHJlc3VsdFsic2NvcmUiXSkKICAgICAgICBzZWxmLmFzc2VydFRydWUocmVzdWx0WyJyZXZpZXdfdGhyZXNob2xkX21ldCJdKQogICAgICAgIHBheWxvYWRbImNyaXRlcmlhIl1bOV1bInNjb3JlIl0gPSAxCiAgICAgICAgc2VsZi5hc3NlcnRFcXVhbCgxOSwgZXZhbHVhdGUocGF5bG9hZClbInNjb3JlIl0pCiAgICAgICAgc2VsZi5hc3NlcnRGYWxzZShldmFsdWF0ZShwYXlsb2FkKVsicmV2aWV3X3RocmVzaG9sZF9tZXQiXSkKCiAgICBkZWYgdGVzdF9yZWplY3RfZHVwbGljYXRlX2lkc19hbmRfYm9vbGVhbl9zY29yZXMoc2VsZik6CiAgICAgICAgcGF5bG9hZCA9IG1ha2VfdGVtcGxhdGUoKQogICAgICAgIGZvciBpdGVtIGluIHBheWxvYWRbImNyaXRlcmlhIl06CiAgICAgICAgICAgIGl0ZW1bInNjb3JlIl0gPSAwCiAgICAgICAgcGF5bG9hZFsiY3JpdGVyaWEiXVswXVsic2NvcmUiXSA9IFRydWUKICAgICAgICB3aXRoIHNlbGYuYXNzZXJ0UmFpc2VzUmVnZXgoVmFsdWVFcnJvciwgImludGVnZXIgc2NvcmUiKToKICAgICAgICAgICAgZXZhbHVhdGUocGF5bG9hZCkKICAgICAgICBwYXlsb2FkWyJjcml0ZXJpYSJdWzBdWyJzY29yZSJdID0gMAogICAgICAgIHBheWxvYWRbImNyaXRlcmlhIl1bMF1bImlkIl0gPSBwYXlsb2FkWyJjcml0ZXJpYSJdWzFdWyJpZCJdCiAgICAgICAgd2l0aCBzZWxmLmFzc2VydFJhaXNlc1JlZ2V4KFZhbHVlRXJyb3IsICJkdXBsaWNhdGVkIik6CiAgICAgICAgICAgIGV2YWx1YXRlKHBheWxvYWQpCg==
+from pathlib import Path
+import sys
+import unittest
+
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "src"))
+
+from well_argued_prose.scoring import make_template, evaluate
+
+
+class ScorecardTests(unittest.TestCase):
+    def test_template_is_never_auto_scored(self):
+        payload = make_template()
+        self.assertEqual(12, len(payload["criteria"]))
+        self.assertTrue(all(item["score"] is None for item in payload["criteria"]))
+        with self.assertRaisesRegex(ValueError, "must have an integer score"):
+            evaluate(payload)
+
+    def test_score_requires_specific_evidence(self):
+        payload = make_template()
+        for item in payload["criteria"]:
+            item["score"] = 2
+        with self.assertRaisesRegex(ValueError, "needs textual evidence"):
+            evaluate(payload)
+
+    def test_24_point_review_threshold(self):
+        payload = make_template()
+        for index, item in enumerate(payload["criteria"]):
+            item["score"] = 2 if index < 10 else 0
+            item["evidence"] = "Relevant manuscript passage and inferential role are specified." if item["score"] else ""
+        result = evaluate(payload)
+        self.assertEqual(20, result["score"])
+        self.assertTrue(result["review_threshold_met"])
+        payload["criteria"][9]["score"] = 1
+        self.assertEqual(19, evaluate(payload)["score"])
+        self.assertFalse(evaluate(payload)["review_threshold_met"])
+
+    def test_reject_duplicate_ids_and_boolean_scores(self):
+        payload = make_template()
+        for item in payload["criteria"]:
+            item["score"] = 0
+        payload["criteria"][0]["score"] = True
+        with self.assertRaisesRegex(ValueError, "integer score"):
+            evaluate(payload)
+        payload["criteria"][0]["score"] = 0
+        payload["criteria"][0]["id"] = payload["criteria"][1]["id"]
+        with self.assertRaisesRegex(ValueError, "duplicated"):
+            evaluate(payload)
