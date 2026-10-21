@@ -1,1 +1,65 @@
-IyBUYXNrLU9yaWVudGVkIFdvcmtmbG93cwoKVXNlIHRoZXNlIHNlcXVlbmNlcyBhcyBlbnRyeSBwb2ludHMgaW50byB0aGUgcnVsZWJvb2suIFRoZSBudW1iZXJzIGFyZSBhdXRob3JpdGF0aXZlIHJ1bGUgSURzLgoKIyMgV3JpdGUgb3IgcmV2aXNlIGFuIGFic3RyYWN0CgoqKlJ1bGUgc2VxdWVuY2U6KiogW1J1bGUgM10oaGFuZGJvb2subWQjcnVsZS0wMyksIFtSdWxlIDRdKGhhbmRib29rLm1kI3J1bGUtMDQpLCBbUnVsZSAxM10oaGFuZGJvb2subWQjcnVsZS0xMyksIFtSdWxlIDE4XShoYW5kYm9vay5tZCNydWxlLTE4KSwgW1J1bGUgMzhdKGhhbmRib29rLm1kI3J1bGUtMzgpCgoqKkNvbXBsZXRpb24gdGVzdDoqKiBQcm9ibGVtLCBkZWJhdGUsIGdhcCwgY29udHJpYnV0aW9uLCB0ZXN0LCBhbmQganVzdGlmaWVkIGJvdW5kYXJ5IGFyZSBsZWdpYmxlLgoKIyMgQnVpbGQgYW4gaW50cm9kdWN0aW9uCgoqKlJ1bGUgc2VxdWVuY2U6KiogW1J1bGUgMV0oaGFuZGJvb2subWQjcnVsZS0wMSksIFtSdWxlIDJdKGhhbmRib29rLm1kI3J1bGUtMDIpLCBbUnVsZSAzXShoYW5kYm9vay5tZCNydWxlLTAzKSwgW1J1bGUgNF0oaGFuZGJvb2subWQjcnVsZS0wNCksIFtSdWxlIDE0XShoYW5kYm9vay5tZCNydWxlLTE0KSwgW1J1bGUgMjZdKGhhbmRib29rLm1kI3J1bGUtMjYpLCBbUnVsZSA0M10oaGFuZGJvb2subWQjcnVsZS00MykKCioqQ29tcGxldGlvbiB0ZXN0OioqIEFuIGludGVybmFsIHByb2JsZW0gcHJlY2VkZXMgdGhlIGNlbnRyYWwgY29uY2VwdDsgdGhlIGNvbnRyaWJ1dGlvbiBhbmQgaW5mZXJlbnRpYWwgcm91dGUgYXJlIGNsZWFyLgoKIyMgUmVjb25zdHJ1Y3QgYSBsaXRlcmF0dXJlIGNvbnZlcnNhdGlvbgoKKipSdWxlIHNlcXVlbmNlOioqIFtSdWxlIDEyXShoYW5kYm9vay5tZCNydWxlLTEyKSwgW1J1bGUgMjJdKGhhbmRib29rLm1kI3J1bGUtMjIpLCBbUnVsZSAyOV0oaGFuZGJvb2subWQjcnVsZS0yOSksIFtSdWxlIDM2XShoYW5kYm9vay5tZCNydWxlLTM2KSwgW1J1bGUgNTBdKGhhbmRib29rLm1kI3J1bGUtNTApCgoqKkNvbXBsZXRpb24gdGVzdDoqKiBFdmVyeSBzb3VyY2UgaGFzIGFuIGFyZ3VtZW50YXRpdmUgZnVuY3Rpb24gYW5kIHRoZSByZW1haW5pbmcgcHJvYmxlbSBpcyBwcmVjaXNlLgoKIyMgRGV2ZWxvcCBhIHRoZW9yZXRpY2FsIGFjY291bnQKCioqUnVsZSBzZXF1ZW5jZToqKiBbUnVsZSAxNV0oaGFuZGJvb2subWQjcnVsZS0xNSksIFtSdWxlIDI2XShoYW5kYm9vay5tZCNydWxlLTI2KSwgW1J1bGUgMjddKGhhbmRib29rLm1kI3J1bGUtMjcpLCBbUnVsZSAyOF0oaGFuZGJvb2subWQjcnVsZS0yOCksIFtSdWxlIDI5XShoYW5kYm9vay5tZCNydWxlLTI5KSwgW1J1bGUgMzBdKGhhbmRib29rLm1kI3J1bGUtMzApLCBbUnVsZSAzMV0oaGFuZGJvb2subWQjcnVsZS0zMSkKCioqQ29tcGxldGlvbiB0ZXN0OioqIERlZmluaXRpb24sIGNvbmNlcHR1YWwgd29yaywgY29uZGl0aW9ucywgY291bnRlcmZlaXRzLCBhbmQgYm91bmRhcmllcyBhcmUgb3BlcmF0aW9uYWwuCgojIyBUZXN0IHdpdGggY2FzZXMKCioqUnVsZSBzZXF1ZW5jZToqKiBbUnVsZSAxNl0oaGFuZGJvb2subWQjcnVsZS0xNiksIFtSdWxlIDIzXShoYW5kYm9vay5tZCNydWxlLTIzKSwgW1J1bGUgMzBdKGhhbmRib29rLm1kI3J1bGUtMzApLCBbUnVsZSAzM10oaGFuZGJvb2subWQjcnVsZS0zMyksIFtSdWxlIDM0XShoYW5kYm9vay5tZCNydWxlLTM0KQoKKipDb21wbGV0aW9uIHRlc3Q6KiogRXZlcnkgY2FzZSBpc29sYXRlcyBhIHRhcmdldCBjb25kaXRpb24gYW5kIGNoYW5nZXMgb3IgY29uZmlybXMgYSB0aGVvcmV0aWNhbCBqdWRnbWVudC4KCiMjIFdyaXRlIGFuIG9iamVjdGlvbnMgc2VjdGlvbgoKKipSdWxlIHNlcXVlbmNlOioqIFtSdWxlIDE3XShoYW5kYm9vay5tZCNydWxlLTE3KSwgW1J1bGUgMjldKGhhbmRib29rLm1kI3J1bGUtMjkpLCBbUnVsZSAzMV0oaGFuZGJvb2subWQjcnVsZS0zMSksIFtSdWxlIDM1XShoYW5kYm9vay5tZCNydWxlLTM1KSwgW1J1bGUgMzhdKGhhbmRib29rLm1kI3J1bGUtMzgpCgoqKkNvbXBsZXRpb24gdGVzdDoqKiBTdHJvbmdlc3QgdGhyZWF0cyBoYXZlIGJlZW4gZ3JvdXBlZCBhbmQgYWRtaXR0ZWQgaW50byB0aGUgdGhlb3J5J3MgY29uZGl0aW9ucyBvciBsaW1pdHMuCgojIyBSZXZpc2UgYSBwYXJhZ3JhcGgKCioqUnVsZSBzZXF1ZW5jZToqKiBbUnVsZSAxOV0oaGFuZGJvb2subWQjcnVsZS0xOSksIFtSdWxlIDIwXShoYW5kYm9vay5tZCNydWxlLTIwKSwgW1J1bGUgMjFdKGhhbmRib29rLm1kI3J1bGUtMjEpLCBbUnVsZSAyNF0oaGFuZGJvb2subWQjcnVsZS0yNCksIFtSdWxlIDI1XShoYW5kYm9vay5tZCNydWxlLTI1KSwgW1J1bGUgNTRdKGhhbmRib29rLm1kI3J1bGUtNTQpCgoqKkNvbXBsZXRpb24gdGVzdDoqKiBPbmUgcHJpbmNpcGFsIGFjdGlvbiwgY2xlYXIgZGlyZWN0aW9uLCBhIHdhcnJhbnRlZCBhZHZhbmNlLCBhbmQgbm8gZGlzcGVuc2FibGUgcmVwZXRpdGlvbi4KCiMjIFJldmlzZSBzZW50ZW5jZXMgYW5kIGluZmVyZW5jZQoKKipSdWxlIHNlcXVlbmNlOioqIFtSdWxlIDM3XShoYW5kYm9vay5tZCNydWxlLTM3KSwgW1J1bGUgMzldKGhhbmRib29rLm1kI3J1bGUtMzkpLCBbUnVsZSA0MF0oaGFuZGJvb2subWQjcnVsZS00MCksIFtSdWxlIDQxXShoYW5kYm9vay5tZCNydWxlLTQxKSwgW1J1bGUgNDRdKGhhbmRib29rLm1kI3J1bGUtNDQpLCBbUnVsZSA0NV0oaGFuZGJvb2subWQjcnVsZS00NSksIFtSdWxlIDU1XShoYW5kYm9vay5tZCNydWxlLTU1KQoKKipDb21wbGV0aW9uIHRlc3Q6KiogUHJlZGljYXRlcyByZXZlYWwgcmVsYXRpb25zOyBjb25uZWN0aXZlcyBuYW1lIHN1cHBvcnRlZCBsb2dpY2FsIHN0ZXBzLgoKIyMgUG9saXNoIGFjYWRlbWljIGRpY3Rpb24KCioqUnVsZSBzZXF1ZW5jZToqKiBbUnVsZSA0MV0oaGFuZGJvb2subWQjcnVsZS00MSksIFtSdWxlIDQyXShoYW5kYm9vay5tZCNydWxlLTQyKSwgW1J1bGUgNDRdKGhhbmRib29rLm1kI3J1bGUtNDQpLCBbUnVsZSA0Nl0oaGFuZGJvb2subWQjcnVsZS00NiksIFtSdWxlIDQ3XShoYW5kYm9vay5tZCNydWxlLTQ3KSwgW1J1bGUgNDhdKGhhbmRib29rLm1kI3J1bGUtNDgpLCBbUnVsZSA0OV0oaGFuZGJvb2subWQjcnVsZS00OSksIFtSdWxlIDUxXShoYW5kYm9vay5tZCNydWxlLTUxKSwgW1J1bGUgNTZdKGhhbmRib29rLm1kI3J1bGUtNTYpCgoqKkNvbXBsZXRpb24gdGVzdDoqKiBUZXJtcyBhcmUgc3RhYmxlLCB2ZXJicyBiZWFyIGV4cGxhbmF0b3J5IHdvcmssIGFuZCBtb2RhbCBmb3JjZSBpcyBqdXN0aWZpZWQuCgojIyBQZXJmb3JtIGEgZmluYWwgcHJlLXN1Ym1pc3Npb24gcmV2aWV3CgoqKlJ1bGUgc2VxdWVuY2U6KiogW1J1bGUgNTJdKGhhbmRib29rLm1kI3J1bGUtNTIpLCBbUnVsZSA1M10oaGFuZGJvb2subWQjcnVsZS01MyksIFtSdWxlIDU0XShoYW5kYm9vay5tZCNydWxlLTU0KSwgW1J1bGUgNTVdKGhhbmRib29rLm1kI3J1bGUtNTUpLCBbUnVsZSA1Nl0oaGFuZGJvb2subWQjcnVsZS01NiksIFtSdWxlIDU3XShoYW5kYm9vay5tZCNydWxlLTU3KQoKKipDb21wbGV0aW9uIHRlc3Q6KiogQXJjaGl0ZWN0dXJlIHByZWNlZGVzIHByb3NlIHBvbGlzaDsgdHdlbHZlIGNoZWNrcyBhcmUgaHVtYW4tc2NvcmVkIGFuZCBldmlkZW5jZS1iYWNrZWQuCgpUaGUgb3JpZ2luYWwgb25lLXBhZ2UgaW5kZXggY29udGFpbmVkIHNldmVyYWwgbWlzbWF0Y2hlZCBydWxlIG51bWJlcnMuIEFsbCBudW1iZXJzIGhlcmUgaGF2ZSBiZWVuIGNoZWNrZWQgYWdhaW5zdCB0aGUgNTctcnVsZSBjYXRhbG9nLgo=
+# Task-Oriented Workflows
+
+Use these sequences as entry points into the rulebook. The numbers are authoritative rule IDs.
+
+## Write or revise an abstract
+
+**Rule sequence:** [Rule 3](handbook.md#rule-03), [Rule 4](handbook.md#rule-04), [Rule 13](handbook.md#rule-13), [Rule 18](handbook.md#rule-18), [Rule 38](handbook.md#rule-38)
+
+**Completion test:** Problem, debate, gap, contribution, test, and justified boundary are legible.
+
+## Build an introduction
+
+**Rule sequence:** [Rule 1](handbook.md#rule-01), [Rule 2](handbook.md#rule-02), [Rule 3](handbook.md#rule-03), [Rule 4](handbook.md#rule-04), [Rule 14](handbook.md#rule-14), [Rule 26](handbook.md#rule-26), [Rule 43](handbook.md#rule-43)
+
+**Completion test:** An internal problem precedes the central concept; the contribution and inferential route are clear.
+
+## Reconstruct a literature conversation
+
+**Rule sequence:** [Rule 12](handbook.md#rule-12), [Rule 22](handbook.md#rule-22), [Rule 29](handbook.md#rule-29), [Rule 36](handbook.md#rule-36), [Rule 50](handbook.md#rule-50)
+
+**Completion test:** Every source has an argumentative function and the remaining problem is precise.
+
+## Develop a theoretical account
+
+**Rule sequence:** [Rule 15](handbook.md#rule-15), [Rule 26](handbook.md#rule-26), [Rule 27](handbook.md#rule-27), [Rule 28](handbook.md#rule-28), [Rule 29](handbook.md#rule-29), [Rule 30](handbook.md#rule-30), [Rule 31](handbook.md#rule-31)
+
+**Completion test:** Definition, conceptual work, conditions, counterfeits, and boundaries are operational.
+
+## Test with cases
+
+**Rule sequence:** [Rule 16](handbook.md#rule-16), [Rule 23](handbook.md#rule-23), [Rule 30](handbook.md#rule-30), [Rule 33](handbook.md#rule-33), [Rule 34](handbook.md#rule-34)
+
+**Completion test:** Every case isolates a target condition and changes or confirms a theoretical judgment.
+
+## Write an objections section
+
+**Rule sequence:** [Rule 17](handbook.md#rule-17), [Rule 29](handbook.md#rule-29), [Rule 31](handbook.md#rule-31), [Rule 35](handbook.md#rule-35), [Rule 38](handbook.md#rule-38)
+
+**Completion test:** Strongest threats have been grouped and admitted into the theory's conditions or limits.
+
+## Revise a paragraph
+
+**Rule sequence:** [Rule 19](handbook.md#rule-19), [Rule 20](handbook.md#rule-20), [Rule 21](handbook.md#rule-21), [Rule 24](handbook.md#rule-24), [Rule 25](handbook.md#rule-25), [Rule 54](handbook.md#rule-54)
+
+**Completion test:** One principal action, clear direction, a warranted advance, and no dispensable repetition.
+
+## Revise sentences and inference
+
+**Rule sequence:** [Rule 37](handbook.md#rule-37), [Rule 39](handbook.md#rule-39), [Rule 40](handbook.md#rule-40), [Rule 41](handbook.md#rule-41), [Rule 44](handbook.md#rule-44), [Rule 45](handbook.md#rule-45), [Rule 55](handbook.md#rule-55)
+
+**Completion test:** Predicates reveal relations; connectives name supported logical steps.
+
+## Polish academic diction
+
+**Rule sequence:** [Rule 41](handbook.md#rule-41), [Rule 42](handbook.md#rule-42), [Rule 44](handbook.md#rule-44), [Rule 46](handbook.md#rule-46), [Rule 47](handbook.md#rule-47), [Rule 48](handbook.md#rule-48), [Rule 49](handbook.md#rule-49), [Rule 51](handbook.md#rule-51), [Rule 56](handbook.md#rule-56)
+
+**Completion test:** Terms are stable, verbs bear explanatory work, and modal force is justified.
+
+## Perform a final pre-submission review
+
+**Rule sequence:** [Rule 52](handbook.md#rule-52), [Rule 53](handbook.md#rule-53), [Rule 54](handbook.md#rule-54), [Rule 55](handbook.md#rule-55), [Rule 56](handbook.md#rule-56), [Rule 57](handbook.md#rule-57)
+
+**Completion test:** Architecture precedes prose polish; twelve checks are human-scored and evidence-backed.
+
+The original one-page index contained several mismatched rule numbers. All numbers here have been checked against the 57-rule catalog.
