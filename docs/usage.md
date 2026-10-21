@@ -1,1 +1,104 @@
-IyBVc2FnZSBHdWlkZQoKV2VsbC1Bcmd1ZWQgUHJvc2UgY2FuIGJlIHVzZWQgaW4gZm91ciB3YXlzOiBhcyBhICoqcnVsZWJvb2sqKiB5b3UgcmVhZCBhbmQgY2l0ZSwgYXMgYSAqKmNvbW1hbmQtbGluZSB0b29sa2l0KiogdGhhdCBvcGVyYXRpb25hbGl6ZXMgdGhlIHJ1bGVzLCBhcyBhICoqcHJvbXB0IHNldCoqIGZvciB3b3JraW5nIHdpdGggYW4gQUkgd3JpdGluZyBhc3Npc3RhbnQsIGFuZCBhcyBhICoqaHVtYW4gcmV2aWV3IHByb3RvY29sKiogZm9yIHN0cnVjdHVyZWQgZWRpdG9yaWFsIGFzc2Vzc21lbnQuIFRoaXMgZ3VpZGUgY292ZXJzIGFsbCBmb3VyLgoKIyMgMS4gUmVhZCB0aGUgcnVsZWJvb2sKClN0YXJ0IHdpdGggdGhlIFtjb21wbGV0ZSBoYW5kYm9va10oaGFuZGJvb2subWQpLiBFYWNoIG9mIHRoZSA1NyBydWxlcyBzdGF0ZXMgYSAqU3RhbmRhcmQqLCBhICpDb3JwdXMgb2JzZXJ2YXRpb24qIGRyYXduIGZyb20gdHdlbHZlIHB1Ymxpc2hlZCAqTWluZCogYXJ0aWNsZXMsIGFuIGV4ZWN1dGFibGUgKlJldmlldyBhY3Rpb24qLCBhbmQgYSB3b3JrZWQgKkV4YW1wbGUqIHJlY29uc3RydWN0ZWQgZnJvbSBhIHB1Ymxpc2hlZCBhcmd1bWVudC4gRXZlcnkgZXhhbXBsZSBjYW4gYmUgdHJhY2VkIHRvIGl0cyBzb3VyY2UgcGFwZXIgdGhyb3VnaCB0aGUgW2V4YW1wbGUgc291cmNlIG1hcF0oZXhhbXBsZS1zb3VyY2VzLm1kKS4KCklmIHlvdSBhcmUgd29ya2luZyBvbiBhIHNwZWNpZmljIHBhcnQgb2YgYSBtYW51c2NyaXB0LCBkbyBub3QgcmVhZCB0aGUgaGFuZGJvb2sgY292ZXIgdG8gY292ZXIuIFVzZSB0aGUgW3Rhc2sgd29ya2Zsb3dzXSh3b3JrZmxvd3MubWQpIOKAlCBvciBgd2VsbC1hcmd1ZWQtcHJvc2UgZ3VpZGVgIGJlbG93IOKAlCB0byBnZXQgdGhlIHJ1bGUgc2VxdWVuY2UgZm9yIHlvdXIgdGFzay4KCiMjIDIuIFVzZSB0aGUgY29tbWFuZC1saW5lIHRvb2xraXQKCiMjIyBJbnN0YWxsCgpSZXF1aXJlcyBQeXRob24gMy4xMCBvciBuZXdlci4gRnJvbSBhIGNsb25lIG9mIHRoaXMgcmVwb3NpdG9yeToKCmBgYGJhc2gKcHl0aG9uIC1tIHBpcCBpbnN0YWxsIC1lIC4KYGBgCgpGb3IgTWljcm9zb2Z0IFdvcmQgKGAuZG9jeGApIHN1cHBvcnQ6CgpgYGBiYXNoCnB5dGhvbiAtbSBwaXAgaW5zdGFsbCAtZSAiLltkb2N4XSIKYGBgCgpFdmVyeXRoaW5nIHJ1bnMgbG9jYWxseS4gTm8gZXh0ZXJuYWwgc2VydmljZSBpcyBjb250YWN0ZWQsIGFuZCBubyBtYW51c2NyaXB0IGxlYXZlcyB5b3VyIG1hY2hpbmUuCgojIyMgQ29tbWFuZHMKCioqTGlzdCB0aGUgcnVsZXMqKiwgZ3JvdXBlZCBieSBzZWN0aW9uOgoKYGBgYmFzaAp3ZWxsLWFyZ3VlZC1wcm9zZSBsaXN0CndlbGwtYXJndWVkLXByb3NlIGxpc3QgLS1zZWN0aW9uIDMKYGBgCgoqKlJlYWQgb25lIHJ1bGUgaW4gZnVsbCoqIChTdGFuZGFyZCwgY29ycHVzIG9ic2VydmF0aW9uLCByZXZpZXcgYWN0aW9uLCBleGFtcGxlLCBzb3VyY2VzKToKCmBgYGJhc2gKd2VsbC1hcmd1ZWQtcHJvc2Ugc2hvdyAzNwp3ZWxsLWFyZ3VlZC1wcm9zZSBzaG93IDM3IC0tanNvbgpgYGAKCioqR2V0IGEgdGFzayB3b3JrZmxvdy4qKiBXaXRoIG5vIGFyZ3VtZW50LCB0aGUgY29tbWFuZCBsaXN0cyB0aGUgdGVuIGF2YWlsYWJsZSB3b3JrZmxvd3MgKGFic3RyYWN0LCBpbnRyb2R1Y3Rpb24sIGxpdGVyYXR1cmUsIHRoZW9yeSwgY2FzZXMsIG9iamVjdGlvbnMsIHBhcmFncmFwaCwgc2VudGVuY2UsIGRpY3Rpb24sIHN1Ym1pc3Npb24pOgoKYGBgYmFzaAp3ZWxsLWFyZ3VlZC1wcm9zZSBndWlkZQp3ZWxsLWFyZ3VlZC1wcm9zZSBndWlkZSBpbnRyb2R1Y3Rpb24KYGBgCgoqKlJ1biBhbiBhZHZpc29yeSBhdWRpdCoqIG9uIGEgbWFudXNjcmlwdCBpbiBNYXJrZG93biwgcGxhaW4gdGV4dCwgb3IgKHdpdGggdGhlIG9wdGlvbmFsIGRlcGVuZGVuY3kpIFdvcmQgZm9ybWF0OgoKYGBgYmFzaAp3ZWxsLWFyZ3VlZC1wcm9zZSBhdWRpdCBwYXRoL3RvL21hbnVzY3JpcHQubWQKd2VsbC1hcmd1ZWQtcHJvc2UgYXVkaXQgcGF0aC90by9tYW51c2NyaXB0Lm1kIC0tanNvbiAtLW1heC1wZXItY2hlY2sgNQpgYGAKClRoZSBhdWRpdCBmbGFncyBwYXNzYWdlcyBmb3IgaHVtYW4gaW5zcGVjdGlvbiDigJQgZm9yIGV4YW1wbGUgZ2VuZXJpYyBzdGF0ZW1lbnRzIG9mIHB1cnBvc2UsIHVuZXhwbGFpbmVkIGV2YWx1YXRpdmUgbGFuZ3VhZ2UsIG9yIGZvcm11bGFpYyBuZWdhdGl2ZSBjb250cmFzdHMg4oCUIGFuZCBuYW1lcyB0aGUgcnVsZXMgZWFjaCBmbGFnIGFuc3dlcnMgdG8uIEl0IGRvZXMgbm90IHZhbGlkYXRlIGFyZ3VtZW50cywgdmVyaWZ5IHNjaG9sYXJzaGlwLCByZXdyaXRlIHByb3NlLCBvciBwcmVkaWN0IHB1YmxpY2F0aW9uIG91dGNvbWVzLiBBIGNsZWFuIGF1ZGl0IGlzIG5vdCBldmlkZW5jZSB0aGF0IGEgbWFudXNjcmlwdCBpcyBnb29kOyBpdCBpcyBldmlkZW5jZSB0aGF0IGEgZml4ZWQgc2V0IG9mIHN1cmZhY2UgcGF0dGVybnMgd2FzIG5vdCBmb3VuZC4KCioqVXNlIHRoZSByZXZpZXcgc2NvcmVjYXJkKiogKHNlZSDCpzQgYmVsb3cpOgoKYGBgYmFzaAp3ZWxsLWFyZ3VlZC1wcm9zZSBzY29yZWNhcmQgaW5pdCBteS1yZXZpZXcuanNvbgojIEVkaXQgbXktcmV2aWV3Lmpzb246IGVudGVyIGEgcmF0aW5nICgwLCAxLCBvciAyKSBhbmQgc3VwcG9ydGluZyBldmlkZW5jZSBmb3IgZWFjaCBjcml0ZXJpb24uCndlbGwtYXJndWVkLXByb3NlIHNjb3JlY2FyZCBldmFsdWF0ZSBteS1yZXZpZXcuanNvbgpgYGAKCioqVmFsaWRhdGUgdGhlIGNhdGFsb2cqKiAoZm9yIGNvbnRyaWJ1dG9ycyBhbmQgYW55b25lIHdobyBlZGl0cyB0aGUgSlNPTiBkYXRhKToKCmBgYGJhc2gKd2VsbC1hcmd1ZWQtcHJvc2UgdmFsaWRhdGUKcHl0aG9uIHNjcmlwdHMvYnVpbGRfaGFuZGJvb2sucHkgLS1jaGVjawpweXRob24gLW0gdW5pdHRlc3QgZGlzY292ZXIgLXMgdGVzdHMgLXYKYGBgCgpUaGUgbW9kdWxlIGZvcm0gYHB5dGhvbiAtbSB3ZWxsX2FyZ3VlZF9wcm9zZSA8Y29tbWFuZD5gIGlzIGVxdWl2YWxlbnQgdG8gdGhlIGB3ZWxsLWFyZ3VlZC1wcm9zZWAgZW50cnkgcG9pbnQgdGhyb3VnaG91dC4KCiMjIDMuIFVzZSB0aGUgQUkgcmV2aXNpb24gcHJvbXB0cwoKVHdvIHByb21wdCB0ZW1wbGF0ZXMgYXBwbHkgdGhlIHJ1bGVib29rIHdpdGggYW4gQUkgd3JpdGluZyBhc3Npc3RhbnQ6CgotIFtNYW51c2NyaXB0IHJldmlzaW9uIHByb21wdF0oLi4vcHJvbXB0cy9tYW51c2NyaXB0LXJldmlzaW9uLm1kKSDigJQgYSBydWxlLWdvdmVybmVkIHJldmlzaW9uIHBhc3Mgb3ZlciBhIGRyYWZ0LgotIFtQcmUtc3VibWlzc2lvbiByZXZpZXcgcHJvbXB0XSguLi9wcm9tcHRzL3ByZS1zdWJtaXNzaW9uLXJldmlldy5tZCkg4oCUIGEgZmluYWwgYXJndW1lbnQtZmlyc3QgcmV2aWV3IGJlZm9yZSBzdWJtaXNzaW9uLgoKUGFzdGUgdGhlIHByb21wdCB0b2dldGhlciB3aXRoIHlvdXIgdGV4dC4gVGhlIHByb21wdHMgaW5zdHJ1Y3QgdGhlIGFzc2lzdGFudCB0byBkaWFnbm9zZSBiZWZvcmUgcmV3cml0aW5nLCB0byBwcmVzZXJ2ZSB5b3VyIGNvbmNlcHRzIGFuZCB0aGVvcmV0aWNhbCBjb21taXRtZW50cywgYW5kIHRvIHJlcG9ydCBjaGFuZ2VzIHJ1bGUgYnkgcnVsZS4gVHJlYXQgdGhlIG91dHB1dCBhcyBlZGl0b3JpYWwgYWR2aWNlIHRvIGJlIGp1ZGdlZCwgbm90IGFzIGNvcnJlY3Rpb25zIHRvIGJlIGFjY2VwdGVkIGF1dG9tYXRpY2FsbHkuCgojIyA0LiBSdW4gYSBodW1hbiByZXZpZXcKClRoZSBbcmV2aWV3IHByb3RvY29sXShyZXZpZXctcHJvdG9jb2wubWQpIHNlcXVlbmNlcyBhIGZ1bGwgZWRpdG9yaWFsIHJldmlldzogc2VjdXJlIHRoZSBjZW50cmFsIGNsYWltIGFuZCBpbmZlcmVudGlhbCBzdHJ1Y3R1cmUgZmlyc3QsIHRoZW4gd29yayB0aHJvdWdoIGRlZmluaXRpb25zLCBjYXNlcywgYW5kIG9iamVjdGlvbnMsIGFuZCBvbmx5IHRoZW4gcmV2aXNlIGRpY3Rpb24uIFRoZSBbc2NvcmVjYXJkXShzY29yZWNhcmQubWQpIG9wZXJhdGlvbmFsaXplcyB0aGUgcHJvdG9jb2wgYXMgdHdlbHZlIGNyaXRlcmlhIHJhdGVkIDDigJMyLCBmb3IgYSBtYXhpbXVtIG9mIDI0IHBvaW50czoKCjEuIENyZWF0ZSBhIGJsYW5rIHNjb3JlY2FyZCB3aXRoIGB3ZWxsLWFyZ3VlZC1wcm9zZSBzY29yZWNhcmQgaW5pdGAuCjIuIEEgaHVtYW4gcmV2aWV3ZXIgcmVhZHMgdGhlIG1hbnVzY3JpcHQgYW5kIGVudGVycyBvbmUgcmF0aW5nIHBsdXMgc3VwcG9ydGluZyBldmlkZW5jZSBwZXIgY3JpdGVyaW9uLgozLiBSdW4gYHdlbGwtYXJndWVkLXByb3NlIHNjb3JlY2FyZCBldmFsdWF0ZWAgdG8gdG90YWwgdGhlIHNjb3JlLiBBIHRvdGFsIGJlbG93IDIwLzI0IGNhbGxzIGZvciBmdXJ0aGVyIHN0cnVjdHVyYWwgcmV2aXNpb24gYmVmb3JlIHRoZSBmaW5hbCBsYW5ndWFnZSBwYXNzLgoKUmF0aW5ncyBhbmQgZXZpZGVuY2UgbXVzdCBjb21lIGZyb20gdGhlIHJldmlld2VyLiBUaGUgcHJvZ3JhbSBuZXZlciBpbnZlbnRzIHRoZW0sIGFuZCB0aGUgdG90YWwgaXMgYW4gaW50ZXJuYWwgd29ya2Zsb3cgdGhyZXNob2xkIOKAlCBpdCBoYXMgbm8gc3RhdGlzdGljYWwgcmVsYXRpb24gdG8gam91cm5hbCBhY2NlcHRhbmNlLgoKIyMgQSB0eXBpY2FsIHJldmlzaW9uIHNlc3Npb24KCjEuIGB3ZWxsLWFyZ3VlZC1wcm9zZSBndWlkZSBpbnRyb2R1Y3Rpb25gIOKAlCBnZXQgdGhlIHJ1bGUgc2VxdWVuY2UgZm9yIHRoZSBzZWN0aW9uIHlvdSBhcmUgcmV2aXNpbmcuCjIuIGB3ZWxsLWFyZ3VlZC1wcm9zZSBzaG93IDxpZD5gIOKAlCByZWFkIGVhY2ggcnVsZSBpbiBmdWxsIGFzIHlvdSBhcHBseSBpdC4KMy4gYHdlbGwtYXJndWVkLXByb3NlIGF1ZGl0IGRyYWZ0Lm1kYCDigJQgY2F0Y2ggdGhlIHN1cmZhY2UgcGF0dGVybnMgdGhlIHJ1bGVzIHdhcm4gYWJvdXQuCjQuIFdvcmsgdGhyb3VnaCB0aGUgW3JldmlldyBwcm90b2NvbF0ocmV2aWV3LXByb3RvY29sLm1kKSBmb3IgdGhlIHN0cnVjdHVyYWwgcGFzcy4KNS4gU2NvcmUgdGhlIHJldmlzZWQgZHJhZnQgd2l0aCB0aGUgc2NvcmVjYXJkLCBhbmQga2VlcCB0aGUgY29tcGxldGVkIEpTT04gd2l0aCB0aGUgbWFudXNjcmlwdCBhcyBhIHJldmlldyByZWNvcmQuCg==
+# Usage Guide
+
+Well-Argued Prose can be used in four ways: as a **rulebook** you read and cite, as a **command-line toolkit** that operationalizes the rules, as a **prompt set** for working with an AI writing assistant, and as a **human review protocol** for structured editorial assessment. This guide covers all four.
+
+## 1. Read the rulebook
+
+Start with the [complete handbook](handbook.md). Each of the 57 rules states a *Standard*, a *Corpus observation* drawn from twelve published *Mind* articles, an executable *Review action*, and a worked *Example* reconstructed from a published argument. Every example can be traced to its source paper through the [example source map](example-sources.md).
+
+If you are working on a specific part of a manuscript, do not read the handbook cover to cover. Use the [task workflows](workflows.md) — or `well-argued-prose guide` below — to get the rule sequence for your task.
+
+## 2. Use the command-line toolkit
+
+### Install
+
+Requires Python 3.10 or newer. From a clone of this repository:
+
+```bash
+python -m pip install -e .
+```
+
+For Microsoft Word (`.docx`) support:
+
+```bash
+python -m pip install -e ".[docx]"
+```
+
+Everything runs locally. No external service is contacted, and no manuscript leaves your machine.
+
+### Commands
+
+**List the rules**, grouped by section:
+
+```bash
+well-argued-prose list
+well-argued-prose list --section 3
+```
+
+**Read one rule in full** (Standard, corpus observation, review action, example, sources):
+
+```bash
+well-argued-prose show 37
+well-argued-prose show 37 --json
+```
+
+**Get a task workflow.** With no argument, the command lists the ten available workflows (abstract, introduction, literature, theory, cases, objections, paragraph, sentence, diction, submission):
+
+```bash
+well-argued-prose guide
+well-argued-prose guide introduction
+```
+
+**Run an advisory audit** on a manuscript in Markdown, plain text, or (with the optional dependency) Word format:
+
+```bash
+well-argued-prose audit path/to/manuscript.md
+well-argued-prose audit path/to/manuscript.md --json --max-per-check 5
+```
+
+The audit flags passages for human inspection — for example generic statements of purpose, unexplained evaluative language, or formulaic negative contrasts — and names the rules each flag answers to. It does not validate arguments, verify scholarship, rewrite prose, or predict publication outcomes. A clean audit is not evidence that a manuscript is good; it is evidence that a fixed set of surface patterns was not found.
+
+**Use the review scorecard** (see §4 below):
+
+```bash
+well-argued-prose scorecard init my-review.json
+# Edit my-review.json: enter a rating (0, 1, or 2) and supporting evidence for each criterion.
+well-argued-prose scorecard evaluate my-review.json
+```
+
+**Validate the catalog** (for contributors and anyone who edits the JSON data):
+
+```bash
+well-argued-prose validate
+python scripts/build_handbook.py --check
+python -m unittest discover -s tests -v
+```
+
+The module form `python -m well_argued_prose <command>` is equivalent to the `well-argued-prose` entry point throughout.
+
+## 3. Use the AI revision prompts
+
+Two prompt templates apply the rulebook with an AI writing assistant:
+
+- [Manuscript revision prompt](../prompts/manuscript-revision.md) — a rule-governed revision pass over a draft.
+- [Pre-submission review prompt](../prompts/pre-submission-review.md) — a final argument-first review before submission.
+
+Paste the prompt together with your text. The prompts instruct the assistant to diagnose before rewriting, to preserve your concepts and theoretical commitments, and to report changes rule by rule. Treat the output as editorial advice to be judged, not as corrections to be accepted automatically.
+
+## 4. Run a human review
+
+The [review protocol](review-protocol.md) sequences a full editorial review: secure the central claim and inferential structure first, then work through definitions, cases, and objections, and only then revise diction. The [scorecard](scorecard.md) operationalizes the protocol as twelve criteria rated 0–2, for a maximum of 24 points:
+
+1. Create a blank scorecard with `well-argued-prose scorecard init`.
+2. A human reviewer reads the manuscript and enters one rating plus supporting evidence per criterion.
+3. Run `well-argued-prose scorecard evaluate` to total the score. A total below 20/24 calls for further structural revision before the final language pass.
+
+Ratings and evidence must come from the reviewer. The program never invents them, and the total is an internal workflow threshold — it has no statistical relation to journal acceptance.
+
+## A typical revision session
+
+1. `well-argued-prose guide introduction` — get the rule sequence for the section you are revising.
+2. `well-argued-prose show <id>` — read each rule in full as you apply it.
+3. `well-argued-prose audit draft.md` — catch the surface patterns the rules warn about.
+4. Work through the [review protocol](review-protocol.md) for the structural pass.
+5. Score the revised draft with the scorecard, and keep the completed JSON with the manuscript as a review record.
