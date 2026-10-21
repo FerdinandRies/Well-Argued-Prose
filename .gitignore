@@ -1,1 +1,18 @@
-X19weWNhY2hlX18vCioucHlbY29kXQoqLmVnZy1pbmZvLwoucHl0ZXN0X2NhY2hlLwoubXlweV9jYWNoZS8KLmNvdmVyYWdlCmNvdmVyYWdlLnhtbApodG1sY292LwoudmVudi8KdmVudi8KZGlzdC8KYnVpbGQvCi5EU19TdG9yZQoqLmxvZwojIE5ldmVyIGNvbW1pdCB1bnB1Ymxpc2hlZCBtYW51c2NyaXB0cyBvciByZWFsIHJldmlldyBzY29yZWNhcmRzLgpwcml2YXRlLwptYW51c2NyaXB0cy8Kc2NvcmVjYXJkLXBlcnNvbmFsLmpzb24K
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+htmlcov/
+.venv/
+venv/
+dist/
+build/
+.DS_Store
+*.log
+# Never commit unpublished manuscripts or real review scorecards.
+private/
+manuscripts/
+scorecard-personal.json
