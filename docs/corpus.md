@@ -1,1 +1,41 @@
-IyBSZWZlcmVuY2UgQ29ycHVzOiBUd2VsdmUgQXJ0aWNsZXMgaW4gKk1pbmQqCgpUaGUgcnVsZWJvb2sgaXMgaW5mb3JtZWQgYnkgYW4gaW50ZXJwcmV0aXZlIGNvbXBhcmlzb24gb2YgdGhlc2UgZXNzYXlzLiBUaGUgam91cm5hbCBoYXMgbm90IGVuZG9yc2VkIHRoaXMgcHJvamVjdCwgYW5kIHRoZSBkZXJpdmVkIGVkaXRvcmlhbCBndWlkZWxpbmVzIGFyZSBub3QgaXRzIGZvcm1hbCBzdWJtaXNzaW9uIHJlcXVpcmVtZW50cy4KCkFsbCByZWZlcmVuY2VzIGxpbmsgdG8gdGhlIGFydGljbGVzJyBET0kgbGFuZGluZyBwYWdlcy4gQXJ0aWNsZSB0ZXh0IGlzIG5vdCByZWRpc3RyaWJ1dGVkLgoKMS4gKipHYXJ5IFdhdHNvbiAoMTk4NykuKiogW0ZyZWUgQWN0aW9uIGFuZCBGcmVlIFdpbGxdKGh0dHBzOi8vZG9pLm9yZy8xMC4xMDkzL21pbmQvWENWSS4zODIuMTQ1KS4gKk1pbmQqLiAgCiAgICoqVHJhbnNmZXJhYmxlIG1vdmU6KiogUmVmcmFtZXMgYSBmcmVlLXdpbGwgZGViYXRlIGFyb3VuZCBzZWxmLWRldGVybWluYXRpb24gYW5kIGFsdGVybmF0aXZlIHBvc3NpYmlsaXRpZXMsIG1ha2luZyBleHBsYW5hdG9yeSBzdHJ1Y3R1cmUgbW9yZSBpbXBvcnRhbnQgdGhhbiBpbmhlcml0ZWQgbGFiZWxzLgoKMi4gKipQaGlsaXBwYSBGb290ICgxOTg1KS4qKiBbVXRpbGl0YXJpYW5pc20gYW5kIHRoZSBWaXJ0dWVzXShodHRwczovL2RvaS5vcmcvMTAuMTA5My9taW5kL1hDSVYuMzc0LjE5NikuICpNaW5kKi4gIAogICAqKlRyYW5zZmVyYWJsZSBtb3ZlOioqIEJlZ2lucyB3aXRoIHRoZSBhdHRyYWN0aW9uIG9mIHV0aWxpdGFyaWFuaXNtIGFuZCB3b3JrcyB0b3dhcmQgYSBzdHJ1Y3R1cmFsIG9iamVjdGlvbiBjb25jZXJuaW5nIHRoZSB2aXJ0dWVzLgoKMy4gKipEb3JvdGh5IEVkZ2luZ3RvbiAoMTk5NSkuKiogW09uIENvbmRpdGlvbmFsc10oaHR0cHM6Ly9kb2kub3JnLzEwLjEwOTMvbWluZC8xMDQuNDE0LjIzNSkuICpNaW5kKi4gIAogICAqKlRyYW5zZmVyYWJsZSBtb3ZlOioqIE1vdmVzIGZyb20gb3JkaW5hcnkgY29uZGl0aW9uYWwgY29tcGV0ZW5jZSB0aHJvdWdoIHRoZW9yZXRpY2FsIGNsYXNzaWZpY2F0aW9ucywgY2FzZXMsIHByb2JhYmlsaXRpZXMsIGFuZCBsb2dpY2FsIGZvcm0uCgo0LiAqKk1pY2hhZWwgRGV2aXR0IGFuZCBKaWxsaWFuIFJvc2UgUm9iZXJ0cyAoMjAyNCkuKiogW0NoYW5naW5nIE91ciBMb2dpYzogQSBRdWluZWFuIFBlcnNwZWN0aXZlXShodHRwczovL2RvaS5vcmcvMTAuMTA5My9taW5kL2Z6YWQwMTApLiAqTWluZCouICAKICAgKipUcmFuc2ZlcmFibGUgbW92ZToqKiBVc2VzIGFjY2VwdGFuY2UsIHByYWN0aWNlLCBhbmQgc2tpbGwgdG8gYXBwcm9hY2ggdGhlIGFkb3B0aW9uIHByb2JsZW0gZnJvbSBhIFF1aW5lYW4gcGVyc3BlY3RpdmUuCgo1LiAqKkphY29iIE0uIE5lYmVsICgyMDIzKS4qKiBbVGhlIFN1bSBvZiBXZWxsLUJlaW5nXShodHRwczovL2RvaS5vcmcvMTAuMTA5My9taW5kL2Z6YWQwMTkpLiAqTWluZCouICAKICAgKipUcmFuc2ZlcmFibGUgbW92ZToqKiBNYWtlcyBhZ2dyZWdhdGl2ZSBqdWRnbWVudHMgYW5zd2VyYWJsZSB0byB0aGUgY29uZGl0aW9ucyBmb3IgYSBuYXR1cmFsIGNvbmNhdGVuYXRpb24gb3BlcmF0aW9uLgoKNi4gKipEYW5pZWwgQy4gRnJpZWRtYW4gKDIwMjUpLioqIFtJbnRlbnRpb25zIGFuZCBJbnF1aXJ5XShodHRwczovL2RvaS5vcmcvMTAuMTA5My9taW5kL2Z6YWUwNTYpLiAqTWluZCouICAKICAgKipUcmFuc2ZlcmFibGUgbW92ZToqKiBVc2VzIHF1ZXN0aW9uLWRpcmVjdGVkIGludGVudGlvbnMgdG8gZXhwbGFpbiB0aGUgaWRlbnRpdHksIG9uc2V0LCBub3JtcywgYW5kIHBsYW5uaW5nIHByZXNzdXJlcyBvZiBpbnF1aXJ5LgoKNy4gKipVbXV0IEJheXNhbiAoMjAyNSkuKiogW0Vzc2VuY2UgRmFjdHMgYW5kIHRoZSBTb3VyY2Ugb2YgTm9ybWF0aXZpdHldKGh0dHBzOi8vZG9pLm9yZy8xMC4xMDkzL21pbmQvZnphZTA3MCkuICpNaW5kKi4gIAogICAqKlRyYW5zZmVyYWJsZSBtb3ZlOioqIFNwZWNpZmllcyBhIGdyb3VuZGluZyBxdWVzdGlvbiBiZWZvcmUgdGVzdGluZyB0aGUgZXhwbGFuYXRvcnkgYWRlcXVhY3kgYW5kIG5vcm1hdGl2ZSBzdGF0dXMgb2YgYSBwcm9wb3NlZCBhbnN3ZXIuCgo4LiAqKkFyaWVsIE1lbGFtZWRvZmYgKDIwMjUpLioqIFtTaGVwaGVyZOKAmXMgTWV0YXBoeXNpY3Mgb2YgRW1lcmdlbmNlXShodHRwczovL2RvaS5vcmcvMTAuMTA5My9taW5kL2Z6YWUwNzQpLiAqTWluZCouICAKICAgKipUcmFuc2ZlcmFibGUgbW92ZToqKiBEZWZlbmRzIGFuIGFiZHVjdGl2ZSBpbnRlcnByZXRhdGlvbiB0aGF0IGpvaW50bHkgZXhwbGFpbnMgbXVsdGlwbGUgZmVhdHVyZXMgb2YgU2hlcGhlcmQncyBjYXVzYWwgdGhlb3J5LgoKOS4gKipXaWxsaWFtIE5hdmEgKDIwMjUpLioqIFtBZG9wdGluZyBhbiBJbmZlcmVuY2UgUnVsZTogQSBIb3ctVG8gR3VpZGVdKGh0dHBzOi8vZG9pLm9yZy8xMC4xMDkzL21pbmQvZnphZjAxNykuICpNaW5kKi4gIAogICAqKlRyYW5zZmVyYWJsZSBtb3ZlOioqIERpc3Rpbmd1aXNoZXMgaW5mZXJlbnRpYWwgZ3VpZGFuY2UgZHVyaW5nIGFkb3B0aW9uIGZyb20gcnVsZSB1c2UgYWZ0ZXIgYWRvcHRpb24gYW5kIGNvbmZyb250cyByZWdyZXNzIG9iamVjdGlvbnMuCgoxMC4gKipLeWxlIExhbmRydW0gKDIwMjUpLioqIFtHb29kIEV4cGxhbmF0aW9ucyBhbmQgdGhlIENhdXNhbCBNZXRhc2VtYW50aWNzIG9mIEluZHVjdGl2ZSBDb25jZXB0c10oaHR0cHM6Ly9kb2kub3JnLzEwLjEwOTMvbWluZC9memFmMDI0KS4gKk1pbmQqLiAgCiAgICoqVHJhbnNmZXJhYmxlIG1vdmU6KiogSW1wb3J0cyBleHBsYW5hdG9yeSB2aXJ0dWVzIHRvIGZpbHRlciBjb21wZXRpbmcgY2FuZGlkYXRlIGNvbnRlbnRzIGluIGNhdXNhbCBtZXRhc2VtYW50aWNzLgoKMTEuICoqQ2hyaXN0aWFuIExvZXcgKDIwMjYpLioqIFtQcmVjaW91cyBhbmQgUGF0aGV0aWM6IFRoZSBWYWx1ZSBvZiBNb3J0YWxpdHldKGh0dHBzOi8vZG9pLm9yZy8xMC4xMDkzL21pbmQvZnphZjA0MSkuICpNaW5kKi4gIAogICAqKlRyYW5zZmVyYWJsZSBtb3ZlOioqIENvbWJpbmVzIGEgbGl0ZXJhcnkgb3BlbmluZyB3aXRoIHByb2JhYmlsaXR5IGFuZCBhIHN0cnVjdHVyYWwgYXJndW1lbnQgYWJvdXQgY2hvaWNlcyB1bmRlciBtb3J0YWxpdHkuCgoxMi4gKipQYWJsbyBIdWJhY2hlciBIYWVybGUgKDIwMjYpLioqIFtSYXRpb25hbCBVbmNlcnRhaW50eSBhbmQgdGhlIFN1Y2Nlc3MgTm9ybSBmb3IgSW5xdWlyeV0oaHR0cHM6Ly9kb2kub3JnLzEwLjEwOTMvbWluZC9memFmMDU3KS4gKk1pbmQqLiAgCiAgICoqVHJhbnNmZXJhYmxlIG1vdmU6KiogRGV2ZWxvcHMgYSBub3JtIG9mIGlucXVpcnkgZnJvbSBjb25kaXRpb25zIG9uIHJhdGlvbmFsIGV4cGVjdGF0aW9ucyBvZiBzdWNjZXNzLgo=
+# Reference Corpus: Twelve Articles in *Mind*
+
+The rulebook is informed by an interpretive comparison of these essays. The journal has not endorsed this project, and the derived editorial guidelines are not its formal submission requirements.
+
+All references link to the articles' DOI landing pages. Article text is not redistributed.
+
+1. **Gary Watson (1987).** [Free Action and Free Will](https://doi.org/10.1093/mind/XCVI.382.145). *Mind*.  
+   **Transferable move:** Reframes a free-will debate around self-determination and alternative possibilities, making explanatory structure more important than inherited labels.
+
+2. **Philippa Foot (1985).** [Utilitarianism and the Virtues](https://doi.org/10.1093/mind/XCIV.374.196). *Mind*.  
+   **Transferable move:** Begins with the attraction of utilitarianism and works toward a structural objection concerning the virtues.
+
+3. **Dorothy Edgington (1995).** [On Conditionals](https://doi.org/10.1093/mind/104.414.235). *Mind*.  
+   **Transferable move:** Moves from ordinary conditional competence through theoretical classifications, cases, probabilities, and logical form.
+
+4. **Michael Devitt and Jillian Rose Roberts (2024).** [Changing Our Logic: A Quinean Perspective](https://doi.org/10.1093/mind/fzad010). *Mind*.  
+   **Transferable move:** Uses acceptance, practice, and skill to approach the adoption problem from a Quinean perspective.
+
+5. **Jacob M. Nebel (2023).** [The Sum of Well-Being](https://doi.org/10.1093/mind/fzad019). *Mind*.  
+   **Transferable move:** Makes aggregative judgments answerable to the conditions for a natural concatenation operation.
+
+6. **Daniel C. Friedman (2025).** [Intentions and Inquiry](https://doi.org/10.1093/mind/fzae056). *Mind*.  
+   **Transferable move:** Uses question-directed intentions to explain the identity, onset, norms, and planning pressures of inquiry.
+
+7. **Umut Baysan (2025).** [Essence Facts and the Source of Normativity](https://doi.org/10.1093/mind/fzae070). *Mind*.  
+   **Transferable move:** Specifies a grounding question before testing the explanatory adequacy and normative status of a proposed answer.
+
+8. **Ariel Melamedoff (2025).** [Shepherd’s Metaphysics of Emergence](https://doi.org/10.1093/mind/fzae074). *Mind*.  
+   **Transferable move:** Defends an abductive interpretation that jointly explains multiple features of Shepherd's causal theory.
+
+9. **William Nava (2025).** [Adopting an Inference Rule: A How-To Guide](https://doi.org/10.1093/mind/fzaf017). *Mind*.  
+   **Transferable move:** Distinguishes inferential guidance during adoption from rule use after adoption and confronts regress objections.
+
+10. **Kyle Landrum (2025).** [Good Explanations and the Causal Metasemantics of Inductive Concepts](https://doi.org/10.1093/mind/fzaf024). *Mind*.  
+   **Transferable move:** Imports explanatory virtues to filter competing candidate contents in causal metasemantics.
+
+11. **Christian Loew (2026).** [Precious and Pathetic: The Value of Mortality](https://doi.org/10.1093/mind/fzaf041). *Mind*.  
+   **Transferable move:** Combines a literary opening with probability and a structural argument about choices under mortality.
+
+12. **Pablo Hubacher Haerle (2026).** [Rational Uncertainty and the Success Norm for Inquiry](https://doi.org/10.1093/mind/fzaf057). *Mind*.  
+   **Transferable move:** Develops a norm of inquiry from conditions on rational expectations of success.
