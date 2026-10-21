@@ -1,1 +1,33 @@
-W2J1aWxkLXN5c3RlbV0KcmVxdWlyZXMgPSBbInNldHVwdG9vbHM+PTY4IiwgIndoZWVsIl0KYnVpbGQtYmFja2VuZCA9ICJzZXR1cHRvb2xzLmJ1aWxkX21ldGEiCgpbcHJvamVjdF0KbmFtZSA9ICJ3ZWxsLWFyZ3VlZC1wcm9zZSIKdmVyc2lvbiA9ICIwLjEuMSIKZGVzY3JpcHRpb24gPSAiQXJndW1lbnQtZmlyc3Qgc3RhbmRhcmRzIGFuZCByZXZpZXcgdG9vbHMgZm9yIGFkdmFuY2VkIHNjaG9sYXJseSB3cml0aW5nIgpyZWFkbWUgPSAiUkVBRE1FLm1kIgpyZXF1aXJlcy1weXRob24gPSAiPj0zLjEwIgpsaWNlbnNlID0gIk1JVCBBTkQgQ0MtQlktNC4wIgprZXl3b3JkcyA9IFsiYWNhZGVtaWMtd3JpdGluZyIsICJhcmd1bWVudGF0aW9uIiwgInBoaWxvc29waHkiLCAic2Nob2xhcmx5LXdyaXRpbmciLCAiZWRpdG9yaWFsLXJldmlldyJdCmNsYXNzaWZpZXJzID0gWwogICJEZXZlbG9wbWVudCBTdGF0dXMgOjogMyAtIEFscGhhIiwKICAiRW52aXJvbm1lbnQgOjogQ29uc29sZSIsCiAgIkludGVuZGVkIEF1ZGllbmNlIDo6IEVkdWNhdGlvbiIsCiAgIkludGVuZGVkIEF1ZGllbmNlIDo6IFNjaWVuY2UvUmVzZWFyY2giLAogICJQcm9ncmFtbWluZyBMYW5ndWFnZSA6OiBQeXRob24gOjogMyIsCiAgIlRvcGljIDo6IFRleHQgUHJvY2Vzc2luZyA6OiBMaW5ndWlzdGljIiwKXQpkZXBlbmRlbmNpZXMgPSBbXQoKW3Byb2plY3Qub3B0aW9uYWwtZGVwZW5kZW5jaWVzXQpkb2N4ID0gWyJweXRob24tZG9jeD49MS4xIl0KCltwcm9qZWN0LnNjcmlwdHNdCndlbGwtYXJndWVkLXByb3NlID0gIndlbGxfYXJndWVkX3Byb3NlLmNsaTptYWluIgoKW3Rvb2wuc2V0dXB0b29scy5wYWNrYWdlcy5maW5kXQp3aGVyZSA9IFsic3JjIl0KClt0b29sLnNldHVwdG9vbHMucGFja2FnZS1kYXRhXQoid2VsbF9hcmd1ZWRfcHJvc2UuZGF0YSIgPSBbIiouanNvbiJdCg==
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "well-argued-prose"
+version = "0.1.1"
+description = "Argument-first standards and review tools for advanced scholarly writing"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT AND CC-BY-4.0"
+keywords = ["academic-writing", "argumentation", "philosophy", "scholarly-writing", "editorial-review"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "Intended Audience :: Education",
+  "Intended Audience :: Science/Research",
+  "Programming Language :: Python :: 3",
+  "Topic :: Text Processing :: Linguistic",
+]
+dependencies = []
+
+[project.optional-dependencies]
+docx = ["python-docx>=1.1"]
+
+[project.scripts]
+well-argued-prose = "well_argued_prose.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"well_argued_prose.data" = ["*.json"]
