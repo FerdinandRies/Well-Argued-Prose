@@ -1,1 +1,27 @@
-IyBQdWJsaXNoIFdlbGwtQXJndWVkIFByb3NlIG9uIEdpdEh1YgoKVGhlIHJlbGVhc2UgZXhhbXBsZXMgaGF2ZSBiZWVuIHJlcGxhY2VkIHdpdGggb3JpZ2luYWwgZWRpdG9yaWFsIHJlY29uc3RydWN0aW9ucyBvZiBwdWJsaXNoZWQgKk1pbmQqIGFyZ3VtZW50cywgYW5kIHRoZSBwcm9qZWN0IGlzIGNyZWRpdGVkIHRvICoqRmVyZGluYW5kIFJpZXMqKi4gQ29uZmlybSB0aGF0IHRoaXMgcHVibGljIGlkZW50aXR5IGlzIHRoZSBpbnRlbmRlZCBhdHRyaWJ1dGlvbiBiZWZvcmUgcHVibGlzaGluZy4KCjEuICoqVmFsaWRhdGUgdGhlIHBhY2thZ2UuKiogSW4gdGhlIGV4dHJhY3RlZCBgd2VsbC1hcmd1ZWQtcHJvc2VgIGZvbGRlciwgcnVuOgoKICAgYGBgYmFzaAogICBweXRob24gLW0gcGlwIGluc3RhbGwgLWUgLgogICBweXRob24gLW0gd2VsbF9hcmd1ZWRfcHJvc2UgdmFsaWRhdGUKICAgcHl0aG9uIC1tIHVuaXR0ZXN0IGRpc2NvdmVyIC1zIHRlc3RzIC12CiAgIHB5dGhvbiBzY3JpcHRzL2J1aWxkX2hhbmRib29rLnB5IC0tY2hlY2sKICAgYGBgCgoyLiAqKkNyZWF0ZSB0aGUgcmVwb3NpdG9yeS4qKiBBdCBHaXRIdWIsIGNyZWF0ZSBhIG5ldyBlbXB0eSBwdWJsaWMgcmVwb3NpdG9yeSBuYW1lZCBgd2VsbC1hcmd1ZWQtcHJvc2VgIHVuZGVyIGBGZXJkaW5hbmRSaWVzYCAoZG8gbm90IGluaXRpYWxpemUgYSBzZXBhcmF0ZSBSRUFETUUgb3IgbGljZW5zZSkuIFRoZW4gcnVuOgoKICAgYGBgYmFzaAogICBnaXQgaW5pdAogICBnaXQgYWRkIC4KICAgZ2l0IGNvbW1pdCAtbSAiUmVsZWFzZSBXZWxsLUFyZ3VlZCBQcm9zZSB2MC4xLjEiCiAgIGdpdCBicmFuY2ggLU0gbWFpbgogICBnaXQgcmVtb3RlIGFkZCBvcmlnaW4gaHR0cHM6Ly9naXRodWIuY29tL0ZlcmRpbmFuZFJpZXMvV2VsbC1Bcmd1ZWQtUHJvc2UuZ2l0CiAgIGdpdCBwdXNoIC11IG9yaWdpbiBtYWluCiAgIGBgYAoKMy4gKipTZXQgdGhlIHByb2plY3QgcHJvZmlsZS4qKiBTdWdnZXN0ZWQgc2hvcnQgZGVzY3JpcHRpb246IOKAnEFyZ3VtZW50LWZpcnN0IHN0YW5kYXJkcyBmb3IgdG9wLXRpZXIgc2Nob2xhcmx5IHdyaXRpbmcu4oCdIFN1Z2dlc3RlZCB0YWdzOiBgYWNhZGVtaWMtd3JpdGluZ2AsIGBwaGlsb3NvcGh5YCwgYGFyZ3VtZW50YXRpb25gLCBgc2Nob2xhcmx5LXdyaXRpbmdgLCBgb3Blbi1zb3VyY2VgLiBDaXRlIHRoaXMgcmVsZWFzZSBpbiBHaXRIdWIncyBjaXRhdGlvbiBpbnRlcmZhY2UgYWZ0ZXIgcHVibGljYXRpb24uCgpUaGUgcmVwb3NpdG9yeSBzdXBwbGllcyB0ZXN0cywgR2l0SHViIEFjdGlvbnMsIGlzc3VlIHRlbXBsYXRlcywgYSBjaXRhdGlvbiBmaWxlLCBjb250cmlidXRpb24gaW5zdHJ1Y3Rpb25zLCBhbmQgTUlUIChzb2Z0d2FyZSkgcGx1cyBDQyBCWSA0LjAgKG9yaWdpbmFsIHJ1bGVib29rIGFuZCBleGFtcGxlcykgbGljZW5zaW5nLiBJdHMgZXhhbXBsZXMgcGFyYXBocmFzZSBsaW5rZWQgcGFwZXJzOyB0aGUgZnVsbCBvcmlnaW5hbCBhcnRpY2xlcyBhcmUgbm90IGJ1bmRsZWQuIFRoZSBwYWNrYWdlIGRvZXMgbm90IHB1Ymxpc2ggaXRzZWxmLgo=
+# Publish Well-Argued Prose on GitHub
+
+The release examples have been replaced with original editorial reconstructions of published *Mind* arguments, and the project is credited to **Ferdinand Ries**. Confirm that this public identity is the intended attribution before publishing.
+
+1. **Validate the package.** In the extracted `well-argued-prose` folder, run:
+
+   ```bash
+   python -m pip install -e .
+   python -m well_argued_prose validate
+   python -m unittest discover -s tests -v
+   python scripts/build_handbook.py --check
+   ```
+
+2. **Create the repository.** At GitHub, create a new empty public repository named `well-argued-prose` under `FerdinandRies` (do not initialize a separate README or license). Then run:
+
+   ```bash
+   git init
+   git add .
+   git commit -m "Release Well-Argued Prose v0.1.1"
+   git branch -M main
+   git remote add origin https://github.com/FerdinandRies/Well-Argued-Prose.git
+   git push -u origin main
+   ```
+
+3. **Set the project profile.** Suggested short description: “Argument-first standards for top-tier scholarly writing.” Suggested tags: `academic-writing`, `philosophy`, `argumentation`, `scholarly-writing`, `open-source`. Cite this release in GitHub's citation interface after publication.
+
+The repository supplies tests, GitHub Actions, issue templates, a citation file, contribution instructions, and MIT (software) plus CC BY 4.0 (original rulebook and examples) licensing. Its examples paraphrase linked papers; the full original articles are not bundled. The package does not publish itself.
