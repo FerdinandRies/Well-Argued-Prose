@@ -1,1 +1,42 @@
-ZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCmltcG9ydCBzeXMKaW1wb3J0IHRlbXBmaWxlCmltcG9ydCB1bml0dGVzdAoKUk9PVCA9IFBhdGgoX19maWxlX18pLnJlc29sdmUoKS5wYXJlbnRzWzFdCnN5cy5wYXRoLmluc2VydCgwLCBzdHIoUk9PVCAvICJzcmMiKSkKCmZyb20gd2VsbF9hcmd1ZWRfcHJvc2UucmV2aWV3IGltcG9ydCBhdWRpdF90ZXh0LCByZWFkX21hbnVzY3JpcHQKCgpjbGFzcyBSZXZpZXdUZXN0cyh1bml0dGVzdC5UZXN0Q2FzZSk6CiAgICBkZWYgdGVzdF9mbGFnc19hcmVfYWR2aXNvcnlfYW5kX2xvY2F0ZWQoc2VsZik6CiAgICAgICAgdGV4dCA9ICJUaGlzIHBhcGVyIGFpbXMgdG8gZGlzY3VzcyBpZGVudGl0eS5cblRoZXJlZm9yZSwgdGhpcyBzdHJ1Y3R1cmUgbXVzdCBiZSBleHBsYWluZWQuXG4iCiAgICAgICAgcmVzdWx0ID0gYXVkaXRfdGV4dCh0ZXh0KQogICAgICAgIGZvdW5kID0ge3Jvd1siY29kZSJdOiByb3cgZm9yIHJvdyBpbiByZXN1bHRbImNoZWNrcyJdfQogICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwoMSwgZm91bmRbImdlbmVyaWMtcHVycG9zZSJdWyJ0b3RhbF9tYXRjaGVzIl0pCiAgICAgICAgc2VsZi5hc3NlcnRFcXVhbCgxLCBmb3VuZFsiaW5mZXJlbnRpYWwtY29ubmVjdGl2ZSJdWyJ0b3RhbF9tYXRjaGVzIl0pCiAgICAgICAgc2VsZi5hc3NlcnRFcXVhbCgyLCBmb3VuZFsiaW5mZXJlbnRpYWwtY29ubmVjdGl2ZSJdWyJleGFtcGxlcyJdWzBdWyJsaW5lIl0pCiAgICAgICAgc2VsZi5hc3NlcnRFcXVhbCgxLCBmb3VuZFsidW5jbGVhci1kZW1vbnN0cmF0aXZlIl1bInRvdGFsX21hdGNoZXMiXSkKICAgICAgICBzZWxmLmFzc2VydEluKCJub3QgcHJvdmVuIGVycm9ycyIsIHJlc3VsdFsiZGlzY2xhaW1lciJdKQoKICAgIGRlZiB0ZXN0X25vbmNvbnRyYXN0aW5nX3Byb3NlX25vdF9mbGFnZ2VkX2FzX3Bpdm90KHNlbGYpOgogICAgICAgIHRleHQgPSAiVGhlIHByZW1pc2UgaXMgbm90IGNlcnRhaW4uIFdlIHNob3VsZCB0ZXN0IGl0LiIKICAgICAgICBmb3VuZCA9IHtyb3dbImNvZGUiXTpyb3cgZm9yIHJvdyBpbiBhdWRpdF90ZXh0KHRleHQpWyJjaGVja3MiXX0KICAgICAgICBzZWxmLmFzc2VydEVxdWFsKDAsIGZvdW5kWyJuZWdhdGl2ZS1waXZvdCJdWyJ0b3RhbF9tYXRjaGVzIl0pCgogICAgZGVmIHRlc3RfaW5wdXRfZmlsZXMoc2VsZik6CiAgICAgICAgd2l0aCB0ZW1wZmlsZS5UZW1wb3JhcnlEaXJlY3RvcnkoKSBhcyB0bXA6CiAgICAgICAgICAgIHBhdGggPSBQYXRoKHRtcCkgLyAibWFudXNjcmlwdC5tZCIKICAgICAgICAgICAgcGF0aC53cml0ZV90ZXh0KCJBY2FkZW1pYyBhcmd1bWVudC5cblNlY29uZCBzZW50ZW5jZS5cbiIsIGVuY29kaW5nPSJ1dGYtOCIpCiAgICAgICAgICAgIHRleHQsIHVuaXQgPSByZWFkX21hbnVzY3JpcHQocGF0aCkKICAgICAgICAgICAgc2VsZi5hc3NlcnRFcXVhbCgibGluZSIsIHVuaXQpCiAgICAgICAgICAgIHNlbGYuYXNzZXJ0SW4oIlNlY29uZCBzZW50ZW5jZSIsIHRleHQpCiAgICAgICAgICAgIHVuc3VwcG9ydGVkID0gUGF0aCh0bXApIC8gInVuc3VwcG9ydGVkLnBkZiIKICAgICAgICAgICAgdW5zdXBwb3J0ZWQud3JpdGVfYnl0ZXMoYiJub3QgYSBzdXBwb3J0ZWQgZmlsZSIpCiAgICAgICAgICAgIHdpdGggc2VsZi5hc3NlcnRSYWlzZXNSZWdleChWYWx1ZUVycm9yLCAiU3VwcG9ydGVkIG1hbnVzY3JpcHQgdHlwZXMiKToKICAgICAgICAgICAgICAgIHJlYWRfbWFudXNjcmlwdCh1bnN1cHBvcnRlZCkKCiAgICBkZWYgdGVzdF9tYXhfcGVyX2NoZWNrX3ZhbGlkYXRpb24oc2VsZik6CiAgICAgICAgd2l0aCBzZWxmLmFzc2VydFJhaXNlcyhWYWx1ZUVycm9yKToKICAgICAgICAgICAgYXVkaXRfdGV4dCgiYWJjIiwgbWF4X3Blcl9jaGVjaz0wKQo=
+from pathlib import Path
+import sys
+import tempfile
+import unittest
+
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "src"))
+
+from well_argued_prose.review import audit_text, read_manuscript
+
+
+class ReviewTests(unittest.TestCase):
+    def test_flags_are_advisory_and_located(self):
+        text = "This paper aims to discuss identity.\nTherefore, this structure must be explained.\n"
+        result = audit_text(text)
+        found = {row["code"]: row for row in result["checks"]}
+        self.assertEqual(1, found["generic-purpose"]["total_matches"])
+        self.assertEqual(1, found["inferential-connective"]["total_matches"])
+        self.assertEqual(2, found["inferential-connective"]["examples"][0]["line"])
+        self.assertEqual(1, found["unclear-demonstrative"]["total_matches"])
+        self.assertIn("not proven errors", result["disclaimer"])
+
+    def test_noncontrasting_prose_not_flagged_as_pivot(self):
+        text = "The premise is not certain. We should test it."
+        found = {row["code"]:row for row in audit_text(text)["checks"]}
+        self.assertEqual(0, found["negative-pivot"]["total_matches"])
+
+    def test_input_files(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "manuscript.md"
+            path.write_text("Academic argument.\nSecond sentence.\n", encoding="utf-8")
+            text, unit = read_manuscript(path)
+            self.assertEqual("line", unit)
+            self.assertIn("Second sentence", text)
+            unsupported = Path(tmp) / "unsupported.pdf"
+            unsupported.write_bytes(b"not a supported file")
+            with self.assertRaisesRegex(ValueError, "Supported manuscript types"):
+                read_manuscript(unsupported)
+
+    def test_max_per_check_validation(self):
+        with self.assertRaises(ValueError):
+            audit_text("abc", max_per_check=0)
