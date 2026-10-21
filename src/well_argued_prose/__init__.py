@@ -1,1 +1,3 @@
-IiIiQXJndW1lbnQtZmlyc3QgcmV2aWV3IHRvb2xzIGZvciBzY2hvbGFybHkgd3JpdGluZy4iIiIKCl9fdmVyc2lvbl9fID0gIjAuMS4xIgo=
+"""Argument-first review tools for scholarly writing."""
+
+__version__ = "0.1.1"
