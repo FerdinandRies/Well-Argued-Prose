@@ -1,1 +1,3 @@
-ZnJvbSAuY2xpIGltcG9ydCBtYWluCgpyYWlzZSBTeXN0ZW1FeGl0KG1haW4oKSkK
+from .cli import main
+
+raise SystemExit(main())
