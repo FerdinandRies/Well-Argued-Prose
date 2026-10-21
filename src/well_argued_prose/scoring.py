@@ -1,1 +1,45 @@
-IiIiSHVtYW4tc3VwcGxpZWQgc2NvcmVjYXJkIG1hbmFnZW1lbnQuIE5vIG1vZGVsLWdlbmVyYXRlZCBtYW51c2NyaXB0IHJhdGluZ3MuIiIiCgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgpmcm9tIC5jYXRhbG9nIGltcG9ydCBsb2FkCgoKZGVmIG1ha2VfdGVtcGxhdGUoKSAtPiBkaWN0OgogICAgcmV0dXJuIHsKICAgICAgICAic2NoZW1hX3ZlcnNpb24iOiAxLAogICAgICAgICJtYW51c2NyaXB0IjogIiIsCiAgICAgICAgImNyaXRlcmlhIjogWwogICAgICAgICAgICB7ImlkIjogY3JpdGVyaW9uWyJpZCJdLCAic2NvcmUiOiBOb25lLCAiZXZpZGVuY2UiOiAiIiwgInJldmlzaW9uX25vdGUiOiAiIn0KICAgICAgICAgICAgZm9yIGNyaXRlcmlvbiBpbiBsb2FkKCJzY29yZWNhcmQiKVsiY3JpdGVyaWEiXQogICAgICAgIF0sCiAgICB9CgoKZGVmIGV2YWx1YXRlKHBheWxvYWQ6IGRpY3QpIC0+IGRpY3Q6CiAgICBleHBlY3RlZCA9IHtpdGVtWyJpZCJdOiBpdGVtIGZvciBpdGVtIGluIGxvYWQoInNjb3JlY2FyZCIpWyJjcml0ZXJpYSJdfQogICAgYWN0dWFsID0gcGF5bG9hZC5nZXQoImNyaXRlcmlhIikKICAgIGlmIG5vdCBpc2luc3RhbmNlKGFjdHVhbCwgbGlzdCkgb3IgbGVuKGFjdHVhbCkgIT0gbGVuKGV4cGVjdGVkKToKICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJBIGNvbXBsZXRlIHNjb3JlY2FyZCByZXF1aXJlcyBleGFjdGx5IDEyIGNyaXRlcmlvbiBlbnRyaWVzIikKICAgIGlkcyA9IFtpdGVtLmdldCgiaWQiKSBmb3IgaXRlbSBpbiBhY3R1YWwgaWYgaXNpbnN0YW5jZShpdGVtLCBkaWN0KV0KICAgIGlmIHNldChpZHMpICE9IHNldChleHBlY3RlZCkgb3IgbGVuKGlkcykgIT0gbGVuKHNldChpZHMpKToKICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJTY29yZWNhcmQgY3JpdGVyaW9uIElEcyBhcmUgbWlzc2luZywgdW5rbm93biwgb3IgZHVwbGljYXRlZCIpCiAgICBvcmRlcmVkID0ge2l0ZW1bImlkIl06IGl0ZW0gZm9yIGl0ZW0gaW4gYWN0dWFsfQogICAgcmVzdWx0cyA9IFtdCiAgICBmb3Iga2V5LCBzdGFuZGFyZCBpbiBleHBlY3RlZC5pdGVtcygpOgogICAgICAgIGl0ZW0gPSBvcmRlcmVkW2tleV0KICAgICAgICBzY29yZSA9IGl0ZW0uZ2V0KCJzY29yZSIpCiAgICAgICAgaWYgdHlwZShzY29yZSkgaXMgbm90IGludCBvciBzY29yZSBub3QgaW4gKDAsIDEsIDIpOgogICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yKGYiQ3JpdGVyaW9uICd7a2V5fScgbXVzdCBoYXZlIGFuIGludGVnZXIgc2NvcmUgb2YgMCwgMSwgb3IgMiIpCiAgICAgICAgZXZpZGVuY2UgPSBpdGVtLmdldCgiZXZpZGVuY2UiLCAiIikKICAgICAgICBpZiBub3QgaXNpbnN0YW5jZShldmlkZW5jZSwgc3RyKSBvciAoc2NvcmUgPiAwIGFuZCBub3QgZXZpZGVuY2Uuc3RyaXAoKSk6CiAgICAgICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoZiJDcml0ZXJpb24gJ3trZXl9JyBuZWVkcyB0ZXh0dWFsIGV2aWRlbmNlIGZvciBhIHBvc2l0aXZlIHNjb3JlIikKICAgICAgICByZXN1bHRzLmFwcGVuZCh7ImlkIjprZXksICJ0aXRsZSI6c3RhbmRhcmRbInRpdGxlIl0sICJzY29yZSI6c2NvcmUsCiAgICAgICAgICAgICAgICAgICAgICAgICJydWxlX2lkcyI6IHN0YW5kYXJkWyJydWxlX2lkcyJdLCAiZXZpZGVuY2UiOiBldmlkZW5jZSwKICAgICAgICAgICAgICAgICAgICAgICAgInJldmlzaW9uX25vdGUiOiBpdGVtLmdldCgicmV2aXNpb25fbm90ZSIsICIiKX0pCiAgICBzY29yZSA9IHN1bShpdGVtWyJzY29yZSJdIGZvciBpdGVtIGluIHJlc3VsdHMpCiAgICByZXR1cm4geyJtYW51c2NyaXB0IjpwYXlsb2FkLmdldCgibWFudXNjcmlwdCIsICIiKSwgInNjb3JlIjpzY29yZSwgIm91dF9vZiI6MjQsCiAgICAgICAgICAgICJyZXZpZXdfdGhyZXNob2xkX21ldCI6IHNjb3JlID49IDIwLAogICAgICAgICAgICAidmVyZGljdCI6ICJQcm9jZWVkIHRvIGZpbmFsIGxhbmd1YWdlIHJldmlldyIgaWYgc2NvcmUgPj0gMjAgZWxzZSAiUmV0dXJuIHRvIHN0cnVjdHVyYWwgYW5kIGFyZ3VtZW50YXRpdmUgcmV2aXNpb24iLAogICAgICAgICAgICAiY3JpdGVyaWEiOnJlc3VsdHMsCiAgICAgICAgICAgICJjYXZlYXQiOiJUaGlzIGlzIGEgaHVtYW4tYXV0aG9yZWQgZWRpdG9yaWFsIGNoZWNrbGlzdC4gSXQgZG9lcyBub3QgY2VydGlmeSBqb3VybmFsIHJlYWRpbmVzcyBvciBwcmVkaWN0IGFjY2VwdGFuY2UuIn0K
+"""Human-supplied scorecard management. No model-generated manuscript ratings."""
+
+from __future__ import annotations
+
+from .catalog import load
+
+
+def make_template() -> dict:
+    return {
+        "schema_version": 1,
+        "manuscript": "",
+        "criteria": [
+            {"id": criterion["id"], "score": None, "evidence": "", "revision_note": ""}
+            for criterion in load("scorecard")["criteria"]
+        ],
+    }
+
+
+def evaluate(payload: dict) -> dict:
+    expected = {item["id"]: item for item in load("scorecard")["criteria"]}
+    actual = payload.get("criteria")
+    if not isinstance(actual, list) or len(actual) != len(expected):
+        raise ValueError("A complete scorecard requires exactly 12 criterion entries")
+    ids = [item.get("id") for item in actual if isinstance(item, dict)]
+    if set(ids) != set(expected) or len(ids) != len(set(ids)):
+        raise ValueError("Scorecard criterion IDs are missing, unknown, or duplicated")
+    ordered = {item["id"]: item for item in actual}
+    results = []
+    for key, standard in expected.items():
+        item = ordered[key]
+        score = item.get("score")
+        if type(score) is not int or score not in (0, 1, 2):
+            raise ValueError(f"Criterion '{key}' must have an integer score of 0, 1, or 2")
+        evidence = item.get("evidence", "")
+        if not isinstance(evidence, str) or (score > 0 and not evidence.strip()):
+            raise ValueError(f"Criterion '{key}' needs textual evidence for a positive score")
+        results.append({"id":key, "title":standard["title"], "score":score,
+                        "rule_ids": standard["rule_ids"], "evidence": evidence,
+                        "revision_note": item.get("revision_note", "")})
+    score = sum(item["score"] for item in results)
+    return {"manuscript":payload.get("manuscript", ""), "score":score, "out_of":24,
+            "review_threshold_met": score >= 20,
+            "verdict": "Proceed to final language review" if score >= 20 else "Return to structural and argumentative revision",
+            "criteria":results,
+            "caveat":"This is a human-authored editorial checklist. It does not certify journal readiness or predict acceptance."}
