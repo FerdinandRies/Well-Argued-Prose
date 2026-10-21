@@ -1,1 +1,70 @@
-IyBXZWxsLUFyZ3VlZCBQcm9zZQoKKipBcmd1bWVudC1maXJzdCBzdGFuZGFyZHMgZm9yIHRvcC10aWVyIHNjaG9sYXJseSB3cml0aW5nLioqCgo+IE1vc3Qgd3JpdGluZyB0b29scyBjaGVjayB5b3VyIHNlbnRlbmNlcy4gVG9wLXRpZXIgam91cm5hbHMganVkZ2UgeW91ciBhcmd1bWVudHMuCgpFdmVyeSBleGlzdGluZyBjaGVja2VyIHdvcmtzIGF0IHRoZSBzdXJmYWNlOiBwYXNzaXZlIHZvaWNlLCB3ZWFzZWwgd29yZHMsIGNsaWNow6lzLCBob3VzZSBzdHlsZS4gUHJvbXB0IGNvbGxlY3Rpb25zIGhhbmQgeW91IHRlbXBsYXRlcy4gTmVpdGhlciB0b3VjaGVzIHRoZSBsYXllciB3aGVyZSBtYW51c2NyaXB0cyBhY3R1YWxseSBzdWNjZWVkIG9yIGZhaWwgYXQgam91cm5hbHMgc3VjaCBhcyAqTWluZCo6IHdoZXRoZXIgdGhlIGNlbnRyYWwgY2xhaW0gaXMgbG9hZC1iZWFyaW5nLCB3aGV0aGVyIGEgY29uY2VwdCBpcyBkZWZpbmVkIGJ5IHRoZSB3b3JrIGl0IGRvZXMsIHdoZXRoZXIgdGhlIHN0cm9uZ2VzdCBvYmplY3Rpb24gaXMgbWV0IHdoZXJlIGl0IGJlbG9uZ3MsIHdoZXRoZXIgZWFjaCBwYXJhZ3JhcGggcGVyZm9ybXMgb25lIGFyZ3VtZW50YXRpdmUgbW92ZSBhbmQgbm8gbW9yZS4KCioqV2VsbC1Bcmd1ZWQgUHJvc2UgaXMgdGhlIGZpcnN0IG9wZW4tc291cmNlIGZyYW1ld29yayBidWlsdCBmb3IgdGhhdCBsYXllcioqIOKAlCBhbmQgdGhlIGZpcnN0IHRvIGNvbWJpbmUgYWxsIGZvdXIgb2YgdGhlIGZvbGxvd2luZyBpbiBhIHNpbmdsZSBzeXN0ZW06CgojIyBXaGF0IGlzIG5ldyBoZXJlCgoxLiAqKkFyZ3VtZW50LWxldmVsIHJ1bGVzLCBub3Qgc2VudGVuY2UtbGV2ZWwgdGlwcy4qKiBGaWZ0eS1zZXZlbiBydWxlcyBhY3Jvc3MgbmluZSBsZXZlbHMgZ292ZXJuIGhvdyBhbiBvcGVuaW5nIGNyZWF0ZXMgcHJlc3N1cmUsIGhvdyBhIGNvcmUgY29uY2VwdCBlYXJucyBhIHN0cnVjdHVyYWwgZGVmaW5pdGlvbiwgaG93IGNhc2VzIGFuZCBjaXRhdGlvbnMgYXJlIG1hZGUgdG8gd29yaywgd2hlcmUgb2JqZWN0aW9ucyBtdXN0IGVudGVyLCBhbmQgaG93IGEgY29uY2x1c2lvbiBzdGF0ZXMgd2hhdCB0aGUgZmllbGQgY2FuIG5vdyBqdWRnZSBkaWZmZXJlbnRseS4gRXZlcnkgcnVsZSBwYWlycyBhICpTdGFuZGFyZCogd2l0aCBhbiBleGVjdXRhYmxlICpSZXZpZXcgYWN0aW9uKi4KMi4gKipDb3JwdXMtZ3JvdW5kZWQsIG5vdCBpbXByZXNzaW9uaXN0aWMuKiogRWFjaCBydWxlIGlzIGFuY2hvcmVkIGluIGEgY29tcGFyYXRpdmUgc3R1ZHkgb2YgKioxMiBwdWJsaXNoZWQgYXJ0aWNsZXMgaW4gKk1pbmQqKiosIGFuZCBlYWNoIHdvcmtlZCBleGFtcGxlIGlzIGFuIG9yaWdpbmFsIGVkaXRvcmlhbCByZWNvbnN0cnVjdGlvbiBvZiBhIHJlYWwgcHVibGlzaGVkIGFyZ3VtZW50LCBsaW5rZWQgdG8gaXRzIHNvdXJjZSBieSBET0kuIEEgY29tcGxldGUgW3Byb3ZlbmFuY2UgbWFwXShkb2NzL2V4YW1wbGUtc291cmNlcy5tZCkgbGV0cyBhbnkgcmVhZGVyIHRyYWNlIGV2ZXJ5IGV4YW1wbGUgYmFjayB0byB0aGUgcGFwZXIgaXQgcmVjb25zdHJ1Y3RzLgozLiAqKkEgcnVsZWJvb2sgZW5naW5lZXJlZCBsaWtlIHNvZnR3YXJlLioqIFRoZSBydWxlcyBsaXZlIGluIGEgdmVyc2lvbmVkLCBtYWNoaW5lLXJlYWRhYmxlIEpTT04gY2F0YWxvZyDigJQgdGhlIHNpbmdsZSBzb3VyY2Ugb2YgdHJ1dGguIFRoZSBoYW5kYm9vayBpcyBnZW5lcmF0ZWQgZnJvbSB0aGF0IGNhdGFsb2cgYW5kIGNvbnNpc3RlbmN5LWNoZWNrZWQgYWdhaW5zdCBpdDsgYSBQeXRob24gQ0xJIGJyb3dzZXMgcnVsZXMsIHJ1bnMgYWR2aXNvcnkgYXVkaXRzLCBhbmQgdmFsaWRhdGVzIHRoZSBjYXRhbG9nOyBhIHVuaXQtdGVzdCBzdWl0ZSBndWFyZHMgdGhlIHdob2xlIHN5c3RlbS4KNC4gKipBIGZvcm1hbCBodW1hbiByZXZpZXcgcHJvdG9jb2wuKiogQSAxMi1jcml0ZXJpb24sICoqMjQtcG9pbnQgc2NvcmVjYXJkKiogdHVybnMgInJldmlzZSB0aGUgcHJvc2UiIGludG8gYW4gZXZpZGVuY2UtYmFja2VkIGVkaXRvcmlhbCBwcm9jZWR1cmUuIFJhdGluZ3MgYXJlIHN1cHBsaWVkIGJ5IGh1bWFuIHJldmlld2VycywgbmV2ZXIgaW52ZW50ZWQgYnkgdGhlIHByb2dyYW0uCgpUaGUgZ3VpZGluZyBwcmluY2lwbGU6ICoqYSBjb25jZXB0IG11c3QgZWFybiBpdHMgcGxhY2UgaW4gYW4gYXJndW1lbnQuKioKClRoZSBpbml0aWFsIGVtcGhhc2lzIGlzIHBoaWxvc29waHksIGV0aGljcywgYW5kIGFyZ3VtZW50LWRyaXZlbiBodW1hbml0aWVzIGFuZCBzb2NpYWwtc2NpZW5jZSBzY2hvbGFyc2hpcC4KCiMjIFdoYXQncyBpbmNsdWRlZAoKLSBBIGNvbXBsZXRlIFs1Ny1ydWxlIEVuZ2xpc2ggaGFuZGJvb2tdKGRvY3MvaGFuZGJvb2subWQpIHdpdGggcmV2aWV3IGFjdGlvbnMgYW5kICoqc291cmNlLWxpbmtlZCBleGFtcGxlcyBiYXNlZCBvbiBwdWJsaXNoZWQgKk1pbmQqIGFyZ3VtZW50cyoqLgotIFtUYXNrLWJhc2VkIHdvcmtmbG93c10oZG9jcy93b3JrZmxvd3MubWQpIGZvciBhYnN0cmFjdHMsIGludHJvZHVjdGlvbnMsIGFyZ3VtZW50cywgY2FzZXMsIG9iamVjdGlvbnMsIGFuZCByZXZpc2lvbi4KLSBBIFsxMi1jcml0ZXJpb24sIDI0LXBvaW50IGh1bWFuIHNjb3JlY2FyZF0oZG9jcy9zY29yZWNhcmQubWQpLgotIEEgbG9jYWwgUHl0aG9uIENMSSBmb3IgYnJvd3NpbmcgcnVsZXMsIGFkdmlzb3J5IHByb3NlIGNoZWNrcywgYW5kIHNjb3JlY2FyZCBoYW5kbGluZy4KLSBBIGxpbmtlZCBbcmVmZXJlbmNlIGNvcnB1c10oZG9jcy9jb3JwdXMubWQpIGFuZCBhIHZlcnNpb25lZCBKU09OIHJ1bGUgY2F0YWxvZy4KCiMjIFF1aWNrIHN0YXJ0CgpSZXF1aXJlcyBQeXRob24gMy4xMCBvciBuZXdlci4KCmBgYGJhc2gKcHl0aG9uIC1tIHBpcCBpbnN0YWxsIC1lIC4Kd2VsbC1hcmd1ZWQtcHJvc2UgbGlzdAp3ZWxsLWFyZ3VlZC1wcm9zZSBzaG93IDM3CndlbGwtYXJndWVkLXByb3NlIGd1aWRlIGludHJvZHVjdGlvbgp3ZWxsLWFyZ3VlZC1wcm9zZSBhdWRpdCBleGFtcGxlcy9zYW1wbGUtbWFudXNjcmlwdC5tZAp3ZWxsLWFyZ3VlZC1wcm9zZSBzY29yZWNhcmQgaW5pdCBteS1yZXZpZXcuanNvbgpgYGAKCkZvciBNaWNyb3NvZnQgV29yZCBzdXBwb3J0OiBgcHl0aG9uIC1tIHBpcCBpbnN0YWxsIC1lICIuW2RvY3hdImAuCgpUaGUgYXVkaXQgd29ya3MgbG9jYWxseSBvbiBgLm1kYCwgYC50eHRgLCBvciAod2l0aCB0aGUgb3B0aW9uYWwgZGVwZW5kZW5jeSkgYC5kb2N4YCBmaWxlcy4gSXQgKipmbGFncyBwYXNzYWdlcyBmb3IgaHVtYW4gaW5zcGVjdGlvbioqOyBpdCBjYW5ub3QgdmFsaWRhdGUgYXJndW1lbnRzLCB2ZXJpZnkgc2Nob2xhcnNoaXAsIGNvcnJlY3QgcHJvc2UgYXV0b21hdGljYWxseSwgb3IgcHJlZGljdCBwdWJsaWNhdGlvbiBvdXRjb21lcy4gTm8gZXh0ZXJuYWwgc2VydmljZSBpcyB1c2VkLgoKIyMgRXhwbG9yZQoKfCBSZXNvdXJjZSB8IFB1cnBvc2UgfAp8LS0tfC0tLXwKfCBbVXNhZ2UgZ3VpZGVdKGRvY3MvdXNhZ2UubWQpIHwgQWxsIGZvdXIgd2F5cyB0byB1c2UgdGhlIHByb2plY3QsIHN0ZXAgYnkgc3RlcCB8CnwgW1J1bGVib29rXShkb2NzL2hhbmRib29rLm1kKSB8IEFsbCA1NyBydWxlcywgcHVibGlzaGVkLWFydGljbGUgY2FzZSBleGFtcGxlcyB8CnwgW1dvcmtmbG93c10oZG9jcy93b3JrZmxvd3MubWQpIHwgRmluZCB0aGUgcmlnaHQgc2VxdWVuY2UgZm9yIGEgd3JpdGluZyB0YXNrIHwKfCBbU2NvcmVjYXJkXShkb2NzL3Njb3JlY2FyZC5tZCkgfCBFdmlkZW5jZS1iYWNrZWQsIGh1bWFuLXNjb3JlZCBlZGl0b3JpYWwgcmV2aWV3IHwKfCBbQ29ycHVzXShkb2NzL2NvcnB1cy5tZCkgfCBUd2VsdmUgcmVmZXJlbmNlIGFydGljbGVzIGFuZCB0aGVpciB3cml0aW5nIG1vdmVzIHwKfCBbRXhhbXBsZSBzb3VyY2UgbWFwXShkb2NzL2V4YW1wbGUtc291cmNlcy5tZCkgfCBQYXBlci1sZXZlbCBwcm92ZW5hbmNlIGZvciBhbGwgNTcgZXhhbXBsZXMgfAp8IFtSZXZpZXcgcHJvdG9jb2xdKGRvY3MvcmV2aWV3LXByb3RvY29sLm1kKSB8IEFuIGFyZ3VtZW50LWZpcnN0IHJldmlzaW9uIHByb2NlZHVyZSB8CnwgW1NvdXJjZSBhbmQgZWRpdG9yaWFsIG5vdGVzXShkb2NzL3NvdXJjZS1ub3Rlcy5tZCkgfCBTY29wZSwgcHJvdmVuYW5jZSwgbm9ybWFsaXplZCByZWZlcmVuY2VzIHwKfCBbUHVibGlzaGluZyBndWlkZV0oZG9jcy9wdWJsaXNoaW5nLm1kKSB8IE9wZW4gdGhpcyBwcm9qZWN0IG9uIEdpdEh1YiB8CnwgW0FJIHJldmlzaW9uIHByb21wdHNdKHByb21wdHMvbWFudXNjcmlwdC1yZXZpc2lvbi5tZCkgfCBBcHBseSB0aGUgcnVsZWJvb2sgd2l0aCBhIHdyaXRpbmcgYXNzaXN0YW50IHwKCiMjIENvbnRyaWJ1dGUKClJ1bGUgaW1wcm92ZW1lbnRzIG5lZWQgYSBzcGVjaWZpYyBmYWlsdXJlIG1vZGUsIGEgd29ya2VkIGV4YW1wbGUsIGFuZCBhIHJlYXNvbmVkIGp1c3RpZmljYXRpb24uIFNlZSBbQ09OVFJJQlVUSU5HLm1kXShDT05UUklCVVRJTkcubWQpLiBSdW4gYHB5dGhvbiAtbSB3ZWxsX2FyZ3VlZF9wcm9zZSB2YWxpZGF0ZWAgYW5kIGBweXRob24gLW0gdW5pdHRlc3QgZGlzY292ZXIgLXMgdGVzdHMgLXZgIGJlZm9yZSBzdWJtaXR0aW5nIGNoYW5nZXMuCgojIyBMaWNlbnNpbmcKClB5dGhvbiBjb2RlIGlzIGxpY2Vuc2VkIHVuZGVyICoqTUlUKiogKFtMSUNFTlNFXShMSUNFTlNFKSkuIE9yaWdpbmFsIHJ1bGVib29rIHRleHQsIGV4YW1wbGVzLCBhbmQgZWRpdG9yaWFsIGRhdGEgYXJlIHVuZGVyICoqQ0MgQlkgNC4wKiogKFtjb250ZW50IGxpY2Vuc2VdKExJQ0VOU0UtQ09OVEVOVC5tZCkpLiBFeGFtcGxlcyBhcmUgb3JpZ2luYWwgZWRpdG9yaWFsIHBhcmFwaHJhc2VzIHdpdGggRE9JIHByb3ZlbmFuY2UsICoqbm90IHBhc3NhZ2VzIGNvcGllZCBmcm9tIHRoZSBwYXBlcnMqKi4gSm91cm5hbCBhcnRpY2xlcyByZW1haW4gdGhlIHByb3BlcnR5IG9mIHRoZWlyIHJlc3BlY3RpdmUgcmlnaHRzIGhvbGRlcnMuIFRoaXMgaXMgYW4gaW5kZXBlbmRlbnQgcHJvamVjdCwgdW5hZmZpbGlhdGVkIHdpdGggKk1pbmQqIG9yIGl0cyBwdWJsaXNoZXIuCgoqKk1haW50YWluZXI6KiogW0ZlcmRpbmFuZCBSaWVzXShodHRwczovL2dpdGh1Yi5jb20vRmVyZGluYW5kUmllcykuCg==
+# Well-Argued Prose
+
+**Argument-first standards for top-tier scholarly writing.**
+
+> Most writing tools check your sentences. Top-tier journals judge your arguments.
+
+Every existing checker works at the surface: passive voice, weasel words, clichés, house style. Prompt collections hand you templates. Neither touches the layer where manuscripts actually succeed or fail at journals such as *Mind*: whether the central claim is load-bearing, whether a concept is defined by the work it does, whether the strongest objection is met where it belongs, whether each paragraph performs one argumentative move and no more.
+
+**Well-Argued Prose is the first open-source framework built for that layer** — and the first to combine all four of the following in a single system:
+
+## What is new here
+
+1. **Argument-level rules, not sentence-level tips.** Fifty-seven rules across nine levels govern how an opening creates pressure, how a core concept earns a structural definition, how cases and citations are made to work, where objections must enter, and how a conclusion states what the field can now judge differently. Every rule pairs a *Standard* with an executable *Review action*.
+2. **Corpus-grounded, not impressionistic.** Each rule is anchored in a comparative study of **12 published articles in *Mind***, and each worked example is an original editorial reconstruction of a real published argument, linked to its source by DOI. A complete [provenance map](docs/example-sources.md) lets any reader trace every example back to the paper it reconstructs.
+3. **A rulebook engineered like software.** The rules live in a versioned, machine-readable JSON catalog — the single source of truth. The handbook is generated from that catalog and consistency-checked against it; a Python CLI browses rules, runs advisory audits, and validates the catalog; a unit-test suite guards the whole system.
+4. **A formal human review protocol.** A 12-criterion, **24-point scorecard** turns "revise the prose" into an evidence-backed editorial procedure. Ratings are supplied by human reviewers, never invented by the program.
+
+The guiding principle: **a concept must earn its place in an argument.**
+
+The initial emphasis is philosophy, ethics, and argument-driven humanities and social-science scholarship.
+
+## What's included
+
+- A complete [57-rule English handbook](docs/handbook.md) with review actions and **source-linked examples based on published *Mind* arguments**.
+- [Task-based workflows](docs/workflows.md) for abstracts, introductions, arguments, cases, objections, and revision.
+- A [12-criterion, 24-point human scorecard](docs/scorecard.md).
+- A local Python CLI for browsing rules, advisory prose checks, and scorecard handling.
+- A linked [reference corpus](docs/corpus.md) and a versioned JSON rule catalog.
+
+## Quick start
+
+Requires Python 3.10 or newer.
+
+```bash
+python -m pip install -e .
+well-argued-prose list
+well-argued-prose show 37
+well-argued-prose guide introduction
+well-argued-prose audit examples/sample-manuscript.md
+well-argued-prose scorecard init my-review.json
+```
+
+For Microsoft Word support: `python -m pip install -e ".[docx]"`.
+
+The audit works locally on `.md`, `.txt`, or (with the optional dependency) `.docx` files. It **flags passages for human inspection**; it cannot validate arguments, verify scholarship, correct prose automatically, or predict publication outcomes. No external service is used.
+
+## Explore
+
+| Resource | Purpose |
+|---|---|
+| [Usage guide](docs/usage.md) | All four ways to use the project, step by step |
+| [Rulebook](docs/handbook.md) | All 57 rules, published-article case examples |
+| [Workflows](docs/workflows.md) | Find the right sequence for a writing task |
+| [Scorecard](docs/scorecard.md) | Evidence-backed, human-scored editorial review |
+| [Corpus](docs/corpus.md) | Twelve reference articles and their writing moves |
+| [Example source map](docs/example-sources.md) | Paper-level provenance for all 57 examples |
+| [Review protocol](docs/review-protocol.md) | An argument-first revision procedure |
+| [Source and editorial notes](docs/source-notes.md) | Scope, provenance, normalized references |
+| [Publishing guide](docs/publishing.md) | Open this project on GitHub |
+| [AI revision prompts](prompts/manuscript-revision.md) | Apply the rulebook with a writing assistant |
+
+## Contribute
+
+Rule improvements need a specific failure mode, a worked example, and a reasoned justification. See [CONTRIBUTING.md](CONTRIBUTING.md). Run `python -m well_argued_prose validate` and `python -m unittest discover -s tests -v` before submitting changes.
+
+## Licensing
+
+Python code is licensed under **MIT** ([LICENSE](LICENSE)). Original rulebook text, examples, and editorial data are under **CC BY 4.0** ([content license](LICENSE-CONTENT.md)). Examples are original editorial paraphrases with DOI provenance, **not passages copied from the papers**. Journal articles remain the property of their respective rights holders. This is an independent project, unaffiliated with *Mind* or its publisher.
+
+**Maintainer:** [Ferdinand Ries](https://github.com/FerdinandRies).
