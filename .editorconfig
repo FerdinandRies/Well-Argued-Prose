@@ -1,1 +1,18 @@
-cm9vdCA9IHRydWUKClsqXQpjaGFyc2V0ID0gdXRmLTgKZW5kX29mX2xpbmUgPSBsZgppbnNlcnRfZmluYWxfbmV3bGluZSA9IHRydWUKdHJpbV90cmFpbGluZ193aGl0ZXNwYWNlID0gdHJ1ZQoKWyoubWRdCnRyaW1fdHJhaWxpbmdfd2hpdGVzcGFjZSA9IGZhbHNlCgpbKi5weV0KaW5kZW50X3N0eWxlID0gc3BhY2UKaW5kZW50X3NpemUgPSA0CgpbKi57anNvbix5bWwseWFtbCx0b21sfV0KaW5kZW50X3N0eWxlID0gc3BhY2UKaW5kZW50X3NpemUgPSAyCg==
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.md]
+trim_trailing_whitespace = false
+
+[*.py]
+indent_style = space
+indent_size = 4
+
+[*.{json,yml,yaml,toml}]
+indent_style = space
+indent_size = 2
