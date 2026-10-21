@@ -1,1 +1,85 @@
-IiIiTG9hZCB0aGUgdmVyc2lvbmVkIGVkaXRvcmlhbCBjYXRhbG9nIGZyb20gcGFja2FnZSByZXNvdXJjZXMuIiIiCgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgpmcm9tIGZ1bmN0b29scyBpbXBvcnQgbHJ1X2NhY2hlCmZyb20gaW1wb3J0bGliIGltcG9ydCByZXNvdXJjZXMKaW1wb3J0IGpzb24KCgpAbHJ1X2NhY2hlKG1heHNpemU9Tm9uZSkKZGVmIGxvYWQobmFtZTogc3RyKToKICAgIGFsbG93ZWQgPSB7InJ1bGVzIiwgIndvcmtmbG93cyIsICJzY29yZWNhcmQiLCAiY29ycHVzIn0KICAgIGlmIG5hbWUgbm90IGluIGFsbG93ZWQ6CiAgICAgICAgcmFpc2UgVmFsdWVFcnJvcihmIlVua25vd24gY2F0YWxvZzoge25hbWV9IikKICAgIHJhdyA9IHJlc291cmNlcy5maWxlcygid2VsbF9hcmd1ZWRfcHJvc2UuZGF0YSIpLmpvaW5wYXRoKGYie25hbWV9Lmpzb24iKS5yZWFkX3RleHQoZW5jb2Rpbmc9InV0Zi04IikKICAgIHJldHVybiBqc29uLmxvYWRzKHJhdykKCgpkZWYgZ2V0X3J1bGUocnVsZV9pZDogaW50KToKICAgICIiIlJldHVybiBhIHJ1bGUgd2l0aCBhIHN0YWJsZSBpbnRlZ2VyIElEIG9yIHJhaXNlIFZhbHVlRXJyb3IuIiIiCiAgICBmb3IgcnVsZSBpbiBsb2FkKCJydWxlcyIpWyJydWxlcyJdOgogICAgICAgIGlmIHJ1bGVbImlkIl0gPT0gcnVsZV9pZDoKICAgICAgICAgICAgcmV0dXJuIHJ1bGUKICAgIHJhaXNlIFZhbHVlRXJyb3IoZiJSdWxlIHtydWxlX2lkfSBkb2VzIG5vdCBleGlzdCAodmFsaWQgcmFuZ2U6IDHigJM1NykiKQoKCmRlZiBnZXRfd29ya2Zsb3cod29ya2Zsb3dfaWQ6IHN0cik6CiAgICBmb3IgaXRlbSBpbiBsb2FkKCJ3b3JrZmxvd3MiKToKICAgICAgICBpZiBpdGVtWyJpZCJdID09IHdvcmtmbG93X2lkOgogICAgICAgICAgICByZXR1cm4gaXRlbQogICAgcmFpc2UgVmFsdWVFcnJvcihmIlVua25vd24gd29ya2Zsb3cgJ3t3b3JrZmxvd19pZH0nIikKCgpkZWYgdmFsaWRhdGVfY2F0YWxvZygpIC0+IGxpc3Rbc3RyXToKICAgICIiIkNoZWNrIGNyb3NzLWZpbGUgaW50ZWdyaXR5LiBSZXR1cm5zIGVycm9yIHN0cmluZ3MsIG5vdCBhIHBhc3NpbmcgZ3JhZGUuIiIiCiAgICBpc3N1ZXM6IGxpc3Rbc3RyXSA9IFtdCiAgICBydWxlc19kb2MgPSBsb2FkKCJydWxlcyIpCiAgICBydWxlcyA9IHJ1bGVzX2RvY1sicnVsZXMiXQogICAgaWRzID0gW3J1bGUuZ2V0KCJpZCIpIGZvciBydWxlIGluIHJ1bGVzXQogICAgZXhwZWN0ZWRfaWRzID0gbGlzdChyYW5nZSgxLCA1OCkpCiAgICBpZiBpZHMgIT0gZXhwZWN0ZWRfaWRzOgogICAgICAgIGlzc3Vlcy5hcHBlbmQoIlJ1bGUgSURzIG11c3QgYmUgdW5pcXVlIGFuZCBydW4gY29uc2VjdXRpdmVseSBmcm9tIDEgdGhyb3VnaCA1NyIpCiAgICBzZWN0aW9ucyA9IHJ1bGVzX2RvY1sic2VjdGlvbnMiXQogICAgaWYgbGVuKHNlY3Rpb25zKSAhPSA5IG9yIFtzLmdldCgiaWQiKSBmb3IgcyBpbiBzZWN0aW9uc10gIT0gbGlzdChyYW5nZSgxLCAxMCkpOgogICAgICAgIGlzc3Vlcy5hcHBlbmQoIkV4YWN0bHkgbmluZSBvcmRlcmVkIHNlY3Rpb25zIGFyZSByZXF1aXJlZCIpCiAgICBmb3IgcnVsZSBpbiBydWxlczoKICAgICAgICBmb3IgZmllbGQgaW4gKCJ0aXRsZSIsICJzY29wZSIsICJzdGFuZGFyZCIsICJjb3JwdXNfb2JzZXJ2YXRpb24iLCAicmV2aWV3X2FjdGlvbiIsICJleGFtcGxlIik6CiAgICAgICAgICAgIGlmIG5vdCBpc2luc3RhbmNlKHJ1bGUuZ2V0KGZpZWxkKSwgc3RyKSBvciBub3QgcnVsZVtmaWVsZF0uc3RyaXAoKToKICAgICAgICAgICAgICAgIGlzc3Vlcy5hcHBlbmQoZiJSdWxlIHtydWxlLmdldCgnaWQnKX0gbGFja3Mge2ZpZWxkfSIpCiAgICAgICAgaWYgcnVsZS5nZXQoInNlY3Rpb24iKSBub3QgaW4gcmFuZ2UoMSwgMTApOgogICAgICAgICAgICBpc3N1ZXMuYXBwZW5kKGYiUnVsZSB7cnVsZS5nZXQoJ2lkJyl9IGhhcyBhbiBpbnZhbGlkIHNlY3Rpb24iKQogICAgZm9yIHNlY3Rpb24gaW4gc2VjdGlvbnM6CiAgICAgICAgcmVsZXZhbnQgPSBbclsiaWQiXSBmb3IgciBpbiBydWxlcyBpZiByWyJzZWN0aW9uIl0gPT0gc2VjdGlvblsiaWQiXV0KICAgICAgICBpZiByZWxldmFudCAhPSBzZWN0aW9uWyJydWxlX2lkcyJdOgogICAgICAgICAgICBpc3N1ZXMuYXBwZW5kKGYiU2VjdGlvbiB7c2VjdGlvblsnaWQnXX0gaGFzIGluY29uc2lzdGVudCBydWxlIHJlZmVyZW5jZXMiKQogICAgaWRzX3NldCA9IHNldChpZHMpCiAgICBmb3IgaXRlbSBpbiBsb2FkKCJ3b3JrZmxvd3MiKToKICAgICAgICBpZiBub3QgaXRlbVsicnVsZV9pZHMiXSBvciBub3Qgc2V0KGl0ZW1bInJ1bGVfaWRzIl0pLmlzc3Vic2V0KGlkc19zZXQpOgogICAgICAgICAgICBpc3N1ZXMuYXBwZW5kKGYiV29ya2Zsb3cgJ3tpdGVtWydpZCddfScgcmVmZXJlbmNlcyBpbnZhbGlkIHJ1bGVzIikKICAgIHNjb3JlY2FyZCA9IGxvYWQoInNjb3JlY2FyZCIpCiAgICBjcml0ZXJpYSA9IHNjb3JlY2FyZFsiY3JpdGVyaWEiXQogICAgaWYgbGVuKGNyaXRlcmlhKSAhPSAxMiBvciBzY29yZWNhcmRbIm1heGltdW0iXSAhPSAyNCBvciBzY29yZWNhcmRbInRocmVzaG9sZCJdICE9IDIwOgogICAgICAgIGlzc3Vlcy5hcHBlbmQoIlRoZSBzY29yZWNhcmQgbXVzdCBoYXZlIDEyIGNyaXRlcmlhIGFuZCBhIDIwLzI0IHJldmlldyB0aHJlc2hvbGQiKQogICAgaWYgbGVuKHtjWyJpZCJdIGZvciBjIGluIGNyaXRlcmlhfSkgIT0gMTI6CiAgICAgICAgaXNzdWVzLmFwcGVuZCgiVGhlIHNjb3JlY2FyZCBjb250YWlucyBkdXBsaWNhdGUgSURzIikKICAgIGZvciBjcml0ZXJpb24gaW4gY3JpdGVyaWE6CiAgICAgICAgaWYgbm90IHNldChjcml0ZXJpb25bInJ1bGVfaWRzIl0pLmlzc3Vic2V0KGlkc19zZXQpOgogICAgICAgICAgICBpc3N1ZXMuYXBwZW5kKGYiQ3JpdGVyaW9uICd7Y3JpdGVyaW9uWydpZCddfScgaGFzIGludmFsaWQgcnVsZSByZWZlcmVuY2VzIikKICAgIGZvciBpdGVtIGluIHNjb3JlY2FyZFsiY3Jvc3NfY3V0dGluZ19jaGVja3MiXToKICAgICAgICBpZiBub3Qgc2V0KGl0ZW1bInJ1bGVfaWRzIl0pLmlzc3Vic2V0KGlkc19zZXQpOgogICAgICAgICAgICBpc3N1ZXMuYXBwZW5kKCJDcm9zcy1jdXR0aW5nIHJldmlldyByZWZlcmVuY2VzIGludmFsaWQgcnVsZXMiKQogICAgY29ycHVzID0gbG9hZCgiY29ycHVzIikKICAgIGlmIGxlbihjb3JwdXMpICE9IDEyIG9yIGxlbih7ZW50cnlbImRvaSJdIGZvciBlbnRyeSBpbiBjb3JwdXN9KSAhPSAxMjoKICAgICAgICBpc3N1ZXMuYXBwZW5kKCJUaGUgcmVmZXJlbmNlIGNvcnB1cyBtdXN0IGNvbnRhaW4gMTIgZGlzdGluY3QgYXJ0aWNsZXMiKQogICAgc291cmNlX2lkcyA9IFtlbnRyeS5nZXQoImlkIikgZm9yIGVudHJ5IGluIGNvcnB1c10KICAgIGlmIGxlbihzZXQoc291cmNlX2lkcykpICE9IDEyIG9yIG5vdCBhbGwoaXNpbnN0YW5jZSh4LCBzdHIpIGFuZCB4IGZvciB4IGluIHNvdXJjZV9pZHMpOgogICAgICAgIGlzc3Vlcy5hcHBlbmQoIlJlZmVyZW5jZSBjb3JwdXMgbmVlZHMgdHdlbHZlIGRpc3RpbmN0IHN0YWJsZSBzb3VyY2UgSURzIikKICAgIGtub3duID0gc2V0KHNvdXJjZV9pZHMpCiAgICBmb3IgcnVsZSBpbiBydWxlczoKICAgICAgICBzb3VyY2VzID0gcnVsZS5nZXQoImV4YW1wbGVfc291cmNlcyIpCiAgICAgICAgaWYgbm90IGlzaW5zdGFuY2Uoc291cmNlcywgbGlzdCkgb3Igbm90IHNvdXJjZXM6CiAgICAgICAgICAgIGlzc3Vlcy5hcHBlbmQoZiJSdWxlIHtydWxlLmdldCgnaWQnKX0gaXMgbWlzc2luZyBleGFtcGxlIHByb3ZlbmFuY2UiKQogICAgICAgIGVsaWYgbGVuKHNldChzb3VyY2VzKSkgIT0gbGVuKHNvdXJjZXMpIG9yIG5vdCBzZXQoc291cmNlcykuaXNzdWJzZXQoa25vd24pOgogICAgICAgICAgICBpc3N1ZXMuYXBwZW5kKGYiUnVsZSB7cnVsZS5nZXQoJ2lkJyl9IGhhcyBpbnZhbGlkIGFydGljbGUgc291cmNlcyIpCiAgICByZXR1cm4gaXNzdWVzCg==
+"""Load the versioned editorial catalog from package resources."""
+
+from __future__ import annotations
+
+from functools import lru_cache
+from importlib import resources
+import json
+
+
+@lru_cache(maxsize=None)
+def load(name: str):
+    allowed = {"rules", "workflows", "scorecard", "corpus"}
+    if name not in allowed:
+        raise ValueError(f"Unknown catalog: {name}")
+    raw = resources.files("well_argued_prose.data").joinpath(f"{name}.json").read_text(encoding="utf-8")
+    return json.loads(raw)
+
+
+def get_rule(rule_id: int):
+    """Return a rule with a stable integer ID or raise ValueError."""
+    for rule in load("rules")["rules"]:
+        if rule["id"] == rule_id:
+            return rule
+    raise ValueError(f"Rule {rule_id} does not exist (valid range: 1–57)")
+
+
+def get_workflow(workflow_id: str):
+    for item in load("workflows"):
+        if item["id"] == workflow_id:
+            return item
+    raise ValueError(f"Unknown workflow '{workflow_id}'")
+
+
+def validate_catalog() -> list[str]:
+    """Check cross-file integrity. Returns error strings, not a passing grade."""
+    issues: list[str] = []
+    rules_doc = load("rules")
+    rules = rules_doc["rules"]
+    ids = [rule.get("id") for rule in rules]
+    expected_ids = list(range(1, 58))
+    if ids != expected_ids:
+        issues.append("Rule IDs must be unique and run consecutively from 1 through 57")
+    sections = rules_doc["sections"]
+    if len(sections) != 9 or [s.get("id") for s in sections] != list(range(1, 10)):
+        issues.append("Exactly nine ordered sections are required")
+    for rule in rules:
+        for field in ("title", "scope", "standard", "corpus_observation", "review_action", "example"):
+            if not isinstance(rule.get(field), str) or not rule[field].strip():
+                issues.append(f"Rule {rule.get('id')} lacks {field}")
+        if rule.get("section") not in range(1, 10):
+            issues.append(f"Rule {rule.get('id')} has an invalid section")
+    for section in sections:
+        relevant = [r["id"] for r in rules if r["section"] == section["id"]]
+        if relevant != section["rule_ids"]:
+            issues.append(f"Section {section['id']} has inconsistent rule references")
+    ids_set = set(ids)
+    for item in load("workflows"):
+        if not item["rule_ids"] or not set(item["rule_ids"]).issubset(ids_set):
+            issues.append(f"Workflow '{item['id']}' references invalid rules")
+    scorecard = load("scorecard")
+    criteria = scorecard["criteria"]
+    if len(criteria) != 12 or scorecard["maximum"] != 24 or scorecard["threshold"] != 20:
+        issues.append("The scorecard must have 12 criteria and a 20/24 review threshold")
+    if len({c["id"] for c in criteria}) != 12:
+        issues.append("The scorecard contains duplicate IDs")
+    for criterion in criteria:
+        if not set(criterion["rule_ids"]).issubset(ids_set):
+            issues.append(f"Criterion '{criterion['id']}' has invalid rule references")
+    for item in scorecard["cross_cutting_checks"]:
+        if not set(item["rule_ids"]).issubset(ids_set):
+            issues.append("Cross-cutting review references invalid rules")
+    corpus = load("corpus")
+    if len(corpus) != 12 or len({entry["doi"] for entry in corpus}) != 12:
+        issues.append("The reference corpus must contain 12 distinct articles")
+    source_ids = [entry.get("id") for entry in corpus]
+    if len(set(source_ids)) != 12 or not all(isinstance(x, str) and x for x in source_ids):
+        issues.append("Reference corpus needs twelve distinct stable source IDs")
+    known = set(source_ids)
+    for rule in rules:
+        sources = rule.get("example_sources")
+        if not isinstance(sources, list) or not sources:
+            issues.append(f"Rule {rule.get('id')} is missing example provenance")
+        elif len(set(sources)) != len(sources) or not set(sources).issubset(known):
+            issues.append(f"Rule {rule.get('id')} has invalid article sources")
+    return issues
