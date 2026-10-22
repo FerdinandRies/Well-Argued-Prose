@@ -1,5 +1,10 @@
-# Code of Conduct
+# Code of conduct
 
-We expect rigorous, constructive, and respectful engagement. Critique arguments and evidence directly; avoid personal attacks, harassment, discrimination, threats, and disclosure of private material. Academic disagreement is welcome when reasons are supplied.
+Discuss arguments, evidence, and implementation choices respectfully. Give
+specific criticism and allow contributors to clarify their intended meaning.
+Harassment, discriminatory abuse, threats, and disclosure of private information
+are unacceptable.
 
-Maintainers may edit or remove contributions that violate these standards. Report concerns privately through the repository owner's contact information or GitHub's abuse reporting tools. A dedicated public maintainer contact can be added before the repository is opened to external contributors.
+Use invented examples in public reports. Keep personal disputes and confidential
+research out of issues and pull requests. The maintainer may remove harmful
+content, limit participation, or close discussions that disregard these standards.
