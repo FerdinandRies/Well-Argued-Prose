@@ -1,0 +1,124 @@
+{
+  "schema_version": 2,
+  "criteria": [
+    {
+      "id": "scope",
+      "title": "Baseline and authorized scope",
+      "rule_ids": [
+        "JP2-001",
+        "JP2-002",
+        "JP2-004"
+      ]
+    },
+    {
+      "id": "claim",
+      "title": "Problem, governing claim, and conclusion",
+      "rule_ids": [
+        "JP2-005",
+        "JP2-006",
+        "JP2-009",
+        "JP2-010"
+      ]
+    },
+    {
+      "id": "concepts",
+      "title": "Definitions and stable terminology",
+      "rule_ids": [
+        "JP2-007",
+        "JP2-008",
+        "JP2-039"
+      ]
+    },
+    {
+      "id": "reasoning",
+      "title": "Basic inferences and their support",
+      "rule_ids": [
+        "JP2-011",
+        "JP2-012",
+        "JP2-013",
+        "JP2-014",
+        "JP2-015",
+        "JP2-016",
+        "JP2-017",
+        "JP2-018"
+      ]
+    },
+    {
+      "id": "paragraphs",
+      "title": "Connected paragraph progression",
+      "rule_ids": [
+        "JP2-019",
+        "JP2-020",
+        "JP2-021",
+        "JP2-022",
+        "JP2-023"
+      ]
+    },
+    {
+      "id": "grammar",
+      "title": "Sentence meaning and grammar",
+      "rule_ids": [
+        "JP2-024",
+        "JP2-025",
+        "JP2-026",
+        "JP2-027",
+        "JP2-028",
+        "JP2-029",
+        "JP2-030",
+        "JP2-031",
+        "JP2-032"
+      ]
+    },
+    {
+      "id": "voice",
+      "title": "Strict scholarly voice policy",
+      "rule_ids": [
+        "JP2-033",
+        "JP2-034",
+        "JP2-035",
+        "JP2-036",
+        "JP2-037",
+        "JP2-038",
+        "JP2-039",
+        "JP2-040"
+      ]
+    },
+    {
+      "id": "sources",
+      "title": "Source accuracy and literature functions",
+      "rule_ids": [
+        "JP2-003",
+        "JP2-041",
+        "JP2-042",
+        "JP2-043",
+        "JP2-044",
+        "JP2-045",
+        "JP2-046"
+      ]
+    },
+    {
+      "id": "retention",
+      "title": "Compression retention and edit traceability",
+      "rule_ids": [
+        "JP2-004",
+        "JP2-046",
+        "JP2-047",
+        "JP2-048",
+        "JP2-049"
+      ]
+    },
+    {
+      "id": "delivery",
+      "title": "Final consistency and unresolved findings",
+      "rule_ids": [
+        "JP2-050"
+      ]
+    }
+  ],
+  "statuses": [
+    "not_reviewed",
+    "pass",
+    "revise",
+    "not_applicable"
+  ]
+}
