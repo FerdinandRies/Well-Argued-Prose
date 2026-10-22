@@ -1,0 +1,238 @@
+{
+  "schema_version": 2,
+  "checks": [
+    {
+      "id": "contrast-not-but",
+      "title": "Formulaic negative contrast",
+      "rule_ids": [
+        "JP2-033"
+      ],
+      "kind": "policy",
+      "engine": "regex",
+      "pattern": "\\bnot\\b[^.!?;]{0,240}?\\bbut\\b",
+      "message": "Express the actual functions and their relation directly. Check quoted or fixed technical wording before changing it."
+    },
+    {
+      "id": "contrast-not-merely",
+      "title": "Prohibited phrase: not merely",
+      "rule_ids": [
+        "JP2-033"
+      ],
+      "kind": "policy",
+      "engine": "regex",
+      "pattern": "\\bnot\\s+merely\\b",
+      "message": "Remove the rhetorical template and state the substantive relation."
+    },
+    {
+      "id": "contrast-not-only",
+      "title": "Prohibited phrase: not only",
+      "rule_ids": [
+        "JP2-033"
+      ],
+      "kind": "policy",
+      "engine": "regex",
+      "pattern": "\\bnot\\s+only\\b",
+      "message": "State each substantive contribution in direct clauses."
+    },
+    {
+      "id": "contrast-rather",
+      "title": "Prohibited phrase: rather than",
+      "rule_ids": [
+        "JP2-033"
+      ],
+      "kind": "policy",
+      "engine": "regex",
+      "pattern": "\\brather\\s+than\\b",
+      "message": "Express the relevant functions or conditions directly."
+    },
+    {
+      "id": "contrast-instead",
+      "title": "Prohibited phrase: instead of",
+      "rule_ids": [
+        "JP2-033"
+      ],
+      "kind": "policy",
+      "engine": "regex",
+      "pattern": "\\binstead\\s+of\\b",
+      "message": "Describe the actual procedure or choice directly."
+    },
+    {
+      "id": "contrast-opposed",
+      "title": "Prohibited phrase: as opposed to",
+      "rule_ids": [
+        "JP2-033"
+      ],
+      "kind": "policy",
+      "engine": "regex",
+      "pattern": "\\bas\\s+opposed\\s+to\\b",
+      "message": "Name the distinction and its relevant dimension."
+    },
+    {
+      "id": "contrast-no-longer",
+      "title": "Formulaic temporal negative contrast",
+      "rule_ids": [
+        "JP2-033"
+      ],
+      "kind": "policy",
+      "engine": "regex",
+      "pattern": "\\bno\\s+longer\\b[^.!?;]{0,240}?\\bbut\\b",
+      "message": "State the actual change without a binary rhetorical template."
+    },
+    {
+      "id": "translated-contrast",
+      "title": "Translated negative-contrast template",
+      "rule_ids": [
+        "JP2-033"
+      ],
+      "kind": "policy",
+      "engine": "regex",
+      "pattern": "(?:\\u4e0d\\u662f|\\u5e76\\u975e|\\u4e0d\\u5728\\u4e8e)[^\\u3002\\uff01\\uff1f\\n]{0,180}?\\u800c(?:\\u662f|\\u5728\\u4e8e)",
+      "message": "Apply the same positive-relation policy to the translated rhetorical construction."
+    },
+    {
+      "id": "purpose-template",
+      "title": "Template purpose or argument announcement",
+      "rule_ids": [
+        "JP2-036"
+      ],
+      "kind": "policy",
+      "engine": "regex",
+      "pattern": "\\b(?:this|the\\s+present)\\s+(?:paper|article|study)\\s+(?:argues?\\b|aims?\\s+to\\b|attempts?\\s+to\\b|seeks?\\s+to\\b)",
+      "message": "Begin with the substantive object and claim."
+    },
+    {
+      "id": "process-announcement",
+      "title": "Writing-process announcement",
+      "rule_ids": [
+        "JP2-036"
+      ],
+      "kind": "policy",
+      "engine": "regex",
+      "pattern": "\\b(?:in\\s+(?:this|the\\s+next)\\s+section\\s*,?\\s*(?:we|I)\\s+(?:will\\s+)?(?:turn|discuss|explore|examine)|(?:we|I)\\s+(?:will\\s+now|now)\\s+(?:turn|discuss|explore))\\b",
+      "message": "Replace an itinerary with the relation that motivates the next argument."
+    },
+    {
+      "id": "promotional-language",
+      "title": "Promotional or empty evaluative claim",
+      "rule_ids": [
+        "JP2-035"
+      ],
+      "kind": "policy",
+      "engine": "regex",
+      "pattern": "\\b(?:groundbreaking|revolutionary|profound|ultimate|definitive|best-in-class|most\\s+advanced|highest\\s+quality|uniquely\\s+important)\\b",
+      "message": "Identify the supported result. Necessary quoted or technical language requires human review."
+    },
+    {
+      "id": "shallow-ranking",
+      "title": "Possible unsupported hierarchy",
+      "rule_ids": [
+        "JP2-037"
+      ],
+      "kind": "advisory",
+      "engine": "regex",
+      "pattern": "\\b(?:deeper|richer|more\\s+fundamental)\\s+(?:than|contribution|understanding)\\b",
+      "message": "Check whether the comparison states a shared dimension and a supported difference."
+    },
+    {
+      "id": "vague-reference",
+      "title": "Potentially unclear demonstrative",
+      "rule_ids": [
+        "JP2-026"
+      ],
+      "kind": "advisory",
+      "engine": "regex",
+      "pattern": "\\b(?:this|that)\\s+(?:shows|means|suggests|demonstrates|structure|framework|process)\\b",
+      "message": "Resolve the antecedent; a clear contextual referent may justify keeping the phrase."
+    },
+    {
+      "id": "stacked-hedge",
+      "title": "Stacked uncertainty words",
+      "rule_ids": [
+        "JP2-015",
+        "JP2-040"
+      ],
+      "kind": "advisory",
+      "engine": "regex",
+      "pattern": "\\b(?:may\\s+(?:perhaps|possibly)|might\\s+possibly|could\\s+potentially|perhaps\\s+possibly)\\b",
+      "message": "Locate the actual source of uncertainty and preserve the supported force."
+    },
+    {
+      "id": "agreement-candidate",
+      "title": "Possible plural subject agreement error",
+      "rule_ids": [
+        "JP2-025"
+      ],
+      "kind": "advisory",
+      "engine": "regex",
+      "pattern": "\\b(?:these|those)\\s+(?:results|findings|records|values|conditions|methods)\\s+(?:is|was|has)\\b|\\bthe\\s+(?:results|findings|records)\\s+of\\s+the\\s+\\w+\\s+(?:is|was|has)\\b",
+      "message": "Check the grammatical head and the verb. The pattern covers only narrow cases."
+    },
+    {
+      "id": "article-mass-noun",
+      "title": "Possible article or countability error",
+      "rule_ids": [
+        "JP2-028"
+      ],
+      "kind": "advisory",
+      "engine": "regex",
+      "pattern": "\\b(?:a|an)\\s+(?:evidence|information|research|advice)\\b",
+      "message": "Check countability and the intended noun phrase in context."
+    },
+    {
+      "id": "repeated-word",
+      "title": "Repeated adjacent word",
+      "rule_ids": [
+        "JP2-039"
+      ],
+      "kind": "advisory",
+      "engine": "regex",
+      "pattern": "\\b([A-Za-z]{2,})\\s+\\1\\b",
+      "message": "Remove an accidental duplicate; a repeated grammatical word can occasionally be intentional."
+    },
+    {
+      "id": "citation-cluster",
+      "title": "Semicolon-separated citation cluster",
+      "rule_ids": [
+        "JP2-042",
+        "JP2-046"
+      ],
+      "kind": "policy",
+      "engine": "citation_cluster",
+      "pattern": "",
+      "message": "Distribute distinct citations across their claims, preserving the required citation style."
+    },
+    {
+      "id": "citation-size",
+      "title": "More than two works in a parenthesis",
+      "rule_ids": [
+        "JP2-042"
+      ],
+      "kind": "policy",
+      "engine": "citation_size",
+      "pattern": "",
+      "message": "Keep a parenthetical group small and functionally unified."
+    },
+    {
+      "id": "citation-density",
+      "title": "Five or more cited positions in a paragraph",
+      "rule_ids": [
+        "JP2-043"
+      ],
+      "kind": "policy",
+      "engine": "citation_density",
+      "pattern": "",
+      "message": "Reorganize the paragraph into coherent argument units. The citation count is heuristic."
+    },
+    {
+      "id": "author-parade",
+      "title": "Possible author-by-author literature sequence",
+      "rule_ids": [
+        "JP2-044"
+      ],
+      "kind": "advisory",
+      "engine": "author_parade",
+      "pattern": "",
+      "message": "Organize the paragraph around a problem and the relation among source contributions."
+    }
+  ]
+}
