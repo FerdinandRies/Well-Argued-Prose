@@ -1,14 +1,15 @@
-## Change and rationale
+## Change
 
-Describe the argument, rule, or feature being improved.
+Describe the behavior or editorial problem addressed.
 
-## Evidence
+## Validation
 
-Explain the failure mode, counterexample, or reproducible bug.
+Record the tests actually run and any limitations.
 
-## Verification
+## Release checks
 
-- [ ] `python -m well_argued_prose validate`
-- [ ] `python -m unittest discover -s tests -v`
-- [ ] `python scripts/build_handbook.py --check`
-- [ ] No unpublished or third-party copyrighted manuscript text is introduced.
+- [ ] Public examples are invented and disclose no confidential material.
+- [ ] Rule IDs, workflows, and generated documentation agree.
+- [ ] Tests cover the change and relevant false positives.
+- [ ] The release manifest includes only approved files.
+- [ ] The license for each changed component is preserved.
