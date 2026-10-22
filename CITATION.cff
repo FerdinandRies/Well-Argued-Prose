@@ -8,8 +8,8 @@ authors:
   - name: FerdinandRies
 abstract: "A public core rulebook and local review toolkit for scholarly arguments, academic English, citation discipline, and argument-preserving revision."
 license:
-  - MIT
-  - CC-BY-4.0
+  - AGPL-3.0-only
+  - CC-BY-SA-4.0
 keywords:
   - scholarly writing
   - argumentation
