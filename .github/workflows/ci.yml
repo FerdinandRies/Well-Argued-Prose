@@ -1,29 +1,43 @@
-name: Quality checks
+name: tests
 
 on:
   push:
   pull_request:
+  workflow_dispatch:
 
 permissions:
   contents: read
 
 jobs:
-  test:
+  core:
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
-        python-version: ["3.10", "3.12", "3.13"]
+        python-version: ["3.10", "3.11", "3.12", "3.13", "3.14"]
     steps:
-      - uses: actions/checkout@v7
-      - uses: actions/setup-python@v7
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python-version }}
-      - name: Install package
-        run: python -m pip install --upgrade pip && python -m pip install -e .
-      - name: Check machine-readable rules
-        run: python -m well_argued_prose validate
-      - name: Run unit tests
-        run: python -m unittest discover -s tests -v
-      - name: Check generated documentation
-        run: python scripts/build_handbook.py --check
+      - run: python -m pip install ".[dev,docx]"
+      - run: python -m unittest discover -s tests -v
+      - run: python scripts/build_handbook.py --check
+      - run: python scripts/check_release.py
+      - run: journalprose validate
+      - run: python -m build
+  cross-platform:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [windows-latest, macos-latest]
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - run: python -m pip install ".[docx]"
+      - run: python -m unittest discover -s tests -v
+      - run: python scripts/build_handbook.py --check
+      - run: python scripts/check_release.py
