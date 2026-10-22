@@ -1,1 +1,1 @@
-"""Public editorial data, licensed under CC BY 4.0."""
+"""Public editorial data, licensed under CC BY-SA 4.0."""
