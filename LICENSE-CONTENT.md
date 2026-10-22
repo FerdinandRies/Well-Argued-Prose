@@ -1,9 +1,21 @@
-# License for original editorial content
+# Editorial content license
 
-Copyright © 2026 Ferdinand Ries. The original rulebook, illustrations, editorial annotations, workflow descriptions, and JSON rule content in this repository are offered under the [Creative Commons Attribution 4.0 International license (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+Copyright (c) 2026 FerdinandRies.
 
-The complete legal terms are available at [creativecommons.org/licenses/by/4.0/legalcode](https://creativecommons.org/licenses/by/4.0/legalcode).
+The rule text, invented examples, editorial data, prompts, and prose documentation
+in this release are licensed under **Creative Commons Attribution 4.0 International
+(CC BY 4.0)**. Code, build configuration, and automated test logic are licensed
+under MIT; see [LICENSE](LICENSE). Example prose embedded in tests retains its
+content license.
 
-You may copy, redistribute, adapt, and build on that material, including commercially, provided you give appropriate credit, link to the license, and indicate changes. This license does not grant rights to third-party journal articles, publisher trademarks, or material whose rights are held elsewhere. Titles, bibliographic facts, and attribution remain those of their respective authors.
+License: <https://creativecommons.org/licenses/by/4.0/>
 
-Source code is separately licensed under MIT; see [LICENSE](LICENSE).
+Full legal terms: <https://creativecommons.org/licenses/by/4.0/legalcode.en>
+
+Attribution: **FerdinandRies, JournalProse, version 0.2.0**. Retain appropriate
+credit and the license link, and indicate changes. This notice applies to the
+materials included in this release. It grants no rights to other materials.
+
+The distribution's SPDX expression is `MIT AND CC-BY-4.0` because different
+components carry different licenses. A component is governed by the license
+assigned to it above; this is not a choice of either license for every component.
