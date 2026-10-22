@@ -1,7 +1,17 @@
-# Security
+# Responsible reporting and manuscript privacy
 
-Well-Argued Prose runs locally and makes no network or model API calls. Manuscript content is never sent to an external service by the tool.
+The review commands run locally. They contain no model-service integration,
+network client, telemetry, or automatic manuscript edits. Installation and package
+updates may contact the package source selected by the user.
 
-Please do not attach private manuscripts to a public security report. Use GitHub's private vulnerability reporting feature if the repository owner enables it; otherwise contact the maintainer privately through a channel listed on the repository profile.
+Reports can contain manuscript excerpts. Keep input documents and review output
+outside the public repository. The included ignore patterns are a convenience;
+they do not inspect content or undo a prior commit.
 
-Only the current `0.1.x` development series is maintained at this stage.
+For a security issue, use the repository's private reporting facility when it is
+enabled. Otherwise open a minimal issue requesting a private contact channel,
+without including exploitable details or confidential text. Ordinary bugs can be
+reported with invented examples.
+
+Only the current release is maintained under this project policy. There is no
+promised response time. Test untrusted files in an appropriately isolated environment.
