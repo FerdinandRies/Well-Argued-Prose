@@ -30,5 +30,5 @@ New files require an explicit update to `release-manifest.json`. Inspect the dif
 before adding a path. Keep manuscripts and review output outside the repository.
 
 Contributions are accepted under the license applicable to the affected component:
-MIT for code and CC BY 4.0 for editorial content. Submit only material you are
+AGPL-3.0-only for code and CC BY-SA 4.0 for editorial content. Submit only material you are
 authorized to license. Respect the [code of conduct](CODE_OF_CONDUCT.md).
