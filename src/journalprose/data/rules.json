@@ -1,0 +1,1153 @@
+{
+  "schema_version": 2,
+  "version": "0.2.0",
+  "edition": "Core",
+  "title": "Advanced Scholarly Writing Standards",
+  "maintainer": "FerdinandRies",
+  "example_policy": "Every example is invented for this project. Names, dates, quantities, and studies inside examples are illustrative placeholders, with no attribution to actual publications.",
+  "levels": [
+    {
+      "id": "L0",
+      "title": "Text and revision integrity",
+      "rule_ids": [
+        "JP2-001",
+        "JP2-002",
+        "JP2-003",
+        "JP2-004"
+      ]
+    },
+    {
+      "id": "L1",
+      "title": "Manuscript structure and concepts",
+      "rule_ids": [
+        "JP2-005",
+        "JP2-006",
+        "JP2-007",
+        "JP2-008",
+        "JP2-009",
+        "JP2-010"
+      ]
+    },
+    {
+      "id": "L2",
+      "title": "Foundational reasoning",
+      "rule_ids": [
+        "JP2-011",
+        "JP2-012",
+        "JP2-013",
+        "JP2-014",
+        "JP2-015",
+        "JP2-016",
+        "JP2-017",
+        "JP2-018"
+      ]
+    },
+    {
+      "id": "L3",
+      "title": "Paragraph progression",
+      "rule_ids": [
+        "JP2-019",
+        "JP2-020",
+        "JP2-021",
+        "JP2-022",
+        "JP2-023"
+      ]
+    },
+    {
+      "id": "L4",
+      "title": "Sentence meaning and grammar",
+      "rule_ids": [
+        "JP2-024",
+        "JP2-025",
+        "JP2-026",
+        "JP2-027",
+        "JP2-028",
+        "JP2-029",
+        "JP2-030",
+        "JP2-031",
+        "JP2-032"
+      ]
+    },
+    {
+      "id": "L5",
+      "title": "Scholarly voice",
+      "rule_ids": [
+        "JP2-033",
+        "JP2-034",
+        "JP2-035",
+        "JP2-036",
+        "JP2-037",
+        "JP2-038",
+        "JP2-039",
+        "JP2-040"
+      ]
+    },
+    {
+      "id": "L6",
+      "title": "Literature and citations",
+      "rule_ids": [
+        "JP2-041",
+        "JP2-042",
+        "JP2-043",
+        "JP2-044",
+        "JP2-045",
+        "JP2-046"
+      ]
+    },
+    {
+      "id": "L7",
+      "title": "Compression and final review",
+      "rule_ids": [
+        "JP2-047",
+        "JP2-048",
+        "JP2-049",
+        "JP2-050"
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "id": "JP2-001",
+      "level": "L0",
+      "title": "Identify the manuscript and editing scope",
+      "standard": "Review the current, identifiable text within the authorized task. Distinguish copyediting, evaluation, structural revision, shortening, and source checking.",
+      "check": "Record the file, version, requested output, permitted changes, and protected material. Confirm that every quoted passage belongs to this version.",
+      "repair": "Return to the agreed baseline when versions differ. Restore changes outside the task; report a newly discovered issue separately.",
+      "example": {
+        "status": "invented",
+        "before": "Task: correct punctuation in the methods section. Edit: replace the sampling design.",
+        "after": "Correct punctuation in the methods section and report the sampling question in a separate note.",
+        "explanation": "A language-editing request authorizes language changes. A new research design requires a separate decision."
+      },
+      "related_rules": [
+        "JP2-004",
+        "JP2-050"
+      ],
+      "automation": "human"
+    },
+    {
+      "id": "JP2-002",
+      "level": "L0",
+      "title": "Separate claims from assumptions and reported views",
+      "standard": "Keep the author's commitments distinct from an opponent's view, a hypothetical premise, a quotation, and an editor's proposed addition.",
+      "check": "Ask who asserts each important proposition and whether it is asserted outright or only under a condition.",
+      "repair": "Restore attribution and conditional scope. Label an additional premise as a proposal until the author accepts and supports it.",
+      "example": {
+        "status": "invented",
+        "before": "Suppose the records were complete. The analysis therefore establishes that the records are complete.",
+        "after": "Assuming complete records, the calculation covers every recorded transaction. Record completeness requires separate verification.",
+        "explanation": "A working assumption supplies a condition for the calculation; it supplies no evidence that the condition holds."
+      },
+      "related_rules": [
+        "JP2-011",
+        "JP2-013",
+        "JP2-015"
+      ],
+      "automation": "human"
+    },
+    {
+      "id": "JP2-003",
+      "level": "L0",
+      "title": "Keep sources, observations, and inferences distinct",
+      "standard": "Attribute only claims that the available source supports. Keep observed results, interpretations, hypothetical examples, and verified facts identifiable. Never invent citations or verification.",
+      "check": "For a substantive assertion, locate the evidence and identify the step from that evidence to the stated conclusion.",
+      "repair": "Verify the source, label the inferential step, or mark the assertion as unresolved. Preserve quotation wording and its actual location.",
+      "example": {
+        "status": "invented",
+        "before": "The register lists six rejected applications, proving that the selection process was biased.",
+        "after": "The register lists six rejected applications. Assessing selection bias also requires the eligibility criteria and the reasons for rejection.",
+        "explanation": "The count and the explanation have different evidence requirements. All examples in this rulebook are invented teaching examples."
+      },
+      "related_rules": [
+        "JP2-016",
+        "JP2-017",
+        "JP2-041",
+        "JP2-050"
+      ],
+      "automation": "human"
+    },
+    {
+      "id": "JP2-004",
+      "level": "L0",
+      "title": "Preserve meaning and make edits traceable",
+      "standard": "A revision must preserve the intended claim, technical vocabulary, scope, qualifications, and authorial commitments unless a substantive change is expressly authorized.",
+      "check": "Compare subject, predicate, condition, negation, quantity, and strength before and after an edit. Record substantive changes and their effects elsewhere.",
+      "repair": "Use a local repair that resolves the demonstrated defect. Recheck connected definitions, references, and conclusions after a substantive edit.",
+      "example": {
+        "status": "invented",
+        "before": "Original: Calibration is required before measurement. Revision: Calibration may be useful before measurement.",
+        "after": "Calibration must precede measurement.",
+        "explanation": "The revision retains the requirement. The earlier proposal changed a requirement into an optional benefit."
+      },
+      "related_rules": [
+        "JP2-008",
+        "JP2-015",
+        "JP2-047",
+        "JP2-049"
+      ],
+      "automation": "human"
+    },
+    {
+      "id": "JP2-005",
+      "level": "L1",
+      "title": "State a concrete research problem",
+      "standard": "Give the reader a specific unresolved question, explanatory difficulty, or conflict among claims. General relevance and a growing literature supply context only.",
+      "check": "Identify the object, the unresolved relation, and the consequence of leaving it unresolved.",
+      "repair": "Replace a broad opening with the particular difficulty that the argument will address.",
+      "example": {
+        "status": "invented",
+        "before": "Data quality is an increasingly important topic in contemporary research.",
+        "after": "Two laboratories obtain different estimates from the same dataset because their exclusion criteria differ. The analysis examines how those criteria change the estimates.",
+        "explanation": "The revised opening names the object and the relation to be investigated. Its laboratory scenario is hypothetical."
+      },
+      "related_rules": [
+        "JP2-006",
+        "JP2-009",
+        "JP2-035"
+      ],
+      "automation": "human"
+    },
+    {
+      "id": "JP2-006",
+      "level": "L1",
+      "title": "Align the governing claim across the manuscript",
+      "standard": "Keep the abstract, introduction, body, and conclusion consistent about the main question, central claim, population, conditions, and strength of support.",
+      "check": "Extract the main claim from each location. Compare the object, predicate, scope, and degree of certainty.",
+      "repair": "Correct the location where the claim drifts. Retain the force of a supported claim; supply evidence before widening it.",
+      "example": {
+        "status": "invented",
+        "before": "Body: In this sample, clear labels reduced sorting errors. Conclusion: Clear labels eliminate errors in every sorting task.",
+        "after": "Clear labels reduced sorting errors in the tested sample.",
+        "explanation": "The final claim preserves the observed effect and the population covered by the hypothetical study."
+      },
+      "related_rules": [
+        "JP2-005",
+        "JP2-010",
+        "JP2-015",
+        "JP2-050"
+      ],
+      "automation": "human"
+    },
+    {
+      "id": "JP2-007",
+      "level": "L1",
+      "title": "Define concepts through explicit relations and functions",
+      "standard": "Define a concept by identifying its object, relevant relation, scope, and use in the argument. Use a verb that expresses that relation accurately; names, designates, concerns, acquires, stands, bears, and renders assessable are available where their meanings fit.",
+      "check": "What does the concept distinguish or explain? Can the reader identify an instance and understand what the definition permits the argument to establish?",
+      "repair": "Replace evaluative description with a relational definition and demonstrate its local theoretical function. Choose verbs by meaning.",
+      "example": {
+        "status": "invented",
+        "before": "Traceability is a rich and central concept in documentation.",
+        "after": "Traceability designates the ability to connect a reported value to the record and transformation that produced it. The connection makes the calculation auditable.",
+        "explanation": "The definition identifies a relation and a consequence used by the argument. An impressive adjective supplies neither."
+      },
+      "related_rules": [
+        "JP2-008",
+        "JP2-032",
+        "JP2-037",
+        "JP2-039"
+      ],
+      "automation": "human"
+    },
+    {
+      "id": "JP2-008",
+      "level": "L1",
+      "title": "Define terms once and keep their meanings stable",
+      "standard": "Introduce a technical term where its meaning is needed, then use it consistently. Repeat a definition only when clarification is substantively required; use later occurrences to apply it.",
+      "check": "Check whether the same word changes meaning or whether a later definition simply repeats the first. Distinguish technical terms from ordinary descriptive wording.",
+      "repair": "Keep a compact glossary. Restore the established term where a decorative synonym changes the concept; remove redundant redefinitions.",
+      "example": {
+        "status": "invented",
+        "before": "The audit distinguishes accuracy from completeness. Later, accuracy is used to mean the presence of every record.",
+        "after": "Accuracy concerns whether recorded values are correct. Completeness concerns whether the required records are present. The audit reports the two properties separately.",
+        "explanation": "The terms retain different jobs. Terminological consistency permits purposeful repetition without repeated explanations."
+      },
+      "related_rules": [
+        "JP2-007",
+        "JP2-026",
+        "JP2-039",
+        "JP2-048"
+      ],
+      "automation": "human"
+    },
+    {
+      "id": "JP2-009",
+      "level": "L1",
+      "title": "Give sections a task and a usable sequence",
+      "standard": "Organize sections around distinct contributions to the argument. Introduce the concepts and premises a section needs before relying on them; end with a result the manuscript can use.",
+      "check": "State each section's task and the claim it adds. Check whether its premises are available and whether adjacent sections duplicate a task.",
+      "repair": "Move material to the section that uses it, add necessary explanation, or combine genuinely redundant sections.",
+      "example": {
+        "status": "invented",
+        "before": "The paper evaluates an allocation procedure before describing either the procedure or the criterion of evaluation.",
+        "after": "The paper specifies the allocation procedure, explains the evaluative criterion, and then assesses the procedure against that criterion.",
+        "explanation": "The order follows the reader's dependencies. The three steps here describe a necessary sequence, with no demand for a three-part paper."
+      },
+      "related_rules": [
+        "JP2-005",
+        "JP2-006",
+        "JP2-019",
+        "JP2-022"
+      ],
+      "automation": "human"
+    },
+    {
+      "id": "JP2-010",
+      "level": "L1",
+      "title": "Conclude with the result and its contribution",
+      "standard": "The conclusion should state what the argument establishes and how that result changes understanding of the research problem. Preserve the established scope and authorial force; avoid replaying the contents of each section.",
+      "check": "Does the conclusion identify a result and a consequence? Can each claim be supported by the preceding argument?",
+      "repair": "Replace the section-by-section recap with the supported result, its explanatory or practical consequence, and any necessary scope condition.",
+      "example": {
+        "status": "invented",
+        "before": "Section 1 reviewed definitions, Section 2 examined records, and Section 3 discussed the findings.",
+        "after": "The comparison shows that a complete register can still contain inaccurate values. An audit must therefore assess record coverage and value accuracy separately.",
+        "explanation": "The hypothetical conclusion reconstructs the distinction established by the analysis and explains its consequence."
+      },
+      "related_rules": [
+        "JP2-006",
+        "JP2-011",
+        "JP2-015",
+        "JP2-035",
+        "JP2-048"
+      ],
+      "automation": "human"
+    },
+    {
+      "id": "JP2-011",
+      "level": "L2",
+      "title": "Connect claims to reasons and support",
+      "standard": "A consequential claim needs reasons and appropriate support. Make the link from the reasons to the conclusion intelligible; a citation or connective cannot supply a missing premise.",
+      "check": "Identify the claim, its reason, the evidence or argument supporting that reason, and the principle connecting it to the claim.",
+      "repair": "Add and justify the missing premise, or state only the conclusion that the available support permits.",
+      "example": {
+        "status": "invented",
+        "before": "The index contains the record. Therefore every researcher can retrieve it.",
+        "after": "The index contains the record. Retrieval also depends on access permission: researchers with the required permission can use the index to locate it.",
+        "explanation": "Presence in an index and permission to retrieve a record are distinct requirements. The repaired argument states the missing access condition."
+      },
+      "related_rules": [
+        "JP2-013",
+        "JP2-016",
+        "JP2-017",
+        "JP2-022"
+      ],
+      "automation": "human"
+    },
+    {
+      "id": "JP2-012",
+      "level": "L2",
+      "title": "Match the inference to the available support",
+      "standard": "Distinguish a deductive consequence, an empirical generalization, a causal explanation, an analogy, and an evaluative judgment. Each needs support appropriate to its task.",
+      "check": "Ask what kind of step connects the reason to the conclusion and what would justify that step.",
+      "repair": "State the inference accurately. Supply the required support before presenting an example, analogy, or limited observation as a general demonstration.",
+      "example": {
+        "status": "invented",
+        "before": "Three volunteers preferred the revised form, so all applicants will prefer it.",
+        "after": "Three volunteers preferred the revised form. The observation motivates a study of preferences in the applicant population.",
+        "explanation": "A small hypothetical observation establishes those preferences, without establishing their population frequency."
+      },
+      "related_rules": [
+        "JP2-011",
+        "JP2-015",
+        "JP2-016",
+        "JP2-018"
+      ],
+      "automation": "human"
+    },
+    {
+      "id": "JP2-013",
+      "level": "L2",
+      "title": "Keep conditional direction and assumptions intact",
+      "standard": "Distinguish a necessary condition from a sufficient condition. A conditional does not by itself assert its antecedent, and reversing its direction requires additional support.",
+      "check": "Restate each relevant conditional in plain language. Check whether the conclusion reverses it or treats a hypothetical premise as an established fact.",
+      "repair": "Restore the stated direction. Add a supported converse only where the argument needs and warrants it.",
+      "example": {
+        "status": "invented",
+        "before": "Every funded project is audited. Project K was audited. Therefore Project K was funded.",
+        "after": "Every funded project is audited. An audit alone leaves Project K's funding status unresolved because unfunded projects may also be audited.",
+        "explanation": "The countercase preserves both premises while the funding conclusion fails. This is a basic direction error."
+      },
+      "related_rules": [
+        "JP2-002",
+        "JP2-011",
+        "JP2-018"
+      ],
+      "automation": "human"
+    },
+    {
+      "id": "JP2-014",
+      "level": "L2",
+      "title": "Preserve quantity and the scope of negation",
+      "standard": "Keep all, some, each, none, and their negations distinct. The order of quantities and the position of a negative expression can change the claim.",
+      "check": "Identify the population and the part of the proposition governed by each quantifier or negative expression. Test the wording against a small concrete case.",
+      "repair": "Name the intended quantity and scope explicitly. Preserve necessary logical negation while removing rhetorical contrast templates.",
+      "example": {
+        "status": "invented",
+        "before": "Not every sample was usable. Revision: No sample was usable.",
+        "after": "Some samples were unusable; the statement leaves the status of the remaining samples open.",
+        "explanation": "The original statement permits usable samples. A claim about none would remove that possibility."
+      },
+      "related_rules": [
+        "JP2-004",
+        "JP2-015",
+        "JP2-029",
+        "JP2-033"
+      ],
+      "automation": "human"
+    },
+    {
+      "id": "JP2-015",
+      "level": "L2",
+      "title": "Calibrate certainty, ability, and obligation",
+      "standard": "Use may, can, must, proves, suggests, and similar terms according to their intended meaning and support. Preserve justified strength; remove ritual hedging and unsupported certainty.",
+      "check": "Ask whether a modal expresses uncertainty, ability, permission, necessity, or an obligation. Check that the evidence supports the chosen force.",
+      "repair": "State the relevant condition or source of uncertainty. Restore a demonstrated requirement when a stylistic edit has weakened it.",
+      "example": {
+        "status": "invented",
+        "before": "The manual requires calibration. Revision: Technicians may perhaps calibrate the instrument.",
+        "after": "The manual requires technicians to calibrate the instrument before use.",
+        "explanation": "The requirement is attributed to the hypothetical manual and its force remains intact."
+      },
+      "related_rules": [
+        "JP2-004",
+        "JP2-006",
+        "JP2-014",
+        "JP2-017",
+        "JP2-040"
+      ],
+      "automation": "human"
+    },
+    {
+      "id": "JP2-016",
+      "level": "L2",
+      "title": "Keep causal and general claims within the evidence",
+      "standard": "An association, a temporal sequence, and a causal effect are different claims. Keep conclusions about people, groups, institutions, and populations aligned with the units actually examined.",
+      "check": "Check the sample, measurement, timing, comparison, and alternative explanations. Identify any jump from an aggregate result to every individual.",
+      "repair": "Use a relation verb supported by the design. State a wider or causal conclusion only when the missing comparison or reasoning is supplied.",
+      "example": {
+        "status": "invented",
+        "before": "The towns with more libraries had higher reading scores, proving that libraries caused the difference.",
+        "after": "The towns with more libraries had higher reading scores. The comparison leaves income and prior educational provision as possible explanations.",
+        "explanation": "The hypothetical association is preserved. The causal explanation remains a separate question."
+      },
+      "related_rules": [
+        "JP2-003",
+        "JP2-012",
+        "JP2-015",
+        "JP2-032"
+      ],
+      "automation": "human"
+    },
+    {
+      "id": "JP2-017",
+      "level": "L2",
+      "title": "Supply reasons for evaluative recommendations",
+      "standard": "A factual observation needs an evaluative principle before it supports a recommendation, obligation, or judgment of fairness. State how the fact matters under that principle.",
+      "check": "Identify the observation, the evaluative standard, and the conclusion. Check relevant countervailing considerations and the strength of the recommendation.",
+      "repair": "Make the applicable standard explicit and defend it where contested. Distinguish one reason in favor from a settled overall recommendation.",
+      "example": {
+        "status": "invented",
+        "before": "The form takes twenty minutes to complete, so the institution must abolish it.",
+        "after": "The twenty-minute completion time counts against the form when it imposes avoidable burdens on applicants. A decision to abolish it also requires assessing the information it collects.",
+        "explanation": "The hypothetical burden supplies a reason. The full recommendation depends on the form's purpose and alternatives."
+      },
+      "related_rules": [
+        "JP2-011",
+        "JP2-012",
+        "JP2-015"
+      ],
+      "automation": "human"
+    },
+    {
+      "id": "JP2-018",
+      "level": "L2",
+      "title": "Distinguish missing support from falsity and inconsistency",
+      "standard": "A missing argument, a false conclusion, an invalid inference, and inconsistent claims require different diagnoses. A proposed counterexample must preserve the actual assumptions and relevant scope.",
+      "check": "State the alleged defect and the passages supporting it. For a basic invalidity claim, show how the premises could hold while the conclusion fails.",
+      "repair": "Report an unsupported step as unsupported. Use a stronger diagnosis only after demonstrating the relevant failure.",
+      "example": {
+        "status": "invented",
+        "before": "The report provides no attendance data. Its claim that attendance increased is therefore false.",
+        "after": "The report provides no attendance data, so the claimed increase remains unsupported by the report.",
+        "explanation": "Absence of support in this report does not establish a decrease or rule out an increase."
+      },
+      "related_rules": [
+        "JP2-002",
+        "JP2-003",
+        "JP2-011",
+        "JP2-013",
+        "JP2-050"
+      ],
+      "automation": "human"
+    },
+    {
+      "id": "JP2-019",
+      "level": "L3",
+      "title": "Give each paragraph a coherent primary task",
+      "standard": "A paragraph should develop one governing claim, distinction, explanation, or response. Supporting steps can coexist when their connection to that task is clear.",
+      "check": "Describe what the paragraph establishes and identify sentences that introduce a separate task without a connection.",
+      "repair": "Separate unrelated tasks. Join fragments that depend on the same explanation and gain nothing from separate treatment.",
+      "example": {
+        "status": "invented",
+        "before": "A paragraph defines missing data, changes to staff recruitment, and ends with a recommendation about library hours.",
+        "after": "Use the paragraph to define missing data and explain its effect on the estimate. Place the staffing and opening-hour arguments where their own evidence is discussed.",
+        "explanation": "The repair concerns argumentative unity, with no fixed sentence count or length requirement."
+      },
+      "related_rules": [
+        "JP2-009",
+        "JP2-020",
+        "JP2-023",
+        "JP2-034"
+      ],
+      "automation": "human"
+    },
+    {
+      "id": "JP2-020",
+      "level": "L3",
+      "title": "Carry established information into the next sentence",
+      "standard": "Maintain a recoverable connection between consecutive sentences. Introduce a new object or term with enough context for the reader to understand its role.",
+      "check": "Trace the object carried from one sentence to the next. Identify an abrupt change of subject or an unintroduced abstraction.",
+      "repair": "Reorder clauses, repeat a precise noun, or supply the relation that connects the new point to established information.",
+      "example": {
+        "status": "invented",
+        "before": "The survey excludes night-shift workers. Representativeness constitutes a complex analytical horizon.",
+        "after": "The survey excludes night-shift workers. That exclusion limits its coverage of working conditions across shifts.",
+        "explanation": "The second sentence preserves the referent and identifies a specific consequence."
+      },
+      "related_rules": [
+        "JP2-019",
+        "JP2-021",
+        "JP2-026"
+      ],
+      "automation": "human"
+    },
+    {
+      "id": "JP2-021",
+      "level": "L3",
+      "title": "Open paragraphs with an identifiable object and claim",
+      "standard": "A paragraph opening should orient the reader to its object and the point being advanced. Empty announcements of importance or difficulty provide no such orientation.",
+      "check": "Can the reader identify what the opening refers to and what the paragraph will establish?",
+      "repair": "Replace a vague announcement with the relevant object and substantive relation.",
+      "example": {
+        "status": "invented",
+        "before": "This is where the difficulty begins. The point is crucial.",
+        "after": "Incomplete dates prevent the records from being placed in a reliable chronological order.",
+        "explanation": "The opening identifies the affected records, the defect, and its consequence."
+      },
+      "related_rules": [
+        "JP2-005",
+        "JP2-020",
+        "JP2-026",
+        "JP2-036"
+      ],
+      "automation": "human"
+    },
+    {
+      "id": "JP2-022",
+      "level": "L3",
+      "title": "Make transitions follow the relation under discussion",
+      "standard": "Transitions must arise from a reason, consequence, qualification, or unresolved condition in the object being analyzed. Develop the positive relation in continuous prose.",
+      "check": "Explain what connects the preceding result to the next claim. Check whether a connective merely disguises a jump.",
+      "repair": "State the connecting relation and continue the argument from it. Remove a connective that claims a relation the text has not established.",
+      "example": {
+        "status": "invented",
+        "before": "The archive is digitized. Therefore its catalog is accurate.",
+        "after": "Digitization makes the catalog searchable. Accuracy still depends on whether the entries correctly describe the underlying records.",
+        "explanation": "Searchability and accuracy concern different properties. The transition identifies the additional condition."
+      },
+      "related_rules": [
+        "JP2-009",
+        "JP2-011",
+        "JP2-020",
+        "JP2-033"
+      ],
+      "automation": "human"
+    },
+    {
+      "id": "JP2-023",
+      "level": "L3",
+      "title": "Place support and qualifications with their claims",
+      "standard": "Keep evidence and necessary qualifications close to the claims they govern. End a paragraph with a result or consequence that advances the discussion.",
+      "check": "Can a reader locate the support and scope condition when encountering the claim? Does the ending add something beyond a repeated label?",
+      "repair": "Move support and qualifications into the relevant passage. Replace an empty closing sentence with the result the paragraph has established.",
+      "example": {
+        "status": "invented",
+        "before": "The labels reduce errors. Several pages later: The result applies only to the tested sorting task. Paragraph ending: This is very important.",
+        "after": "In the tested sorting task, the labels reduced category-confusion errors. The result identifies label clarity as one contributor to performance in that task.",
+        "explanation": "The scope is available when the claim is read, and the ending states the specific consequence."
+      },
+      "related_rules": [
+        "JP2-006",
+        "JP2-015",
+        "JP2-019",
+        "JP2-038"
+      ],
+      "automation": "human"
+    },
+    {
+      "id": "JP2-024",
+      "level": "L4",
+      "title": "Give clauses complete grammatical and semantic structure",
+      "standard": "Check that a sentence has the subject, verb, complements, and clause relations needed to express its intended proposition. A dependent clause must attach to a complete clause.",
+      "check": "Locate the main clause and its subject and predicate. Check whether the selected verb can express the intended relation between its arguments.",
+      "repair": "Supply a missing main clause or complement, or select a verb that expresses the actual action or relation.",
+      "example": {
+        "status": "invented",
+        "before": "Although the records were incomplete. The comparison depended.",
+        "after": "Although the records were incomplete, the comparison identified a difference in the recorded totals.",
+        "explanation": "The dependent clause now attaches to a main clause, and the predicate has a clear object."
+      },
+      "related_rules": [
+        "JP2-004",
+        "JP2-025",
+        "JP2-031",
+        "JP2-032"
+      ],
+      "automation": "human"
+    },
+    {
+      "id": "JP2-025",
+      "level": "L4",
+      "title": "Check agreement against the head of the subject",
+      "standard": "Match a finite verb to the grammatical head of its subject, accounting for intervening phrases, coordination, and the chosen dialect.",
+      "check": "Identify the subject head independently of nearby nouns. Check agreement in relative clauses and coordinated subjects.",
+      "repair": "Correct the verb or restructure the sentence while preserving the intended quantity and reference.",
+      "example": {
+        "status": "invented",
+        "before": "The results of the comparison is consistent across sites.",
+        "after": "The results of the comparison are consistent across sites.",
+        "explanation": "Results is the plural subject head; comparison occurs inside its modifying phrase."
+      },
+      "related_rules": [
+        "JP2-024",
+        "JP2-028"
+      ],
+      "automation": "advisory"
+    },
+    {
+      "id": "JP2-026",
+      "level": "L4",
+      "title": "Give pronouns and demonstratives recoverable referents",
+      "standard": "This, that, it, these, such, and similar expressions must have a clear referent. Use a precise noun when several antecedents are possible.",
+      "check": "Resolve each ambiguous pronoun from its local context. Check person, number, and whether the intended referent is a thing, a claim, or an entire argument.",
+      "repair": "Name the intended object or relation. Keep a pronoun when its referent is clear and repetition would add nothing.",
+      "example": {
+        "status": "invented",
+        "before": "The committee revised the rubric after the panel changed the schedule. This improved the process.",
+        "after": "The revised rubric clarified how the committee would evaluate the submissions.",
+        "explanation": "The revision specifies which change produced which improvement in the hypothetical example."
+      },
+      "related_rules": [
+        "JP2-008",
+        "JP2-020",
+        "JP2-021"
+      ],
+      "automation": "advisory"
+    },
+    {
+      "id": "JP2-027",
+      "level": "L4",
+      "title": "Use tense and aspect to locate claims accurately",
+      "standard": "Distinguish completed research actions, continuing conditions, prior events, and claims presented as generally applicable. Keep tense changes motivated by meaning.",
+      "check": "Ask when the event occurred and whether the sentence reports a completed action, a present claim, or an earlier condition.",
+      "repair": "Align tense and aspect with the intended time relation and the manuscript's reporting convention.",
+      "example": {
+        "status": "invented",
+        "before": "The team collected the samples last year and analyzes them the following week.",
+        "after": "The team collected the samples last year and analyzed them the following week.",
+        "explanation": "Both actions belong to the same completed sequence. A different time relation would require different wording."
+      },
+      "related_rules": [
+        "JP2-004",
+        "JP2-024"
+      ],
+      "automation": "human"
+    },
+    {
+      "id": "JP2-028",
+      "level": "L4",
+      "title": "Check articles, number, and countability",
+      "standard": "Use articles and singular or plural forms according to whether a noun is countable, identifiable, generic, or newly introduced. Maintain consistency in technical noun usage.",
+      "check": "Check singular count nouns for determiners, article reference across sentences, and mass nouns used as count nouns.",
+      "repair": "Add or correct the determiner, use an appropriate count expression, or name the particular item intended.",
+      "example": {
+        "status": "invented",
+        "before": "A evidence from the register supports conclusion.",
+        "after": "Evidence from the register supports the conclusion.",
+        "explanation": "Evidence is a mass noun in this use; the particular conclusion takes the definite article."
+      },
+      "related_rules": [
+        "JP2-024",
+        "JP2-025"
+      ],
+      "automation": "advisory"
+    },
+    {
+      "id": "JP2-029",
+      "level": "L4",
+      "title": "Place modifiers beside what they modify",
+      "standard": "Attach introductory phrases, relative clauses, limiting words, and adverbs to the intended object. Preserve the scope of only, all, negation, and conditions.",
+      "check": "Identify the actor of an introductory phrase and the expression governed by each modifier. Check whether a nearby word invites an unintended reading.",
+      "repair": "Move the modifier, name its actor, or restructure the sentence while preserving the original scope.",
+      "example": {
+        "status": "invented",
+        "before": "After reviewing the records, several errors were identified.",
+        "after": "After reviewing the records, the researchers identified several errors.",
+        "explanation": "The researchers perform the review. The original introductory phrase attached grammatically to errors."
+      },
+      "related_rules": [
+        "JP2-004",
+        "JP2-014",
+        "JP2-024"
+      ],
+      "automation": "human"
+    },
+    {
+      "id": "JP2-030",
+      "level": "L4",
+      "title": "Keep grammatical parallels and comparisons balanced",
+      "standard": "Coordinate comparable grammatical units and compare like objects on an explicit dimension. Parallel grammar should clarify a real relation without imposing artificial symmetry on the argument.",
+      "check": "Check coordinated verbs, complements, and list items. Identify both terms and the dimension of each comparison.",
+      "repair": "Repair mismatched grammar or specify the missing comparison term. Let the content determine how many items are needed.",
+      "example": {
+        "status": "invented",
+        "before": "The protocol requires checking dates, that authors are identified, and to record revisions.",
+        "after": "The protocol requires checking dates, identifying authors, and recording revisions.",
+        "explanation": "The three items name genuine protocol requirements and share a grammatical form. Their number follows the content."
+      },
+      "related_rules": [
+        "JP2-034",
+        "JP2-037"
+      ],
+      "automation": "human"
+    },
+    {
+      "id": "JP2-031",
+      "level": "L4",
+      "title": "Use punctuation to preserve clause boundaries",
+      "standard": "Use sentence boundaries, commas, colons, semicolons, and parentheses according to the grammatical and logical relation between clauses. Citation-cluster restrictions apply separately.",
+      "check": "Check for comma splices, fragments, misplaced relative-clause punctuation, and punctuation that changes the scope of a condition.",
+      "repair": "Separate independent clauses, add an appropriate conjunction, or restructure the relation. Preserve the intended emphasis and meaning.",
+      "example": {
+        "status": "invented",
+        "before": "The register was incomplete, the estimate was provisional.",
+        "after": "The register was incomplete, so the estimate was provisional.",
+        "explanation": "The conjunction states the intended consequence and repairs the comma splice."
+      },
+      "related_rules": [
+        "JP2-014",
+        "JP2-024",
+        "JP2-042"
+      ],
+      "automation": "human"
+    },
+    {
+      "id": "JP2-032",
+      "level": "L4",
+      "title": "Choose precise verbs and idiomatic word combinations",
+      "standard": "Choose words that express the actual relation and take the required complements. Distinguish evidence, explanation, causation, definition, permission, and evaluation.",
+      "check": "Check the verb's meaning and complement pattern. Ask whether abstract wording hides the action or assigns it to an unsuitable subject.",
+      "repair": "Use an accurate verb and idiomatic construction. Retain necessary technical nouns while removing empty nominal scaffolding.",
+      "example": {
+        "status": "invented",
+        "before": "The analysis discusses about the dependence of the outcome from the timetable.",
+        "after": "The analysis examines how the outcome depends on the timetable.",
+        "explanation": "The revised sentence uses the correct complement of depends and directly states the relation being examined."
+      },
+      "related_rules": [
+        "JP2-007",
+        "JP2-016",
+        "JP2-024",
+        "JP2-039"
+      ],
+      "automation": "human"
+    },
+    {
+      "id": "JP2-033",
+      "level": "L5",
+      "title": "Remove formulaic negative-contrast constructions",
+      "standard": "Exclude not...but, not merely, not only, rather than, instead of, as opposed to, and no longer...but from newly authored manuscript prose under this project's strict style policy. Apply the same rule to their translated rhetorical equivalents. Preserve necessary logical negation, exact quotations, formulas, and fixed technical expressions.",
+      "check": "Inspect each occurrence. Separate authored rhetorical scaffolding from a quotation or indispensable technical wording; retain an exclusion only with a recorded reason.",
+      "repair": "Express the actual functions, conditions, and relationship in positive clauses. Preserve every substantive contrast and qualification without substituting another binary template.",
+      "example": {
+        "status": "invented",
+        "before": "The catalog is not merely a list but a comprehensive framework for access.",
+        "after": "The catalog records each item and links its identifier to the location required for retrieval.",
+        "explanation": "The revision states the operations directly. A necessary negative finding, such as a failed measurement, remains legitimate."
+      },
+      "related_rules": [
+        "JP2-007",
+        "JP2-014",
+        "JP2-022",
+        "JP2-038"
+      ],
+      "automation": "pattern"
+    },
+    {
+      "id": "JP2-034",
+      "level": "L5",
+      "title": "Let content determine enumeration and paragraph shape",
+      "standard": "Avoid mechanical three-part lists, repeated three-beat sentences, and paragraphs forced into equal shapes. An enumeration is justified when its items perform distinct necessary work.",
+      "check": "Test whether each item adds a separate claim or requirement. Check whether repeated paragraph templates impose filler or omit an essential step.",
+      "repair": "Remove redundant list items and develop the actual dependency. Retain any number of items or steps that the argument requires.",
+      "example": {
+        "status": "invented",
+        "before": "The protocol is clear, coherent, and compelling. It is useful, valuable, and significant.",
+        "after": "The protocol records the origin of each measurement and the procedure used to obtain it.",
+        "explanation": "The original paired triads supplied evaluations without distinct content. A real three-condition argument should retain all three conditions."
+      },
+      "related_rules": [
+        "JP2-019",
+        "JP2-030",
+        "JP2-040",
+        "JP2-048"
+      ],
+      "automation": "human"
+    },
+    {
+      "id": "JP2-035",
+      "level": "L5",
+      "title": "State the contribution without promotional language",
+      "standard": "Replace empty contribution claims and unsupported rankings with a specific result or capability. Project descriptions must avoid self-promotional superlatives and claims of guaranteed publication quality.",
+      "check": "Identify the result behind words such as groundbreaking, profound, ultimate, or most advanced. Ask what the reader learns after those words are removed.",
+      "repair": "Name the distinction, relation, finding, or explanatory capacity actually established. Keep factual comparisons only when their terms and support are explicit.",
+      "example": {
+        "status": "invented",
+        "before": "The article offers a groundbreaking and uniquely profound contribution to research practice.",
+        "after": "The analysis distinguishes errors caused by incomplete records from errors caused by inaccurate values.",
+        "explanation": "The revised claim tells the reader what the argument contributes."
+      },
+      "related_rules": [
+        "JP2-005",
+        "JP2-007",
+        "JP2-010",
+        "JP2-037"
+      ],
+      "automation": "pattern"
+    },
+    {
+      "id": "JP2-036",
+      "level": "L5",
+      "title": "Remove lecture-style and writing-process announcements",
+      "standard": "Exclude generic purpose statements, framework self-introductions, and routine announcements of the next writing step. Under this style policy, stock openings such as This paper argues, This paper aims to, and In this section we turn to require replacement with substantive prose.",
+      "check": "Check whether the sentence makes a claim about the object or only describes what the writer plans to do. Preserve necessary methodological reporting and factual accounts of research actions.",
+      "repair": "Begin with the object and the claim. Let a genuine dependency carry the reader into the next step.",
+      "example": {
+        "status": "invented",
+        "before": "This paper argues that the record is incomplete. In the next section, we will explore why this matters.",
+        "after": "The record omits applications received by post. Any estimate of submission volume must account for those applications.",
+        "explanation": "Both sentences now contribute content. Reporting an actual method, such as interviewing participants, remains appropriate."
+      },
+      "related_rules": [
+        "JP2-005",
+        "JP2-010",
+        "JP2-021",
+        "JP2-022"
+      ],
+      "automation": "pattern"
+    },
+    {
+      "id": "JP2-037",
+      "level": "L5",
+      "title": "Compare functions without unsupported hierarchies",
+      "standard": "Describe competing concepts or explanations on a shared, relevant dimension. Avoid shallow formulations that acknowledge one contribution and then call another deeper, richer, or more important.",
+      "check": "State what each position explains, measures, or secures. Identify the exact point of overlap or difference and the evidence for any comparative judgment.",
+      "repair": "Use balanced functional clauses and an explicit comparison. Preserve a supported substantive advantage without relying on rank adjectives.",
+      "example": {
+        "status": "invented",
+        "before": "Accuracy has value, but completeness is deeper.",
+        "after": "Accuracy assesses the correctness of recorded values. Completeness assesses whether the required records are present. The two tests detect different defects.",
+        "explanation": "The comparison separates functions without presenting the difference as a hierarchy."
+      },
+      "related_rules": [
+        "JP2-007",
+        "JP2-030",
+        "JP2-035"
+      ],
+      "automation": "advisory"
+    },
+    {
+      "id": "JP2-038",
+      "level": "L5",
+      "title": "Express scope positively and keep necessary limits",
+      "standard": "State the applicable object, condition, and result directly. Replace repeated defensive disclaimers with positive scope definitions while preserving every necessary exception and negative finding.",
+      "check": "Identify which substantive boundary each disclaimer contributes. Check whether that boundary is already stated where the claim occurs.",
+      "repair": "Put the scope and condition beside the claim. Remove a repeated defensive sentence only after preserving its limiting content.",
+      "example": {
+        "status": "invented",
+        "before": "The analysis does not deny that other factors matter. It should not be understood as claiming that opening hours explain everything.",
+        "after": "The analysis isolates the effect of opening hours while holding staffing and collection size constant.",
+        "explanation": "The repaired sentence states the intended scope of this hypothetical comparison. Its controls must actually be part of the design."
+      },
+      "related_rules": [
+        "JP2-004",
+        "JP2-015",
+        "JP2-023",
+        "JP2-033"
+      ],
+      "automation": "human"
+    },
+    {
+      "id": "JP2-039",
+      "level": "L5",
+      "title": "Reduce nonfunctional repetition and noun clusters",
+      "standard": "Repeat technical terms when precision requires them. Remove repetition that adds no definition, inference, distinction, or application. Avoid clusters of abstract nouns that conceal the relevant action.",
+      "check": "For each repeated label, identify the new work it performs. Unpack dense noun groups into an object, relation, and consequence.",
+      "repair": "Keep established terms and replace redundant surrounding language with a precise relation. Use a clear referent when repetition contributes nothing.",
+      "example": {
+        "status": "invented",
+        "before": "The implementation of the establishment of the documentation procedure enables the production of traceability.",
+        "after": "Documenting each transformation makes the reported value traceable to its source record.",
+        "explanation": "The revision names the action and result. It retains the technical meaning while removing nominal scaffolding."
+      },
+      "related_rules": [
+        "JP2-007",
+        "JP2-008",
+        "JP2-026",
+        "JP2-032",
+        "JP2-048"
+      ],
+      "automation": "advisory"
+    },
+    {
+      "id": "JP2-040",
+      "level": "L5",
+      "title": "Preserve authorial force and functional sentence rhythm",
+      "standard": "Let sentence length and emphasis follow the complexity of the relation being expressed. Retain the author's supported claims and technical precision; avoid uniform cadence, unnecessary hedging, and decorative sophistication.",
+      "check": "Read the paragraph as an argument. Check whether splitting or shortening changes a condition, emphasis, or dependency and whether repeated sentence shapes contribute anything.",
+      "repair": "Adjust rhythm locally. Use a short judgment where it is earned and retain a longer sentence when it carries a necessary condition or distinction.",
+      "example": {
+        "status": "invented",
+        "before": "The estimate may perhaps possibly be inaccurate because the register excludes late entries.",
+        "after": "The register excludes late entries, leaving the estimate's accuracy uncertain.",
+        "explanation": "The revised wording locates the uncertainty and removes stacked hedges without claiming a demonstrated numerical error."
+      },
+      "related_rules": [
+        "JP2-004",
+        "JP2-015",
+        "JP2-024",
+        "JP2-034"
+      ],
+      "automation": "advisory"
+    },
+    {
+      "id": "JP2-041",
+      "level": "L6",
+      "title": "Give each important source an argumentative role",
+      "standard": "Use a source to formulate a problem, support or revise a premise, sharpen a difficulty, supply a counterexample, develop an objection, or establish a limit. Topical similarity alone supplies no argumentative role.",
+      "check": "Identify the exact claim supported or challenged by each important source. Check that the source actually performs that role.",
+      "repair": "Explain the source's local contribution and retain the author's analysis of it. Remove citations that merely display familiarity.",
+      "example": {
+        "status": "invented",
+        "before": "Many authors have written about record quality, so the proposed distinction is justified.",
+        "after": "The cited study documents missing entries. Its finding supports the claim about coverage; the separate claim about value accuracy requires its own evidence.",
+        "explanation": "The source's job is specified. The example refers to an invented study and supplies no real bibliographic claim."
+      },
+      "related_rules": [
+        "JP2-003",
+        "JP2-011",
+        "JP2-042",
+        "JP2-044"
+      ],
+      "automation": "human"
+    },
+    {
+      "id": "JP2-042",
+      "level": "L6",
+      "title": "Keep parenthetical citations small and functionally unified",
+      "standard": "Exclude semicolon-separated citation clusters from argumentative prose under this project's style policy. Prefer one work per parenthesis. At most two works may share a parenthesis when they support the same local claim and the required citation style permits the form.",
+      "check": "Inspect each parenthetical cluster for count and function. Separate sources supporting different premises, objections, or limits. Preserve the target style for any retained citation.",
+      "repair": "Distribute distinct sources across the claims they support. When a required style uses semicolons for grouped sources, cite those works in separate clauses or sentences; avoid inventing a nonstandard citation format.",
+      "example": {
+        "status": "invented",
+        "before": "The proposal is supported by several studies (Author A 2001; Author B 2002; Author C 2003).",
+        "after": "Missing entries change the population covered by the estimate (Author A 2001). A separate source of error arises when recorded values are incorrect (Author B 2002).",
+        "explanation": "The names and dates are fictitious citation placeholders. Each retained citation has a distinct local role; Author C needs a demonstrated role before inclusion."
+      },
+      "related_rules": [
+        "JP2-003",
+        "JP2-031",
+        "JP2-041",
+        "JP2-043",
+        "JP2-046"
+      ],
+      "automation": "advisory"
+    },
+    {
+      "id": "JP2-043",
+      "level": "L6",
+      "title": "Prevent paragraph-level citation crowding",
+      "standard": "Limit an argumentative paragraph to four distinct cited works or author-led positions. A fifth requires distributing the discussion into coherent units. Count a multi-author work as one source position; ordinary mentions of historical subjects are a separate matter.",
+      "check": "Count distinct source positions in the paragraph, including narrative citations. Check whether even fewer sources crowd out the author's reasoning.",
+      "repair": "Organize the discussion into separate argumentative tasks and retain a specific function for each source. Keep citations in the sentences where they do their work.",
+      "example": {
+        "status": "invented",
+        "before": "One paragraph attributes separate claims to Author A, Author B, Author C, Author D, and Author E.",
+        "after": "Develop the dispute about measurement in one paragraph and the objection about sampling in the next, placing each source with the claim it supports.",
+        "explanation": "This is a strict project policy for argumentative prose. It does not count every coauthor of one publication as a separate position."
+      },
+      "related_rules": [
+        "JP2-019",
+        "JP2-041",
+        "JP2-042",
+        "JP2-044"
+      ],
+      "automation": "advisory"
+    },
+    {
+      "id": "JP2-044",
+      "level": "L6",
+      "title": "Organize literature around an argument",
+      "standard": "Avoid mechanical sequences in which each sentence introduces another author with argues, develops, shows, or adds. Organize the discussion around the problem and explain how each source changes it.",
+      "check": "Read the paragraph with the author names removed. Does it still develop an intelligible argument, or is it only a succession of summaries?",
+      "repair": "State the shared issue and the relation among contributions. Retain individual attribution where positions differ.",
+      "example": {
+        "status": "invented",
+        "before": "Author A argues that records are incomplete. Author B shows that values are inaccurate. Author C adds that categories overlap.",
+        "after": "Coverage errors alter which cases enter the estimate. Errors within recorded values affect the estimate even after coverage is fixed. The cited studies address these different stages of measurement.",
+        "explanation": "In a real manuscript, each stage retains its relevant citation. The repair changes the organization while preserving the sources' distinct roles."
+      },
+      "related_rules": [
+        "JP2-019",
+        "JP2-041",
+        "JP2-043",
+        "JP2-046"
+      ],
+      "automation": "advisory"
+    },
+    {
+      "id": "JP2-045",
+      "level": "L6",
+      "title": "Keep introductory references selective",
+      "standard": "Use the introduction to establish the central dispute and the references needed to locate the contribution. Develop detailed reconstructions in the body and avoid repeating the full literature chain.",
+      "check": "Compare the introduction with the body. Identify duplicated sequences of sources and ask which references the introduction actually needs.",
+      "repair": "Retain the essential coordinates in the introduction. Move the detailed reasoning and associated references to the section that uses them.",
+      "example": {
+        "status": "invented",
+        "before": "The introduction reconstructs seven studies in detail; a later section repeats the same seven reconstructions.",
+        "after": "The introduction locates the measurement dispute. The literature section reconstructs the relevant studies where their findings become premises of the analysis.",
+        "explanation": "The detailed dialogue is preserved in its working location."
+      },
+      "related_rules": [
+        "JP2-005",
+        "JP2-009",
+        "JP2-041",
+        "JP2-048"
+      ],
+      "automation": "human"
+    },
+    {
+      "id": "JP2-046",
+      "level": "L6",
+      "title": "Preserve citation functions during shortening",
+      "standard": "Word reduction must preserve the distinct theoretical or evidential function of each important source. Never save words by merging different source roles into one parenthesis or summary sentence.",
+      "check": "Compare the original and revised source-to-claim mapping. Check whether a source that supplied an objection has become generic support.",
+      "repair": "Shorten repetitive framing around the citations. Keep different roles in separate claims and retain necessary interpretive detail.",
+      "example": {
+        "status": "invented",
+        "before": "Original: Author A supplies the premise. Author B challenges its scope. Compression: Both authors support the view (Author A 2001; Author B 2002).",
+        "after": "The premise in Author A (2001) faces the scope objection developed by Author B (2002).",
+        "explanation": "The fictitious sources retain different roles. A genuine reconstruction may need more detail than this compact example."
+      },
+      "related_rules": [
+        "JP2-041",
+        "JP2-042",
+        "JP2-044",
+        "JP2-047",
+        "JP2-049"
+      ],
+      "automation": "human"
+    },
+    {
+      "id": "JP2-047",
+      "level": "L7",
+      "title": "Protect the substance of an argument during compression",
+      "standard": "Treat the inferential chain, concept criteria, test cases, objection replies, and internal reconstruction of literature as protected content. A word target alone never authorizes deleting or collapsing them.",
+      "check": "Before shortening, identify what each passage contributes and which claims depend on it. Check whether its removal would delete a reason, condition, test, or response.",
+      "repair": "Reduce redundant wording around protected content. When the target cannot be met without substantive loss, report the conflict and preserve the content for an author decision.",
+      "example": {
+        "status": "invented",
+        "before": "To save words, replace the premises, test case, and objection reply with: The argument is convincing.",
+        "after": "Keep the premises, test case, and objection reply. Remove a repeated introduction to the same claim.",
+        "explanation": "A summary of persuasiveness supplies none of the reasoning it replaces."
+      },
+      "related_rules": [
+        "JP2-004",
+        "JP2-046",
+        "JP2-048",
+        "JP2-049"
+      ],
+      "automation": "human"
+    },
+    {
+      "id": "JP2-048",
+      "level": "L7",
+      "title": "Shorten only genuinely redundant expression",
+      "standard": "Eligible cuts are repeated definitions, repeated recaps, list wording that duplicates an established point, roadmap statements, synonymous neighboring passages, and abstract-like repetition in the conclusion. Preserve distinct content within those forms.",
+      "check": "Demonstrate that the proposed deletion repeats content already available at the needed location and performs no separate argumentative task.",
+      "repair": "Delete or tighten the redundant expression. Keep the sentence when it carries a different premise, case function, qualification, or source interpretation.",
+      "example": {
+        "status": "invented",
+        "before": "Accuracy concerns the correctness of values. The correctness of values is what accuracy concerns.",
+        "after": "Accuracy concerns the correctness of values.",
+        "explanation": "The second sentence added no condition or inference. A necessary later application of accuracy would remain."
+      },
+      "related_rules": [
+        "JP2-008",
+        "JP2-010",
+        "JP2-039",
+        "JP2-045",
+        "JP2-047"
+      ],
+      "automation": "human"
+    },
+    {
+      "id": "JP2-049",
+      "level": "L7",
+      "title": "Audit the effects of every compression pass",
+      "standard": "Compare the original and shortened text for lost premises, criteria, cases, objections, source roles, qualifications, and conceptual precision. Keep sentences with different tasks distinct; avoid turning them into a synopsis sentence.",
+      "check": "Check the argument and source mappings, term meanings, quantity, negation, modality, and restrictions. Look for new citation piles or ambiguous noun clusters.",
+      "repair": "Restore lost content and separate functions that were collapsed. Record substantive changes and unresolved word-limit conflicts.",
+      "example": {
+        "status": "invented",
+        "before": "A detailed premise, a limiting case, and a reply are compressed into: Several considerations broadly support the proposal.",
+        "after": "Retain the premise, limiting case, and reply as distinct steps; shorten only their duplicated framing.",
+        "explanation": "The check tests semantic retention, not just the number of words removed."
+      },
+      "related_rules": [
+        "JP2-004",
+        "JP2-014",
+        "JP2-015",
+        "JP2-046",
+        "JP2-047",
+        "JP2-048",
+        "JP2-050"
+      ],
+      "automation": "human"
+    },
+    {
+      "id": "JP2-050",
+      "level": "L7",
+      "title": "Complete a documented human review",
+      "standard": "A final review must record the text inspected, the relevant findings, repairs, and unresolved issues. Separate software matches from human judgments about grammar, argument, evidence, and readiness.",
+      "check": "Check claim alignment, references, terminology, language, citation functions, compression retention, and task scope. A clean pattern scan supplies no evidence that untested reasoning is sound.",
+      "repair": "Resolve or explicitly retain each substantive issue. Use an evidence-backed checklist; leave unreviewed items marked unreviewed.",
+      "example": {
+        "status": "invented",
+        "before": "The pattern checker found no matches, so the manuscript is ready for acceptance.",
+        "after": "The pattern checker found no matches among its configured checks. Argument, evidence, source accuracy, and full grammar still require the recorded human review.",
+        "explanation": "The software reports what it examined. It never certifies journal acceptance or identifies AI authorship."
+      },
+      "related_rules": [
+        "JP2-001",
+        "JP2-003",
+        "JP2-004",
+        "JP2-006",
+        "JP2-018",
+        "JP2-049"
+      ],
+      "automation": "human"
+    }
+  ]
+}
