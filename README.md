@@ -133,5 +133,5 @@ journalprose guide compression
 journalprose audit examples/sample-manuscript.md
 ```
 
-**Maintainer:** FerdinandRies. **Code:** MIT. **Rules, documentation, and
-original examples:** CC BY 4.0. Version 0.2.0.
+**Maintainer:** FerdinandRies. **Code:** AGPL-3.0-only. **Rules,
+documentation, and original examples:** CC BY-SA 4.0. Version 0.2.0.
