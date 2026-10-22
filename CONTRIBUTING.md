@@ -1,20 +1,34 @@
 # Contributing
 
-We welcome substantive corrections, concrete examples, and improvements to the software.
+Propose a specific problem, a reasoned repair, and an invented before-and-after
+example. Keep the public core practical and compact. Describe the new rule's
+relationship to an existing rule before proposing another identifier.
 
-For **rule changes**, identify the current rule, the precise reasoning or prose failure it does not catch, a worked example, and the proposed improvement. A related publication is useful evidence, not a reason by itself to overwrite a rule. Keep numbered rules stable; propose new numbers only with a rationale.
+All public examples must be original, self-contained teaching material. Do not
+submit private manuscripts, research frameworks, unpublished findings, copied
+article passages, or material you lack permission to redistribute. A maintainer
+must approve content for release before it enters the public catalog.
 
-For **code changes**, add a minimal reproducible test. All published text must be English. Do not include an unpublished manuscript or a copyrighted journal article without permission.
+Edit `src/journalprose/data/rules.json` as the rule text's source of truth.
+Update checks and tests only for behavior the software can actually detect.
+Regenerate documentation with `python scripts/build_handbook.py`.
 
-For **example changes**, write an original explanatory reconstruction grounded in an identified *Mind* argument, set `example_sources` to the valid ID(s) in `corpus.json`, and check the source DOI. Do not paste source passages under the repository’s content license. The example must teach the rule and accurately reflect the cited argument.
+For code changes, add regression tests covering the repaired behavior and a nearby
+false-positive case. Do not report semantic validation from lexical matching.
+All documentation and public identifiers use English.
 
-The JSON files in `src/well_argued_prose/data/` are the source of truth. After an edit run:
+Before proposing changes, run:
 
 ```bash
-python scripts/build_handbook.py
-python -m well_argued_prose validate
 python -m unittest discover -s tests -v
 python scripts/build_handbook.py --check
+python scripts/check_release.py
+journalprose validate
 ```
 
-Open a pull request describing the problem, changes, and validation performed. Contributors retain credit for their work and agree that accepted code and original content are distributed under the repository's corresponding licenses.
+New files require an explicit update to `release-manifest.json`. Inspect the diff
+before adding a path. Keep manuscripts and review output outside the repository.
+
+Contributions are accepted under the license applicable to the affected component:
+MIT for code and CC BY 4.0 for editorial content. Submit only material you are
+authorized to license. Respect the [code of conduct](CODE_OF_CONDUCT.md).
