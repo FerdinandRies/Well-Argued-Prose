@@ -1,71 +1,111 @@
-import json
-from pathlib import Path
-import sys
+from copy import deepcopy
 import unittest
 
-ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT / "src"))
-
-from well_argued_prose.catalog import get_rule, get_workflow, load, validate_catalog
+from journalprose import __version__
+from journalprose.catalog import NAMES, get_rule, get_workflow, load, validate_catalog
 
 
 class CatalogTests(unittest.TestCase):
-    def test_catalog_integrity(self):
-        self.assertEqual([], validate_catalog())
+    def test_catalog_valid(self):
+        self.assertEqual(validate_catalog(), [])
 
-    def test_rule_count_order_and_content(self):
-        rules = load("rules")["rules"]
-        self.assertEqual(57, len(rules))
-        self.assertEqual(list(range(1, 58)), [item["id"] for item in rules])
-        for item in rules:
-            for key in ("title", "scope", "standard", "corpus_observation", "review_action", "example"):
-                self.assertGreater(len(item[key]), 5, (item["id"], key))
+    def test_fifty_rules_eight_levels(self):
+        doc = load("rules")
+        self.assertEqual(len(doc["rules"]), 50)
+        self.assertEqual(len(doc["levels"]), 8)
+        self.assertEqual([i for l in doc["levels"] for i in l["rule_ids"]], [r["id"] for r in doc["rules"]])
 
-    def test_sections_and_workflows(self):
-        self.assertEqual(9, len(load("rules")["sections"]))
-        self.assertEqual(10, len(load("workflows")))
-        self.assertEqual(37, get_rule(37)["id"])
-        self.assertIn(14, get_workflow("introduction")["rule_ids"])
+    def test_version_and_maintainer(self):
+        self.assertEqual(load("rules")["version"], __version__)
+        self.assertEqual(__version__, "0.2.0")
+        self.assertEqual(load("rules")["maintainer"], "FerdinandRies")
 
-    def test_invalid_catalog_lookup(self):
-        with self.assertRaises(ValueError):
-            get_rule(58)
-        with self.assertRaises(ValueError):
-            get_workflow("no-such-task")
-        with self.assertRaises(ValueError):
-            load("../something")
-
-    def test_reference_metadata(self):
-        corpus = load("corpus")
-        self.assertEqual(12, len(corpus))
-        for entry in corpus:
-            self.assertEqual("Mind", entry["journal"])
-            self.assertTrue(entry["doi"].startswith("10.1093/mind/"))
-
-    def test_example_provenance_is_complete(self):
-        corpus = load("corpus")
-        known = {x["id"] for x in corpus}
-        used = set()
+    def test_examples_invented_and_complete(self):
         for rule in load("rules")["rules"]:
-            self.assertTrue(rule["example_sources"])
-            self.assertTrue(set(rule["example_sources"]).issubset(known))
-            used.update(rule["example_sources"])
-        self.assertEqual(known, used)  # all twelve corpus articles inform examples
+            with self.subTest(rule=rule["id"]):
+                self.assertEqual(rule["example"]["status"], "invented")
+                self.assertTrue(all(rule["example"][k].strip() for k in ("before", "after", "explanation")))
 
-    def test_attribution_and_release_metadata(self):
-        self.assertIn("Ferdinand Ries", (ROOT / "AUTHORS.md").read_text())
-        citation = (ROOT / "CITATION.cff").read_text()
-        self.assertIn('given-names: "Ferdinand"', citation)
-        self.assertIn('family-names: "Ries"', citation)
-        self.assertIn("Ferdinand Ries", (ROOT / "LICENSE").read_text())
-        self.assertIn("Ferdinand Ries", (ROOT / "LICENSE-CONTENT.md").read_text())
+    def test_load_returns_copy(self):
+        value = load("rules")
+        value["rules"][0]["title"] = "changed"
+        self.assertNotEqual(load("rules")["rules"][0]["title"], "changed")
 
-    def test_generated_rulebook_is_complete(self):
-        content = (ROOT / "docs" / "handbook.md").read_text(encoding="utf-8")
-        for number in range(1, 58):
-            self.assertIn(f"### Rule {number:02d} —", content)
-        self.assertEqual(57, content.count("**Corpus observation.**"))
-        self.assertEqual(57, content.count("**Example.**"))
-        self.assertEqual(57, content.count("**Source article(s).**"))
-        mapping = (ROOT / "docs" / "example-sources.md").read_text()
-        self.assertEqual(57, mapping.count("| [Rule "))
+    def test_get_rule(self):
+        self.assertEqual(get_rule("JP2-033")["level"], "L5")
+
+    def test_legacy_id_rejected(self):
+        for value in (33, "33", "JP-033", "JP2-33"):
+            with self.subTest(value=value), self.assertRaises(ValueError):
+                get_rule(value)
+
+    def test_unknown_rule(self):
+        with self.assertRaises(ValueError):
+            get_rule("JP2-099")
+
+    def test_unknown_catalog(self):
+        with self.assertRaises(ValueError):
+            load("../../example")
+
+    def test_workflows(self):
+        flows = load("workflows")["workflows"]
+        self.assertEqual(len(flows), 6)
+        self.assertIn("JP2-047", get_workflow("compression")["rule_ids"])
+
+    def test_unknown_workflow(self):
+        with self.assertRaises(ValueError):
+            get_workflow("unknown")
+
+    def test_check_count(self):
+        self.assertEqual(len(load("checks")["checks"]), 21)
+
+    def test_no_claim_of_complete_automation(self):
+        kinds = {r["automation"] for r in load("rules")["rules"]}
+        self.assertEqual(kinds, {"human", "advisory", "pattern"})
+        automated = {rid for check in load("checks")["checks"] for rid in check["rule_ids"]}
+        self.assertLess(len(automated), 50)
+
+    def test_missing_example_rejected(self):
+        docs = {n: load(n) for n in NAMES}
+        del docs["rules"]["rules"][0]["example"]
+        self.assertTrue(validate_catalog(docs))
+
+    def test_unknown_rule_field_rejected(self):
+        docs = {n: load(n) for n in NAMES}
+        docs["rules"]["rules"][0]["extra_material"] = "unauthorized"
+        self.assertTrue(validate_catalog(docs))
+
+    def test_bad_reference_rejected(self):
+        docs = {n: load(n) for n in NAMES}
+        docs["workflows"]["workflows"][0]["rule_ids"] = ["JP2-999"]
+        self.assertTrue(validate_catalog(docs))
+
+    def test_duplicate_check_rejected(self):
+        docs = {n: load(n) for n in NAMES}
+        docs["checks"]["checks"].append(deepcopy(docs["checks"]["checks"][0]))
+        self.assertTrue(validate_catalog(docs))
+
+    def test_bad_regex_rejected(self):
+        docs = {n: load(n) for n in NAMES}
+        docs["checks"]["checks"][0]["pattern"] = "["
+        self.assertTrue(validate_catalog(docs))
+
+    def test_empty_match_regex_rejected(self):
+        docs = {n: load(n) for n in NAMES}
+        docs["checks"]["checks"][0]["pattern"] = "x*"
+        self.assertTrue(validate_catalog(docs))
+
+    def test_non_object_document_rejected(self):
+        self.assertTrue(validate_catalog([]))
+
+    def test_schema_boolean_rejected(self):
+        docs = {n: load(n) for n in NAMES}
+        docs["rules"]["schema_version"] = True
+        self.assertTrue(validate_catalog(docs))
+
+    def test_source_collection_is_not_a_runtime_catalog(self):
+        self.assertEqual(NAMES, {"rules", "workflows", "checks", "checklist"})
+
+
+if __name__ == "__main__":
+    unittest.main()
