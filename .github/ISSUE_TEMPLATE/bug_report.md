@@ -1,15 +1,18 @@
 ---
 name: Bug report
-about: Report a reproducible problem in the code or data
-labels: []
+about: Report a reproducible software defect with invented input
 ---
 
-**What happened?**
+## Environment
 
-**How can it be reproduced?**
+JournalProse version, Python version, operating system, and command.
 
-**Expected behavior**
+## Reproduction
 
-**Environment** (Python version, operating system, command)
+Provide a short invented input and the observed output. Exclude manuscript text
+that is private or belongs to someone else.
 
-Please replace any unpublished manuscript content with a minimal synthetic example.
+## Expected behavior
+
+State the expected result and why. Distinguish a heuristic false positive from a
+software error.
