@@ -1,33 +1,40 @@
 [build-system]
-requires = ["setuptools>=68", "wheel"]
+requires = ["setuptools>=77.0.3"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "well-argued-prose"
-version = "0.1.1"
-description = "Argument-first standards and review tools for advanced scholarly writing"
+name = "journalprose"
+version = "0.2.0"
+description = "Advanced scholarly writing standards and local editorial review tools"
 readme = "README.md"
 requires-python = ">=3.10"
+authors = [{name = "FerdinandRies"}]
+maintainers = [{name = "FerdinandRies"}]
 license = "MIT AND CC-BY-4.0"
-keywords = ["academic-writing", "argumentation", "philosophy", "scholarly-writing", "editorial-review"]
+license-files = ["LICENSE", "LICENSE-CONTENT.md"]
+keywords = ["academic-writing", "argumentation", "scholarly-writing", "editing", "grammar"]
 classifiers = [
   "Development Status :: 3 - Alpha",
   "Environment :: Console",
   "Intended Audience :: Education",
   "Intended Audience :: Science/Research",
   "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
   "Topic :: Text Processing :: Linguistic",
 ]
 dependencies = []
 
 [project.optional-dependencies]
 docx = ["python-docx>=1.1"]
+dev = ["build>=1.2"]
 
 [project.scripts]
-well-argued-prose = "well_argued_prose.cli:main"
+journalprose = "journalprose.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
+include = ["journalprose*"]
+namespaces = false
 
 [tool.setuptools.package-data]
-"well_argued_prose.data" = ["*.json"]
+"journalprose.data" = ["*.json"]
