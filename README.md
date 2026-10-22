@@ -100,8 +100,29 @@ these 50 rules.
 
 ## Who it is for
 
-Researchers preparing manuscripts for serious peer-reviewed journals who want
-each revision decision traceable to an explicit, inspectable standard.
+JournalProse is for writers and organizations whose documents carry
+consequences:
+
+- **Law, medicine, and finance** — contracts and litigation documents that
+  courts enforce as written; regulatory submissions that agencies approve or
+  reject on the strength of the documentation; filings and disclosures
+  governed by rules such as the SEC's plain-English requirements. In these
+  fields the document is the instrument, and its wording is the liability.
+- **Engineering, government, and science** — manuals and specifications that
+  operators act on; public documents written under plain-language law;
+  manuscripts that editors screen before peer review.
+- **Consulting, professional services, and publishing** — proposals, reports,
+  and publications where the document is the deliverable and accuracy is the
+  product.
+
+Two readerships cut across every sector. Non-native writers work under a
+measurable disadvantage in English: a 2023 study in *PLOS Biology* found
+their papers rejected 2.5 times as often as native speakers', language
+revision requested 12.5 times as often, and writing taking up to twice as
+long. And readers in every field are learning to recognize low-quality AI
+text on sight: fluent, confident, and empty underneath. JournalProse gives
+both groups named rules to write by and a recorded method for checking each
+revision, item by item.
 
 ## Getting started
 
