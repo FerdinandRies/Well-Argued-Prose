@@ -1,21 +1,43 @@
-# Argument-First Review Protocol
+# Review protocol
 
-A manuscript with polished grammar can still lack an identifiable argument. This protocol prevents line editing from concealing structural defects.
+## Establish the task
 
-## Sequence
+Identify the text and the permitted change. Record the author's central commitments
+and terms. A punctuation-only task stays a punctuation-only task; report a wider
+problem separately.
 
-1. **Lock the central claim.** State the problem, necessary condition, original move, and justified boundary in approximately 50 words (Rules 2–5, 52).
-2. **Map the sections.** Name the indispensable job of each section and the problem it hands to its successor (Rules 7–12, 53).
-3. **Test the conceptual account.** Check the first definition, explanatory work, conditions, counterfeits, and neighboring concepts (Rules 26–32).
-4. **Stress-test the argument.** Use controlled comparisons and strong objections, and disclose all inferential bridges (Rules 16–17, 33–38, 55).
-5. **Audit paragraphs and sentences.** Every paragraph must advance one main operation; every strong connective needs a warrant (Rules 19–25, 39–45, 54).
-6. **Polish diction last.** Stabilize terms, calibrate modality, and remove empty evaluative claims (Rules 46–51, 56).
-7. **Record evidence.** Complete the 24-point human scorecard and a terminology ledger; revise any insufficiently supported rating (Rules 47, 57).
+## Review meaning and support
 
-## Editorial commitments
+For substantive revision, check the research problem, central claim, definitions,
+section sequence, and basic inferences. Identify the relevant evidence and source
+functions. State a demonstrated defect precisely. A missing explanation and a false
+claim require different judgments.
 
-Treat a theory's unfamiliar terminology as a claim requiring definition and argument, not as an automatic defect. Neither traditional vocabulary nor novelty alone demonstrates philosophical merit. Do not diminish a contribution merely because an earlier work addresses a related topic; compare precise mechanisms, explanatory reach, and the relations established. Equally, do not treat system building as sufficient proof of originality. Confront the strongest live counterexamples and interpretations.
+## Revise the prose
 
-Retain deliberate authorial voice and established technical meanings. Do not silently add premises, change a thesis, fabricate evidence or sources, or convert warranted necessity into weak possibility. Revise only at the level justified by the diagnosed failure.
+Develop connected paragraphs and accurate sentences. Review grammar, referents,
+modifiers, and modal force. Apply the strict voice policy to authored manuscript
+prose. Technical vocabulary can remain complex when the argument needs it.
 
-**Automation boundary:** lexical checks locate potentially relevant phrases. Only an informed reviewer can decide whether they express a defect in logic, syntax, or scholarly practice.
+The style exclusions are house rules for this edition. They are not universal
+claims that every occurrence is ungrammatical. Necessary negation, exact quotations,
+formulas, and fixed technical expressions remain intact. Document an exception and
+inspect its context. Never invent a quote or alter a quotation to satisfy a pattern.
+
+## Shorten with retention checks
+
+Identify protected premises, criteria, cases, objections, and literature
+reconstructions. Remove only repeated or functionless expression. Compare the
+shortened version with the baseline for changed scope, source roles, and lost steps.
+Report an infeasible word target; leave the substantive decision to the author.
+
+## Record the outcome
+
+Use the human checklist to record evidence, revisions, exceptions, and unresolved
+items. A surface audit supplies candidate locations. A reviewer decides whether a
+passage violates a rule. A completed review record describes that reviewer's work;
+it supplies no independent certification of the paper.
+
+The eight levels organize the rules by editorial object. Task workflows can cross
+levels. Full theoretical formalization and automatic semantic assessment are outside
+the scope of this public core.
