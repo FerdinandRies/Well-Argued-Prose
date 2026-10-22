@@ -1,7 +1,6 @@
-# Credits
+# Authors
 
-**Founding author and maintainer:** [Ferdinand Ries](https://github.com/FerdinandRies)
+**FerdinandRies** is the project author and maintainer.
 
-Well-Argued Prose is an independently developed scholarly-writing rulebook and software toolkit. Editorial examples are original reconstructions of arguments in credited *Mind* articles; the referenced scholars are not project contributors or endorsers.
-
-Later contributors are credited through Git history and release notes.
+Use the public name FerdinandRies in attribution. Additional contributors may be
+credited with their consent when their contributions are accepted.
