@@ -1,17 +1,24 @@
 # Changelog
 
-## 0.1.1 — Public-example and attribution revision
+## 0.2.0 - 2026-10-22
 
-- Replaced all 57 rule-level examples with source-linked editorial reconstructions based on the twelve published articles in *Mind*.
-- Added stable source IDs to the example catalog and checks for valid article attribution.
-- Removed the prior unpublished-theory running case from all public material.
-- Credited the founding author and copyright holder as **Ferdinand Ries**.
-- Preserved the original 57-rule/9-level structure, workflows, and human scorecard.
+### Editorial changes
 
-## 0.1.0 — Initial source draft
+- Introduced the Advanced Scholarly Writing Standards Core edition: 50 rules in eight levels.
+- Added foundational reasoning, explicit grammar review, strict formulaic-style control, literature discipline, and protected-content compression.
+- Replaced all rule-level examples with invented examples and removed source-specific framing.
+- Added six workflows and a ten-criterion, evidence-backed human review record.
 
-- English, nine-layer edition of all 57 rules, with actions and examples.
-- Twelve linked reference essays in *Mind*.
-- Corrected task-to-rule mappings and a consistent 12-item, 24-point human scorecard.
-- Local command-line browsing, advisory manuscript checks, JSON scorecard handling, and tests.
-- GitHub contribution templates and reproducible documentation generation.
+### Software changes
+
+- Added 21 local surface checks, Markdown masking, citation heuristics, and optional match-based exit codes.
+- Added body-table extraction for optional Word input and explicit input limitations.
+- Added release allowlisting, synchronized documentation, and regression tests.
+- Retained MIT for code and CC BY 4.0 for editorial content, with FerdinandRies attribution.
+
+### Migration
+
+Rule IDs and JSON schemas change in this release. `JP2-001` through `JP2-050`
+replace legacy numeric IDs. The `checklist` command replaces the numerical
+`scorecard` command. See [migration instructions](docs/migration.md) before
+updating an existing checkout. No remote repository is modified by these tools.
