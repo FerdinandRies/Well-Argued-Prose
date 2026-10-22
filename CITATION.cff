@@ -1,14 +1,17 @@
 cff-version: 1.2.0
-message: "If you use the rulebook or software, cite this repository and its version."
-title: "Well-Argued Prose: Argument-First Standards for Scholarly Writing"
+message: "Please cite the version of JournalProse used in your work."
 type: software
+title: "JournalProse: Advanced Scholarly Writing Standards"
+version: 0.2.0
+date-released: 2026-10-22
 authors:
-  - family-names: "Ries"
-    given-names: "Ferdinand"
-version: 0.1.1
-repository-code: "https://github.com/FerdinandRies/Well-Argued-Prose"
-abstract: "A 57-rule argument-first framework and local editorial toolkit for advanced English scholarly writing."
+  - name: FerdinandRies
+abstract: "A public core rulebook and local review toolkit for scholarly arguments, academic English, citation discipline, and argument-preserving revision."
+license:
+  - MIT
+  - CC-BY-4.0
 keywords:
-  - academic writing
-  - philosophical argument
-  - editorial review
+  - scholarly writing
+  - argumentation
+  - academic editing
+  - grammar
