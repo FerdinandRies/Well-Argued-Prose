@@ -1,17 +1,14 @@
 ---
-name: Rule improvement
-about: Propose a substantive editorial improvement
-labels: []
+name: Rule proposal
+about: Propose a focused improvement to the public core
 ---
 
-**Existing rule ID** (or proposed new rule)
+## Existing rule and problem
 
-**Exact problem or missing inference**
+Identify the relevant rule and the concrete failure mode.
 
-**Concrete before-and-after example**
+## Proposed change
 
-**Argument for the change** (what error does it prevent?)
-
-**Source or counterexample**, if relevant
-
-Please avoid copyrighted passages and unpublished work without permission.
+Give a short standard, check, repair, and invented example. Explain why an existing
+rule cannot cover the issue. Confirm that the submitted material is authorized for
+public release.
