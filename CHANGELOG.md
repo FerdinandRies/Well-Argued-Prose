@@ -1,5 +1,15 @@
 # Changelog
 
+## Unreleased
+
+### License change
+
+- Code is now licensed under the GNU Affero General Public License v3
+  (AGPL-3.0-only), replacing MIT. Editorial content is now licensed under
+  CC BY-SA 4.0, replacing CC BY 4.0. The change applies to the current tree
+  and to all future releases. Version 0.2.0 as originally published remains
+  available under its original licenses.
+
 ## 0.2.0 - 2026-10-22
 
 ### Editorial changes
